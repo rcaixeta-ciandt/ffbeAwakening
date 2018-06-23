@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <link rel="stylesheet" href="main.css">
+        <link rel="icon" type="image/png" href="/img/items/ability_2.png">
+        <title>FFBE Awakenings</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">FFBE Awakening</a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="/">Ability Awakening <span class="sr-only">(current)</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div id="headingMaterials" class="panel-heading" data-toggle="collapse" href="#collapseMaterials" aria-expanded="true" aria-controls="collapseMaterials">
+                            <h4 class="panel-title">Materials</h4>
+                        </div>
+                        <div id="collapseMaterials" class="panel-body panel-collapse collapse in" aria-labelledby="headingMaterials">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-inline cryst">
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="white-alcryst-label">
+                                                        <img title="White Alcryst" src="img/items/item_8220.png">
+                                                    </span>
+                                                    <input id="white-alcryst" type="number" class="form-control wheelable" aria-describedby="white-alcryst-label">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="white-milcryst-label">
+                                                        <img title="White Milcryst" src="img/items/item_8221.png">
+                                                    </span>
+                                                    <input id="white-milcryst" type="number" class="form-control wheelable" aria-describedby="white-milcryst-label">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="white-heavycryst-label">
+                                                        <img title="White Heavycryst" src="img/items/item_8222.png">
+                                                    </span>
+                                                    <input id="white-heavycryst" type="number" class="form-control wheelable" aria-describedby="white-heavycryst-label">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="white-giancryst-label">
+                                                        <img title="White Giancryst" src="img/items/item_8223.png">
+                                                    </span>
+                                                    <input id="white-giancryst" type="number" class="form-control wheelable" aria-describedby="white-giancryst-label">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="white-purecryst-label">
+                                                        <img title="White Purecryst" src="img/items/item_8224.png">
+                                                    </span>
+                                                    <input id="white-purecryst" type="number" class="form-control wheelable" aria-describedby="white-purecryst-label">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-inline cryst">
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="black-alcryst-label">
+                                                        <img title="Black Milcryst" src="img/items/item_8225.png">
+                                                    </span>
+                                                    <input id="black-alcryst" type="number" class="form-control wheelable" aria-describedby="black-alcryst-label">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="black-milcryst-label">
+                                                        <img title="Black Milcryst" src="img/items/item_8226.png">
+                                                    </span>
+                                                    <input id="black-milcryst" type="number" class="form-control wheelable" aria-describedby="black-milcryst-label">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="black-heavycryst-label">
+                                                        <img title="Black Heavycryst" src="img/items/item_8227.png">
+                                                    </span>
+                                                    <input id="black-heavycryst" type="number" class="form-control wheelable" aria-describedby="black-heavycryst-label">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="black-giancryst-label">
+                                                        <img title="Black Giancryst" src="img/items/item_8228.png">
+                                                    </span>
+                                                    <input id="black-giancryst" type="number" class="form-control wheelable" aria-describedby="black-giancryst-label">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="black-purecryst-label">
+                                                        <img title="Black Purecryst" src="img/items/item_8229.png">
+                                                    </span>
+                                                    <input id="black-purecryst" type="number" class="form-control wheelable" aria-describedby="black-purecryst-label">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br/>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-inline cryst">
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="green-alcryst-label">
+                                                        <img title="Green Milcryst" src="img/items/item_8230.png">
+                                                    </span>
+                                                    <input id="green-alcryst" type="number" class="form-control wheelable" aria-describedby="green-alcryst-label">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="green-milcryst-label">
+                                                        <img title="Green Milcryst" src="img/items/item_8231.png">
+                                                    </span>
+                                                    <input id="green-milcryst" type="number" class="form-control wheelable" aria-describedby="green-milcryst-label">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="green-heavycryst-label">
+                                                        <img title="Green Heavycryst" src="img/items/item_8232.png">
+                                                    </span>
+                                                    <input id="green-heavycryst" type="number" class="form-control wheelable" aria-describedby="green-heavycryst-label">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="green-giancryst-label">
+                                                        <img title="Green Giancryst" src="img/items/item_8233.png">
+                                                    </span>
+                                                    <input id="green-giancryst" type="number" class="form-control wheelable" aria-describedby="green-giancryst-label">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="green-purecryst-label">
+                                                        <img title="Green Purecryst" src="img/items/item_8234.png">
+                                                    </span>
+                                                    <input id="green-purecryst" type="number" class="form-control wheelable" aria-describedby="green-purecryst-label">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-inline cryst">
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="power-alcryst-label">
+                                                        <img title="Power Milcryst" src="img/items/item_8245.png">
+                                                    </span>
+                                                    <input id="power-alcryst" type="number" class="form-control wheelable" aria-describedby="power-alcryst-label">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="power-milcryst-label">
+                                                        <img title="Power Milcryst" src="img/items/item_8246.png">
+                                                    </span>
+                                                    <input id="power-milcryst" type="number" class="form-control wheelable" aria-describedby="power-milcryst-label">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="power-heavycryst-label">
+                                                        <img title="Power Heavycryst" src="img/items/item_8247.png">
+                                                    </span>
+                                                    <input id="power-heavycryst" type="number" class="form-control wheelable" aria-describedby="power-heavycryst-label">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="power-giancryst-label">
+                                                        <img title="Power Giancryst" src="img/items/item_8248.png">
+                                                    </span>
+                                                    <input id="power-giancryst" type="number" class="form-control wheelable" aria-describedby="power-giancryst-label">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="power-purecryst-label">
+                                                        <img title="Power Purecryst" src="img/items/item_8249.png">
+                                                    </span>
+                                                    <input id="power-purecryst" type="number" class="form-control wheelable" aria-describedby="power-purecryst-label">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br/>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-inline cryst">
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="guard-alcryst-label">
+                                                        <img title="Guard Alcryst" src="img/items/item_8250.png">
+                                                    </span>
+                                                    <input id="guard-alcryst" type="number" class="form-control wheelable" aria-describedby="guard-alcryst-label">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="guard-milcryst-label">
+                                                        <img title="Guard Milcryst" src="img/items/item_8251.png">
+                                                    </span>
+                                                    <input id="guard-milcryst" type="number" class="form-control wheelable" aria-describedby="guard-milcryst-label">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="guard-heavycryst-label">
+                                                        <img title="Guard Heavycryst" src="img/items/item_8252.png">
+                                                    </span>
+                                                    <input id="guard-heavycryst" type="number" class="form-control wheelable" aria-describedby="guard-heavycryst-label">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="guard-giancryst-label">
+                                                        <img title="Guard Giancryst" src="img/items/item_8253.png">
+                                                    </span>
+                                                    <input id="guard-giancryst" type="number" class="form-control wheelable" aria-describedby="guard-giancryst-label">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="guard-purecryst-label">
+                                                        <img title="Guard Purecryst" src="img/items/item_8254.png">
+                                                    </span>
+                                                    <input id="guard-purecryst" type="number" class="form-control wheelable" aria-describedby="guard-purecryst-label">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-inline cryst">
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="healing-alcryst-label">
+                                                        <img title="Healing Milcryst" src="img/items/item_8255.png">
+                                                    </span>
+                                                    <input id="healing-alcryst" type="number" class="form-control wheelable" aria-describedby="healing-alcryst-label">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="healing-milcryst-label">
+                                                        <img title="Healing Milcryst" src="img/items/item_8256.png">
+                                                    </span>
+                                                    <input id="healing-milcryst" type="number" class="form-control wheelable" aria-describedby="healing-milcryst-label">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="healing-heavycryst-label">
+                                                        <img title="Healing Heavycryst" src="img/items/item_8257.png">
+                                                    </span>
+                                                    <input id="healing-heavycryst" type="number" class="form-control wheelable" aria-describedby="healing-heavycryst-label">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="healing-giancryst-label">
+                                                        <img title="Healing Giancryst" src="img/items/item_8258.png">
+                                                    </span>
+                                                    <input id="healing-giancryst" type="number" class="form-control wheelable" aria-describedby="healing-giancryst-label">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="healing-purecryst-label">
+                                                        <img title="Healing Purecryst" src="img/items/item_8259.png">
+                                                    </span>
+                                                    <input id="healing-purecryst" type="number" class="form-control wheelable" aria-describedby="healing-purecryst-label">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br/>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-inline cryst">
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="support-alcryst-label">
+                                                        <img title="Support Milcryst" src="img/items/item_8260.png">
+                                                    </span>
+                                                    <input id="support-alcryst" type="number" class="form-control wheelable" aria-describedby="support-alcryst-label">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="support-milcryst-label">
+                                                        <img title="Support Milcryst" src="img/items/item_8261.png">
+                                                    </span>
+                                                    <input id="support-milcryst" type="number" class="form-control wheelable" aria-describedby="support-milcryst-label">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="support-heavycryst-label">
+                                                        <img title="Support Heavycryst" src="img/items/item_8262.png">
+                                                    </span>
+                                                    <input id="support-heavycryst" type="number" class="form-control wheelable" aria-describedby="support-heavycryst-label">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="support-giancryst-label">
+                                                        <img title="Support Giancryst" src="img/items/item_8263.png">
+                                                    </span>
+                                                    <input id="support-giancryst" type="number" class="form-control wheelable" aria-describedby="support-giancryst-label">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="support-purecryst-label">
+                                                        <img title="Support Purecryst" src="img/items/item_8264.png">
+                                                    </span>
+                                                    <input id="support-purecryst" type="number" class="form-control wheelable" aria-describedby="support-purecryst-label">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-inline cryst">
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="tech-alcryst-label">
+                                                        <img title="Tech Milcryst" src="img/items/item_8265.png">
+                                                    </span>
+                                                    <input id="tech-alcryst" type="number" class="form-control wheelable" aria-describedby="tech-alcryst-label">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="tech-milcryst-label">
+                                                        <img title="Tech Milcryst" src="img/items/item_8266.png">
+                                                    </span>
+                                                    <input id="tech-milcryst" type="number" class="form-control wheelable" aria-describedby="tech-milcryst-label">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="tech-heavycryst-label">
+                                                        <img title="Tech Heavycryst" src="img/items/item_8267.png">
+                                                    </span>
+                                                    <input id="tech-heavycryst" type="number" class="form-control wheelable" aria-describedby="tech-heavycryst-label">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="tech-giancryst-label">
+                                                        <img title="Tech Giancryst" src="img/items/item_8268.png">
+                                                    </span>
+                                                    <input id="tech-giancryst" type="number" class="form-control wheelable" aria-describedby="tech-giancryst-label">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon" id="tech-purecryst-label">
+                                                        <img title="Tech Purecryst" src="img/items/item_8269.png">
+                                                    </span>
+                                                    <input id="tech-purecryst" type="number" class="form-control wheelable" aria-describedby="tech-purecryst-label">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    	<script src="js/jquery.mousewheel.min.js"></script>
+    	<script src="main.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121331298-1"></script>
+        <script>
+            if (window.location.host==="ffbeawakening.com" || window.location.host==="www.ffbeawakening.com") {
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'UA-121331298-1');
+            }
+        </script>
+    </body>
+</html>
