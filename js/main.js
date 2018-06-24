@@ -10,6 +10,9 @@ $(function() {
     $(".autocomplete").combobox({ bsVersion: 3 });
     $(".cryst input").on("change", saveData);
     $("#addEnhancement").on("click", addEnhancement)
+    $("#selectedEnhancementsList").on("click", "a[data-delete]", removeEnhancement);
+    $("#selectedEnhancementsList").on("click", "a[data-moveup]", moveUpEnhancement);
+    $("#selectedEnhancementsList").on("click", "a[data-movedown]", moveDownEnhancement);
 
     loadData();
 });
@@ -276,7 +279,13 @@ function printSelectedEnhancements() {
     }
 
     var totalGil = 0;
-    var remainingMats = materials.slice(0);
+    remainingMats = [];
+    for (var i = 0; i < 8; i++) {
+        remainingMats.push([]);
+        for (var j = 0; j < 5; j++) {
+            remainingMats[i].push(materials[i][j]);
+        }
+    }
 
     for (var e in selectedEnhancements) {
         matOverflow = false;
@@ -291,7 +300,9 @@ function printSelectedEnhancements() {
                 remainingMats[i][j] -= mats[i][j];
                 if (remainingMats[i][j] < 0) {
                     //remainingMats[i][j] = 0;
-                    matOverflow = true;
+                    if (mats[i][j] > 0) {
+                        matOverflow = true;
+                    }
                 }
             }
         }
@@ -331,11 +342,56 @@ function printSelectedEnhancements() {
         text += enh.gil.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
         text += "<img class=\"gilpic\" title=\"" + units[enh.unit].name + "\" src=\"/img/gil.png\" />";
         text += "</td>";
+        //actions
+        text += "<td>";
+        if (e > 0) {
+            text += "<a class=\"btn btn-xs btn-primary\" href=\"javascript:void(0)\" data-moveup=\"" + e + "\"><span class=\"glyphicon glyphicon-arrow-up\" /> Move</a>&nbsp;";
+        }
+        if (e < (selectedEnhancements.length - 1)) {
+            text += "<a class=\"btn btn-xs btn-primary\" href=\"javascript:void(0)\" data-movedown=\"" + e + "\"><span class=\"glyphicon glyphicon-arrow-down\" /> Move</a>&nbsp;";
+        }
+        text += "<a class=\"btn btn-xs btn-danger\" href=\"javascript:void(0)\" data-delete=\"" + e + "\"><span class=\"glyphicon glyphicon-remove\" /> Remove</a>";
+        text += "</td>";
 
         text += "</tr>";
         $("#selectedEnhancementsList").append($(text));
         totalGil += enh.gil;
     }
+}
+
+function removeEnhancement() {
+    var i = $(this).attr("data-delete");
+    selectedEnhancements.splice(i, 1);
+    saveSelectedEnhancements();
+    printSelectedEnhancements();
+    return true;
+}
+
+function moveUpEnhancement() {
+    var i = parseInt($(this).attr("data-moveup"));
+    if (i == 0) return;
+
+    var tmp = selectedEnhancements[i - 1];
+    selectedEnhancements[i - 1] = selectedEnhancements[i];
+    selectedEnhancements[i] = tmp;
+
+    saveSelectedEnhancements();
+    printSelectedEnhancements();
+    return true;
+}
+
+function moveDownEnhancement() {
+    var i = parseInt($(this).attr("data-movedown"));
+    if (i == (selectedEnhancements.length - 1)) return;
+
+
+    var tmp = selectedEnhancements[i + 1];
+    selectedEnhancements[i + 1] = selectedEnhancements[i];
+    selectedEnhancements[i] = tmp;
+
+    saveSelectedEnhancements();
+    printSelectedEnhancements();
+    return true;
 }
 
 function buildType(i) {
