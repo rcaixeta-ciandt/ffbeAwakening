@@ -256,7 +256,7 @@ function applyFilter() {
     $("#filterCrystLabel").text($(this).attr("data-label"))
     currentFilter = $(this).attr("data-type");
 
-    logEvent("filter", "display", "keyword", $(this).attr("data-label"));
+    logEvent("display_filter", "keyword", $(this).attr("data-label"), 1);
 
     return true;
 }
@@ -269,7 +269,7 @@ function addEnhancement() {
     for (var i in all) {
         var enh = enhancements.filter(function(t) { return t.id == all[i]; })[0];
         selectedEnhancements.push(enh);
-        logEvent("add", "enhancements", units[enh.unit].name, enh.name);
+        logEvent("add_enhacements", units[enh.unit].name, enh.name, 1);
     }
     saveSelectedEnhancements();
     printSelectedEnhancements();
@@ -379,7 +379,7 @@ function removeEnhancement() {
     selectedEnhancements.splice(i, 1);
     saveSelectedEnhancements();
     printSelectedEnhancements();
-    logEvent("remove", "enhancements", units[enh.unit].name, enh.name);
+    logEvent("remove_enhancements", units[enh.unit].name, enh.name, 1);
     return true;
 }
 
@@ -394,7 +394,7 @@ function moveUpEnhancement() {
 
     saveSelectedEnhancements();
     printSelectedEnhancements();
-    logEvent("moveUp", "enhancements", units[enh.unit].name, enh.name);
+    logEvent("moveUp_enhancements", units[enh.unit].name, enh.name, 1);
     return true;
 }
 
@@ -409,7 +409,7 @@ function moveDownEnhancement() {
 
     saveSelectedEnhancements();
     printSelectedEnhancements();
-    logEvent("moveDown", "enhancements", units[enh.unit].name, enh.name);
+    logEvent("moveDown_enhancements", units[enh.unit].name, enh.name, 1);
     return true;
 }
 
@@ -429,7 +429,7 @@ function doneEnhancements() {
 
     saveSelectedEnhancements();
     printSelectedEnhancements();
-    logEvent("done", "enhancements", units[enh.unit].name, enh.name);
+    logEvent("done_enhancements", units[enh.unit].name, enh.name, 1);
     return true;
 }
 
