@@ -6,7 +6,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="css/bootstrap-combobox.css">
+        <link rel="stylesheet" href="css/main.css">
         <link rel="icon" type="image/png" href="/img/items/ability_2.png">
         <title>FFBE Awakenings</title>
     </head>
@@ -29,7 +30,7 @@
                 </div>
             </div>
         </nav>
-        <div class="container-fluid">
+        <div id="app" class="container-fluid" style="display: none;">
             <div class="row">
                 <div class="col-md-12">
                     <div class="panel panel-default">
@@ -406,11 +407,68 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <br/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-9">
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <label class="combobox-label" for="units">Unit:</label>
+                            <select class="form-control autocomplete" id="units" name="units"></select>
+                        </div>
+                        <div class="form-group">
+                            <label class="combobox-label" for="skill">Skill:</label>
+                            <select class="form-control autocomplete" id="skill" name="skill"></select>
+                        </div>
+                        <button id="addEnhancement" type="button" class="btn btn-default">Add</button>
+                    </form>
+                </div>
+                <div class="col-md-3" style="text-align: right;">
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="filterCryst" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            Filter Cryst: <span id="filterCrystLabel">All</span>
+                            <span class="caret"></span>
+                        </button>
+                        <ul id="filterCrystOptions" class="dropdown-menu dropdown-menu-right" aria-labelledby="filterCryst">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <br/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <table class="table mats">
+                        <thead>
+                            <tr>
+                                <th>Unit</th>
+                                <th>Skill</th>
+                                <th>Materials</th>
+                                <th>Gil</th>
+                            </tr>
+                        </thead>
+                        <tbody id="selectedEnhancementsList" style="display: none;">
+                        </tbody>
+                        <tbody id="noEnhacementsList">
+                            <td colspan="4" style="text-align: center;">
+                                <p>No enhacementes added.</p>
+                            </td>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     	<script src="js/jquery.mousewheel.min.js"></script>
-    	<script src="main.js"></script>
+    	<script src="js/bootstrap-combobox.js"></script>
+    	<script src="js/main.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121331298-1"></script>
         <script>
