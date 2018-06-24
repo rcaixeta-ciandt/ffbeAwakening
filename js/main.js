@@ -4,6 +4,7 @@ var rawUnits = null;
 var units = null;
 var materials = [];
 var selectedEnhancements = [];
+var currentFilter = "all";
 
 $(function() {
     $(".wheelable").bind("mousewheel", onWheel);
@@ -13,6 +14,7 @@ $(function() {
     $("#selectedEnhancementsList").on("click", "a[data-delete]", removeEnhancement);
     $("#selectedEnhancementsList").on("click", "a[data-moveup]", moveUpEnhancement);
     $("#selectedEnhancementsList").on("click", "a[data-movedown]", moveDownEnhancement);
+    $("#selectedEnhancementsList").on("click", "a[data-done]", doneEnhancements);
 
     loadData();
 });
@@ -142,8 +144,18 @@ function changedUnit() {
 
 function loadUserData() {
     loadAddCombos();
-    var data = JSON.parse(localStorage.getItem("inventory")) || [[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]];
+    materials = JSON.parse(localStorage.getItem("inventory")) || [[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]];
 
+    fillData(materials);
+
+    loadSelectedEnhancements();
+    printSelectedEnhancements();
+    buildFilter();
+
+    $("#app").show();
+}
+
+function fillData(data) {
     $("#white-alcryst").val(data[0][0]);
     $("#white-milcryst").val(data[0][1]);
     $("#white-heavycryst").val(data[0][2]);
@@ -191,14 +203,6 @@ function loadUserData() {
     $("#tech-heavycryst").val(data[7][2]);
     $("#tech-giancryst").val(data[7][3]);
     $("#tech-purecryst").val(data[7][4]);
-
-    materials = data;
-
-    loadSelectedEnhancements();
-    printSelectedEnhancements();
-    buildFilter();
-
-    $("#app").show();
 }
 
 function loadSelectedEnhancements() {
@@ -250,8 +254,9 @@ function applyFilter() {
     }
 
     $("#filterCrystLabel").text($(this).attr("data-label"))
+    currentFilter = $(this).attr("data-type");
 
-    logEvent("filter_crysts", "filter", "keyword", $(this).attr("data-label"));
+    logEvent("filter", "display", "keyword", $(this).attr("data-label"));
 
     return true;
 }
@@ -264,7 +269,7 @@ function addEnhancement() {
     for (var i in all) {
         var enh = enhancements.filter(function(t) { return t.id == all[i]; })[0];
         selectedEnhancements.push(enh);
-        logEvent("enhancements", "add", units[enh.unit].name, enh.name);
+        logEvent("add", "enhancements", units[enh.unit].name, enh.name);
     }
     saveSelectedEnhancements();
     printSelectedEnhancements();
@@ -311,7 +316,9 @@ function printSelectedEnhancements() {
             }
         }
 
-        var text = "<tr data-type=\"" + buildType(fi) + "\" class=\"" + (matOverflow ? "danger" : "success") + "\">";
+        var filterText = (currentFilter == "all" || currentFilter == buildType(fi)) ? "" : " style=\"display: none;\"";
+
+        var text = "<tr data-type=\"" + buildType(fi) + "\" class=\"" + (matOverflow ? "danger" : "success") + "\"" + filterText + ">";
         // unit
         text += "<td>";
         text += "<img class=\"unitpic\" title=\"" + units[enh.unit].name + "\" src=\"/img/units/unit_ills_" + enh.unit + ".png\" />";
@@ -348,6 +355,9 @@ function printSelectedEnhancements() {
         text += "</td>";
         //actions
         text += "<td>";
+        if (!matOverflow) {
+            text += "<a class=\"btn btn-xs btn-success\" href=\"javascript:void(0)\" data-done=\"" + e + "\"><span class=\"glyphicon glyphicon-ok\" /> Done</a>&nbsp;";
+        }
         if (e > 0) {
             text += "<a class=\"btn btn-xs btn-primary\" href=\"javascript:void(0)\" data-moveup=\"" + e + "\"><span class=\"glyphicon glyphicon-arrow-up\" /> Move</a>&nbsp;";
         }
@@ -369,7 +379,7 @@ function removeEnhancement() {
     selectedEnhancements.splice(i, 1);
     saveSelectedEnhancements();
     printSelectedEnhancements();
-    logEvent("enhancements", "remove", units[enh.unit].name, enh.name);
+    logEvent("remove", "enhancements", units[enh.unit].name, enh.name);
     return true;
 }
 
@@ -384,7 +394,7 @@ function moveUpEnhancement() {
 
     saveSelectedEnhancements();
     printSelectedEnhancements();
-    logEvent("enhancements", "moveUp", units[enh.unit].name, enh.name);
+    logEvent("moveUp", "enhancements", units[enh.unit].name, enh.name);
     return true;
 }
 
@@ -399,7 +409,27 @@ function moveDownEnhancement() {
 
     saveSelectedEnhancements();
     printSelectedEnhancements();
-    logEvent("enhancements", "moveUp", units[enh.unit].name, enh.name);
+    logEvent("moveDown", "enhancements", units[enh.unit].name, enh.name);
+    return true;
+}
+
+function doneEnhancements() {
+    var i = $(this).attr("data-done");
+    var enh = selectedEnhancements[i];
+    selectedEnhancements.splice(i, 1);
+
+    var mats = transformMaterials(enh.materials);
+    for (var i = 0; i < 8; i++) {
+        for (var j = 0; j < 5; j++) {
+            materials[i][j] -= mats[i][j];
+        }
+    }
+    fillData(materials);
+    saveData();
+
+    saveSelectedEnhancements();
+    printSelectedEnhancements();
+    logEvent("done", "enhancements", units[enh.unit].name, enh.name);
     return true;
 }
 
