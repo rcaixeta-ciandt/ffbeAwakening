@@ -248,9 +248,16 @@ function buildFilter() {
 function applyFilter() {
     if ($(this).attr("data-type") == "all") {
         $("table.mats tr[data-type]").show();
+
+        $("table.mats div.totalblocks[data-type!=\"all\"]").hide();
+        $("table.mats div.totalblocks[data-type=\"all\"]").show();
     } else {
         $("table.mats tr[data-type]").hide();
-        $("table.mats tr[data-type=" + $(this).attr("data-type") + "]").show();
+        $("table.mats tr[data-type=\"" + $(this).attr("data-type") + "\"]").show();
+
+        $("table.mats div.totalblocks[data-type!=\"all\"]").hide();
+        $("table.mats div.totalblocks[data-type=\"all\"]").hide();
+        $("table.mats div.totalblocks[data-type=\"" + $(this).attr("data-type") + "\"]").show();
     }
 
     $("#filterCrystLabel").text($(this).attr("data-label"))
@@ -278,6 +285,7 @@ function addEnhancement() {
 function printSelectedEnhancements() {
     $("#selectedEnhancementsList").empty();
     $("#selectedEnhancementsList").hide();
+    $("#enhancementTotal").hide();
     $("#noEnhacementsList").hide();
 
     if (selectedEnhancements.length == 0) {
@@ -287,7 +295,6 @@ function printSelectedEnhancements() {
         $("#selectedEnhancementsList").show();
     }
 
-    var totalGil = 0;
     remainingMats = [];
     for (var i = 0; i < 8; i++) {
         remainingMats.push([]);
@@ -316,7 +323,8 @@ function printSelectedEnhancements() {
             }
         }
 
-        var filterText = (currentFilter == "all" || currentFilter == buildType(fi)) ? "" : " style=\"display: none;\"";
+        var isDisplaying = (currentFilter == "all" || currentFilter == buildType(fi));
+        var filterText = isDisplaying ? "" : " style=\"display: none;\"";
 
         var text = "<tr data-type=\"" + buildType(fi) + "\" class=\"" + (matOverflow ? "danger" : "success") + "\"" + filterText + ">";
         // unit
@@ -351,7 +359,7 @@ function printSelectedEnhancements() {
         // gil
         text += "<td>";
         text += enh.gil.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-        text += "<img class=\"gilpic\" title=\"" + units[enh.unit].name + "\" src=\"/img/gil.png\" />";
+        text += "<img class=\"gilpic\" src=\"/img/gil.png\" />";
         text += "</td>";
         //actions
         text += "<td>";
@@ -369,8 +377,34 @@ function printSelectedEnhancements() {
 
         text += "</tr>";
         $("#selectedEnhancementsList").append($(text));
-        totalGil += enh.gil;
     }
+    printFooter();
+}
+
+function printFooter() {
+    $("#enhancementTotalGil").empty();
+    var grandTotalGil = 0;
+    var totalGil = [0, 0, 0, 0, 0, 0, 0, 0];
+    for (var e in selectedEnhancements) {
+        var enh = selectedEnhancements[e];
+        var mats = transformMaterials(enh.materials);
+        for (var i = 0; i < 8; i++) {
+            if (mats[i][0] > 0) {
+                totalGil[i] += enh.gil;
+                grandTotalGil += enh.gil;
+            }
+        }
+    }
+    for (var i = 0; i < 8; i++) {
+        var isDisplaying = currentFilter == buildType(i);
+        var filterText = isDisplaying ? "" : " style=\"display: none;\"";
+
+        $("#enhancementTotalGil").append("<div class=\"totalblocks\" data-type=\"" + buildType(i) + "\"" + filterText + ">" + totalGil[i].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + "<img class=\"gilpic\" src=\"/img/gil.png\" /></div>")
+    }
+    var isDisplaying = currentFilter == "all";
+    var filterText = isDisplaying ? "" : " style=\"display: none;\"";
+    $("#enhancementTotalGil").append("<div class=\"totalblocks\" data-type=\"all\">" + grandTotalGil.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + "<img class=\"gilpic\" src=\"/img/gil.png\" /></div>")
+    $("#enhancementTotal").show();
 }
 
 function removeEnhancement() {
