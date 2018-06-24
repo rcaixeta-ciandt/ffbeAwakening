@@ -1,1 +1,1 @@
-$ aws s3 sync ./ s3://ffbeawakening --exclude ".git/**" --exclude ".gitignore" --exclude ".travis.yml" --exclude "*.sh"
+aws s3 sync ./ s3://ffbeawakening --exclude ".git/**" --exclude ".gitignore" --exclude ".travis.yml" --exclude "*.sh" --acl public-read
