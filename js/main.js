@@ -251,6 +251,8 @@ function applyFilter() {
 
     $("#filterCrystLabel").text($(this).attr("data-label"))
 
+    logEvent("filter_crysts", "filter", "keyword", $(this).attr("data-label"));
+
     return true;
 }
 
@@ -260,7 +262,9 @@ function addEnhancement() {
 
     var all = x.split("|")
     for (var i in all) {
-        selectedEnhancements.push(enhancements.filter(function(t) { return t.id == all[i]; })[0]);
+        var enh = enhancements.filter(function(t) { return t.id == all[i]; })[0];
+        selectedEnhancements.push(enh);
+        logEvent("enhancements", "add", units[enh.unit].name, enh.name);
     }
     saveSelectedEnhancements();
     printSelectedEnhancements();
@@ -361,15 +365,18 @@ function printSelectedEnhancements() {
 
 function removeEnhancement() {
     var i = $(this).attr("data-delete");
+    var enh = selectedEnhancements[i];
     selectedEnhancements.splice(i, 1);
     saveSelectedEnhancements();
     printSelectedEnhancements();
+    logEvent("enhancements", "remove", units[enh.unit].name, enh.name);
     return true;
 }
 
 function moveUpEnhancement() {
     var i = parseInt($(this).attr("data-moveup"));
     if (i == 0) return;
+    var enh = selectedEnhancements[i];
 
     var tmp = selectedEnhancements[i - 1];
     selectedEnhancements[i - 1] = selectedEnhancements[i];
@@ -377,13 +384,14 @@ function moveUpEnhancement() {
 
     saveSelectedEnhancements();
     printSelectedEnhancements();
+    logEvent("enhancements", "moveUp", units[enh.unit].name, enh.name);
     return true;
 }
 
 function moveDownEnhancement() {
     var i = parseInt($(this).attr("data-movedown"));
     if (i == (selectedEnhancements.length - 1)) return;
-
+    var enh = selectedEnhancements[i];
 
     var tmp = selectedEnhancements[i + 1];
     selectedEnhancements[i + 1] = selectedEnhancements[i];
@@ -391,6 +399,7 @@ function moveDownEnhancement() {
 
     saveSelectedEnhancements();
     printSelectedEnhancements();
+    logEvent("enhancements", "moveUp", units[enh.unit].name, enh.name);
     return true;
 }
 
@@ -443,4 +452,14 @@ function transformMaterials(materials) {
         [materials[270004100] || 0, materials[270004200] || 0, materials[270004300] || 0, materials[270004400] || 0, materials[270004500] || 0],
         [materials[270004600] || 0, materials[270004700] || 0, materials[270004800] || 0, materials[270004900] || 0, materials[270005000] || 0]
     ];
+}
+
+function logEvent(action, category, label, value) {
+    if (window.location.host==="ffbeawakening.com" || window.location.host==="www.ffbeawakening.com") {
+        gtag('event', action, {
+            'event_category': category,
+            'event_label': label,
+            'value': value
+        });          
+    }
 }
