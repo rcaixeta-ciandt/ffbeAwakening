@@ -364,15 +364,15 @@ function printSelectedEnhancements() {
         //actions
         text += "<td>";
         if (!matOverflow) {
-            text += "<a class=\"btn btn-xs btn-success\" href=\"javascript:void(0)\" data-done=\"" + e + "\"><span class=\"glyphicon glyphicon-ok\" /> Done</a>&nbsp;";
+            text += "<a title=\"Remove from the list and deduct materials from you inventory.\" class=\"btn btn-xs btn-success\" href=\"javascript:void(0)\" data-done=\"" + e + "\"><span class=\"glyphicon glyphicon-ok\" /> Done</a>&nbsp;";
         }
         if (e > 0) {
-            text += "<a class=\"btn btn-xs btn-primary\" href=\"javascript:void(0)\" data-moveup=\"" + e + "\"><span class=\"glyphicon glyphicon-arrow-up\" /> Move</a>&nbsp;";
+            text += "<a title=\"Swap position with the enhancement above. While filtering this might swap even with filtered results.\" class=\"btn btn-xs btn-primary\" href=\"javascript:void(0)\" data-moveup=\"" + e + "\"><span class=\"glyphicon glyphicon-arrow-up\" /> Move</a>&nbsp;";
         }
         if (e < (selectedEnhancements.length - 1)) {
-            text += "<a class=\"btn btn-xs btn-primary\" href=\"javascript:void(0)\" data-movedown=\"" + e + "\"><span class=\"glyphicon glyphicon-arrow-down\" /> Move</a>&nbsp;";
+            text += "<a title=\"Swap position with the enhancement below. While filtering this might swap even with filtered results.\" class=\"btn btn-xs btn-primary\" href=\"javascript:void(0)\" data-movedown=\"" + e + "\"><span class=\"glyphicon glyphicon-arrow-down\" /> Move</a>&nbsp;";
         }
-        text += "<a class=\"btn btn-xs btn-danger\" href=\"javascript:void(0)\" data-delete=\"" + e + "\"><span class=\"glyphicon glyphicon-remove\" /> Remove</a>";
+        text += "<a title=\"Remove from the list.\" class=\"btn btn-xs btn-danger\" href=\"javascript:void(0)\" data-delete=\"" + e + "\"><span class=\"glyphicon glyphicon-remove\" /> Remove</a>";
         text += "</td>";
 
         text += "</tr>";
