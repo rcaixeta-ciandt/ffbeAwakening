@@ -276,7 +276,7 @@ function addEnhancement() {
     for (var i in all) {
         var enh = enhancements.filter(function(t) { return t.id == all[i]; })[0];
         selectedEnhancements.push(enh);
-        logEvent("add_enhacements", units[enh.unit].name, enh.name, 1);
+        logEvent("add_enhancements", units[enh.unit].name, enh.name, 1);
     }
     saveSelectedEnhancements();
     printSelectedEnhancements();
