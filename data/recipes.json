@@ -2302,6 +2302,79 @@
         "count": 1,
         "source": "Energy Extraction Station - Exploration<br>Locked Chest"
     },
+    "903001560": {
+        "name": "Fierce Bow",
+        "compendium_id": 421,
+        "compendium_shown": true,
+        "item": "21:312002100",
+        "time": 1,
+        "mats": {
+            "20:220000600": 240,
+            "20:220000500": 150,
+            "20:220000400": 80,
+            "20:220000300": 70,
+            "20:220000200": 70,
+            "20:220000100": 1
+        },
+        "count": 1,
+        "source": "Star Ocean: Anamnesis<br>Vanquish Jie Revorse!<br>Event Reward"
+    },
+    "903001570": {
+        "name": "Kogarasumaru",
+        "compendium_id": 422,
+        "compendium_shown": true,
+        "item": "21:304002800",
+        "time": 1,
+        "mats": {
+            "20:220000500": 60,
+            "20:220000300": 50,
+            "20:220000200": 25
+        },
+        "count": 1,
+        "source": "Star Ocean: Anamnesis<br>Vanquish Jie Revorse!<br>Event Reward"
+    },
+    "903001580": {
+        "name": "Scarlet Roses",
+        "compendium_id": 423,
+        "compendium_shown": true,
+        "item": "21:313003400",
+        "time": 1,
+        "mats": {
+            "20:220000500": 60,
+            "20:220000400": 50,
+            "20:220000200": 25
+        },
+        "count": 1,
+        "source": "Star Ocean: Anamnesis<br>Vanquish Jie Revorse!<br>Event Reward"
+    },
+    "903001590": {
+        "name": "Takemikazuchi",
+        "compendium_id": 424,
+        "compendium_shown": true,
+        "item": "21:301003000",
+        "time": 1,
+        "mats": {
+            "20:220000600": 30,
+            "20:220000500": 20,
+            "20:220000400": 10,
+            "20:220000200": 10
+        },
+        "count": 1,
+        "source": "Star Ocean: Anamnesis<br>Vanquish Jie Revorse!<br>Event Reward"
+    },
+    "903001600": {
+        "name": "Metal Pipe",
+        "compendium_id": 425,
+        "compendium_shown": true,
+        "item": "21:302005100",
+        "time": 1,
+        "mats": {
+            "20:220000600": 40,
+            "20:220000300": 10
+        },
+        "count": 1,
+        "source": "Star Ocean: Anamnesis<br>Vanquish Jie Revorse!<br>Event Reward"
+    },
     "903001610": {
         "name": "Platinum Axe",
         "compendium_id": 427,
@@ -2317,6 +2390,38 @@
         },
         "count": 1,
         "source": "Nirvana Woods - Exploration<br>Locked Chest"
+    },
+    "903001620": {
+        "name": "Platinum Lance",
+        "compendium_id": 433,
+        "compendium_shown": true,
+        "item": "21:308002800",
+        "time": 1,
+        "mats": {
+            "20:202000300": 15,
+            "20:202002000": 10,
+            "20:203000200": 5,
+            "20:202002500": 5,
+            "20:203000400": 4
+        },
+        "count": 1,
+        "source": "Savage Ruins - Exploration<br>Locked Chest"
+    },
+    "903001630": {
+        "name": "Platinum Bow",
+        "compendium_id": 434,
+        "compendium_shown": true,
+        "item": "21:312001600",
+        "time": 1,
+        "mats": {
+            "20:202000300": 13,
+            "20:202002000": 10,
+            "20:202002500": 5,
+            "20:203000300": 3,
+            "20:203000400": 3
+        },
+        "count": 1,
+        "source": "City of Trials Dendalio<br>Locked Chest"
     },
     "904000010": {
         "name": "Leather Shield",
@@ -4019,7 +4124,7 @@
             "21:409001900": 1
         },
         "count": 1,
-        "source": "Roaring Volcano - Exploration<br>Locked Chest"
+        "source": "Ancient Ruins Level 1<br>Locked Chest"
     },
     "904002050": {
         "name": "Platinum Breastplate",
@@ -4037,6 +4142,21 @@
         "count": 1,
         "source": "Roaring Volcano - Exploration<br>Locked Chest"
     },
+    "904002060": {
+        "name": "Riot Gear",
+        "compendium_id": 426,
+        "compendium_shown": true,
+        "item": "21:406003300",
+        "time": 1,
+        "mats": {
+            "20:220000600": 30,
+            "20:220000500": 20,
+            "20:220000300": 10,
+            "20:220000200": 10
+        },
+        "count": 1,
+        "source": "Star Ocean: Anamnesis<br>Vanquish Jie Revorse!<br>Event Reward"
+    },
     "904002070": {
         "name": "Platinum Shield",
         "compendium_id": 428,
@@ -4051,7 +4171,100 @@
             "20:203000400": 1
         },
         "count": 1,
-        "source": "Roaring Volcano - Exploration<br>Locked Chest"
+        "source": "Capital of Despair Hellstya<br>Locked Chest"
+    },
+    "904002080": {
+        "name": "Dragon Scale",
+        "compendium_id": 429,
+        "compendium_shown": true,
+        "item": "21:409020100",
+        "time": 1,
+        "mats": {
+            "20:221000600": 25,
+            "20:221000500": 15,
+            "20:221000200": 10,
+            "20:221000400": 5
+        },
+        "count": 1,
+        "source": "Dragon Quest<br>Estark's Challenge<br>Event Reward"
+    },
+    "904002090": {
+        "name": "Sage's Staff",
+        "compendium_id": 430,
+        "compendium_shown": true,
+        "item": "21:311003500",
+        "time": 1,
+        "mats": {
+            "20:221000600": 25,
+            "20:221000500": 15,
+            "20:221000200": 10,
+            "20:221000300": 5
+        },
+        "count": 1,
+        "source": "Dragon Quest<br>Estark's Challenge<br>Event Reward"
+    },
+    "904002110": {
+        "name": "Sacred Claws",
+        "compendium_id": 431,
+        "compendium_shown": true,
+        "item": "21:309002800",
+        "time": 1,
+        "mats": {
+            "20:221000500": 50,
+            "20:221000400": 25,
+            "20:221000300": 25,
+            "20:221000200": 10
+        },
+        "count": 1,
+        "source": "Dragon Quest<br>Estark's Challenge<br>Event Reward"
+    },
+    "904002120": {
+        "name": "Dragovian Spear",
+        "compendium_id": 432,
+        "compendium_shown": true,
+        "item": "21:308004000",
+        "time": 1,
+        "mats": {
+            "20:221000600": 150,
+            "20:221000500": 80,
+            "20:221000400": 45,
+            "20:221000300": 45,
+            "20:221000200": 45,
+            "20:221000100": 1
+        },
+        "count": 1,
+        "source": "Dragon Quest<br>Estark's Challenge<br>Event Reward"
+    },
+    "904002130": {
+        "name": "Wolf Mask",
+        "compendium_id": 435,
+        "compendium_shown": true,
+        "item": "21:403044900",
+        "time": 1,
+        "mats": {
+            "21:403040500": 3,
+            "20:202001900": 80,
+            "20:205000100": 10,
+            "20:205000300": 5
+        },
+        "count": 1,
+        "source": "Ancient Ruins Level 2<br>Locked Chest"
+    },
+    "904002240": {
+        "name": "Platinum Fist",
+        "compendium_id": 446,
+        "compendium_shown": true,
+        "item": "21:309003200",
+        "time": 1,
+        "mats": {
+            "20:202000300": 15,
+            "20:202002500": 10,
+            "20:203000300": 8,
+            "20:203000400": 5,
+            "20:203000500": 1
+        },
+        "count": 1,
+        "source": "Karvell Resort Town<br>Locked Chest"
     },
     "905000010": {
         "name": "Libra",
@@ -6524,6 +6737,148 @@
         },
         "count": 1,
         "source": "FFBE<br>FFBE Raid - Dracotaur Lancer<br>Event Reward"
+    },
+    "1000000073": {
+        "name": "Zenith ZAP",
+        "compendium_id": 90074,
+        "compendium_shown": true,
+        "item": "21:1100000174",
+        "time": 1,
+        "mats": {
+            "20:1209000897": 40,
+            "20:1209000898": 20,
+            "20:1209000899": 10
+        },
+        "count": 1,
+        "source": "Deus Ex: Mankind Divided<br>Event Reward"
+    },
+    "1000000074": {
+        "name": "TITAN",
+        "compendium_id": 90075,
+        "compendium_shown": true,
+        "item": "21:1100000175",
+        "time": 1,
+        "mats": {
+            "20:1209000897": 20,
+            "20:1209000898": 40,
+            "20:1209000899": 20
+        },
+        "count": 1,
+        "source": "Deus Ex: Mankind Divided<br>Event Reward"
+    },
+    "1000000075": {
+        "name": "EMP Grenade",
+        "compendium_id": 90076,
+        "compendium_shown": true,
+        "item": "21:1100000176",
+        "time": 1,
+        "mats": {
+            "20:1209000897": 30,
+            "20:1209000898": 30,
+            "20:1209000899": 40
+        },
+        "count": 1,
+        "source": "Deus Ex: Mankind Divided<br>Event Reward"
+    },
+    "1000000076": {
+        "name": "Côte d'Azur S.O.W.",
+        "compendium_id": 90077,
+        "compendium_shown": true,
+        "item": "21:1100000177",
+        "time": 1,
+        "mats": {
+            "20:1209000897": 60,
+            "20:1209000898": 80,
+            "20:1209000899": 60
+        },
+        "count": 1,
+        "source": "Deus Ex: Mankind Divided<br>Event Reward"
+    },
+    "1000000077": {
+        "name": "Nuke Virus Software",
+        "compendium_id": 90078,
+        "compendium_shown": true,
+        "item": "21:1100000178",
+        "time": 1,
+        "mats": {
+            "20:1209000897": 90,
+            "20:1209000898": 60,
+            "20:1209000899": 80
+        },
+        "count": 1,
+        "source": "Deus Ex: Mankind Divided<br>Event Reward"
+    },
+    "1000000078": {
+        "name": "Linebacker G-87 MSGL",
+        "compendium_id": 90079,
+        "compendium_shown": true,
+        "item": "21:1100000179",
+        "time": 1,
+        "mats": {
+            "20:1209000897": 80,
+            "20:1209000898": 80,
+            "20:1209000899": 90,
+            "20:1209000900": 1
+        },
+        "count": 1,
+        "source": "Deus Ex: Mankind Divided<br>Event Reward"
+    },
+    "1000000079": {
+        "name": "Sturdy Umbrella",
+        "compendium_id": 90080,
+        "compendium_shown": true,
+        "item": "21:1100000168",
+        "time": 1,
+        "mats": {
+            "20:1209000893": 3000,
+            "20:1209000894": 6000,
+            "20:1209000895": 4700,
+            "20:1209000902": 1
+        },
+        "count": 1,
+        "source": "Sun, Sand and Sea<br>Event Reward"
+    },
+    "1000000080": {
+        "name": "Beach Ball",
+        "compendium_id": 90081,
+        "compendium_shown": true,
+        "item": "21:1100000169",
+        "time": 1,
+        "mats": {
+            "20:1209000893": 1600,
+            "20:1209000894": 3200,
+            "20:1209000895": 2500
+        },
+        "count": 1,
+        "source": "Sun, Sand and Sea<br>Event Reward"
+    },
+    "1000000081": {
+        "name": "G-0991E",
+        "compendium_id": 90082,
+        "compendium_shown": true,
+        "item": "21:1100000170",
+        "time": 1,
+        "mats": {
+            "20:1209000893": 840,
+            "20:1209000894": 1660,
+            "20:1209000895": 1300
+        },
+        "count": 1,
+        "source": "Sun, Sand and Sea<br>Event Reward"
+    },
+    "1000000082": {
+        "name": "Splash of Life",
+        "compendium_id": 90083,
+        "compendium_shown": true,
+        "item": "22:1500000062",
+        "time": 1,
+        "mats": {
+            "20:1209000893": 500,
+            "20:1209000894": 1000,
+            "20:1209000895": 780
+        },
+        "count": 1,
+        "source": "Sun, Sand and Sea<br>Event Reward"
     },
     "1500000032": {
         "name": "Cheerful Tune",

@@ -159,7 +159,7 @@
                 "환수 소환 시 환수 능력치 상승량 상승(중)",
                 "Amplifie l'augmentation des paramètres lorsqu'une chimère est appelée (moyen)",
                 "Steigert die erhöhten Werte gerufener Esper (mittel)",
-                "Aumenta las estadísticas de los espers evocados (bastante)"
+                "Aumenta los parámetros de los espers evocados (bastante)"
             ]
         }
     },
@@ -666,7 +666,7 @@
                 "270005000": 1
             }
         },
-        "units": [201000203],
+        "units": [201000203, 211000204],
         "strings": {
             "names": [
                 "Doublehand",
@@ -700,7 +700,7 @@
                 "270005000": 2
             }
         },
-        "units": [201000203],
+        "units": [201000203, 211000204],
         "strings": {
             "names": [
                 "Doublehand",
@@ -912,7 +912,7 @@
                 "提高恢復量(中)",
                 "소비 MP 감소(중)",
                 "Augmente les PV reçus (moyen)",
-                "Erhöht die Energiewiederherstellung (mittel)",
+                "Erhöht den Regenerationseffekt (mittel)",
                 "Aumenta el poder de curación (bastante)"
             ]
         }
@@ -945,7 +945,7 @@
                 "提高恢復量(中)",
                 "회복량 상승(중)",
                 "Augmente les PV reçus (moyen)",
-                "Erhöht die Energiewiederherstellung (mittel)",
+                "Erhöht den Regenerationseffekt (mittel)",
                 "Aumenta el poder de curación (bastante)"
             ]
         }
@@ -978,7 +978,7 @@
                 "提高恢復量(中)",
                 "회복량 상승(중)",
                 "Augmente le pouvoir de soin (moyen)",
-                "Erhöht die Energiewiederherstellung (mittel)",
+                "Erhöht den Regenerationseffekt (mittel)",
                 "Aumenta el poder de curación (bastante)"
             ]
         }
@@ -995,7 +995,7 @@
                 "270000300": 5
             }
         },
-        "units": [209000304, 254000905, 100008804],
+        "units": [209000304, 254000905, 100008804, 203000904],
         "strings": {
             "names": [
                 "Curaga",
@@ -1010,7 +1010,7 @@
                 "提高恢復量 (中)",
                 "회복량 상승(중)",
                 "Augmente le pouvoir de soin (moyen)",
-                "Erhöht die Energiewiederherstellung (mittel)",
+                "Erhöht den Regenerationseffekt (mittel)",
                 "Aumenta el poder de curación (bastante)"
             ]
         }
@@ -1028,7 +1028,7 @@
                 "270000400": 1
             }
         },
-        "units": [209000304, 254000905, 100008804],
+        "units": [209000304, 254000905, 100008804, 203000904],
         "strings": {
             "names": [
                 "Curaga",
@@ -1043,7 +1043,7 @@
                 "提高恢復量 (中)",
                 "회복량 상승(중)",
                 "Augmente le pouvoir de soin (moyen)",
-                "Erhöht die Energiewiederherstellung (mittel)",
+                "Erhöht den Regenerationseffekt (mittel)",
                 "Aumenta el poder de curación (bastante)"
             ]
         }
@@ -2536,7 +2536,7 @@
                 "提高效果回合數(中)",
                 "효과 턴 수 상승(중)",
                 "Augmente le nombre de tours des effets (moyen)",
-                "Erhöht den Effekt über die Runden (mittel)",
+                "Erhöht Anzahl aktiver Runden (mittel)",
                 "Aumenta la duración (bastante)"
             ]
         }
@@ -4424,7 +4424,7 @@
                 "물리공격을 '방어' 상태로 대신 받을 확률 상승(소)",
                 "Augmente les chances de protéger les autres en étant en garde (peu)",
                 "Erhöht Chance, andere beim Verteidigen zu beschützen (gering)",
-                "Mayor probabilidad de defender a aliados en modo defensivo (bajo)"
+                "Mayor probabilidad de proteger a aliados en guardia (bajo)"
             ]
         }
     },
@@ -4458,7 +4458,7 @@
                 "물리공격을 '방어' 상태로 대신 받을 확률 상승(소)",
                 "Augmente les chances de protéger les autres en étant en garde (peu)",
                 "Erhöht Chance, andere beim Verteidigen zu beschützen (gering)",
-                "Mayor probabilidad de defender a aliados en modo defensivo (bajo)"
+                "Mayor probabilidad de proteger a aliados en guardia (bajo)"
             ]
         }
     },
@@ -6214,7 +6214,7 @@
                 "提高恢復量(大)",
                 "회복량 상승(대)",
                 "Augmente le pouvoir de soin (beaucoup)",
-                "Erhöht die Energiewiederherstellung (hoch)",
+                "Erhöht den Regenerationseffekt (hoch)",
                 "Aumenta el poder de curación (mucho)"
             ]
         }
@@ -6247,7 +6247,7 @@
                 "提高恢復量(大)",
                 "회복량 상승(대)",
                 "Augmente le pouvoir de soin (beaucoup)",
-                "Erhöht die Energiewiederherstellung (hoch)",
+                "Erhöht den Regenerationseffekt (hoch)",
                 "Aumenta el poder de curación (mucho)"
             ]
         }
@@ -7063,7 +7063,7 @@
                 "270004400": 1
             }
         },
-        "units": [100005104],
+        "units": [100005104, 100008005],
         "strings": {
             "names": [
                 "Axe Mastery",
@@ -7074,12 +7074,12 @@
                 "Maestría de hachas"
             ],
             "description": [
-                "Boosts damage increase (low)",
-                "提高傷害量 (小)",
-                "피해 상승량 상승(소)",
-                "Amplifie l'augmentation des dégâts (peu)",
-                "Erhöht den Schaden (gering)",
-                "Aumenta el daño (poco)"
+                "Boosts ATK increase (low)",
+                "提高攻擊增加量 (小)",
+                "공격력 상승량 상승(소)",
+                "Amplifie l'augmentation de l'ATT (peu)",
+                "Steigert ANG-Erhöhung (gering)",
+                "Mayor aumento de ATQ (poco)"
             ]
         }
     },
@@ -7097,7 +7097,7 @@
                 "270004500": 1
             }
         },
-        "units": [100005104],
+        "units": [100005104, 100008005],
         "strings": {
             "names": [
                 "Axe Mastery",
@@ -7108,12 +7108,12 @@
                 "Maestría de hachas"
             ],
             "description": [
-                "Boosts damage increase (low)",
-                "提高傷害量 (小)",
-                "피해 상승량 상승(소)",
-                "Amplifie l'augmentation des dégâts (peu)",
-                "Erhöht den Schaden (gering)",
-                "Aumenta el daño (poco)"
+                "Boosts ATK increase (low)",
+                "提高攻擊增加量 (小)",
+                "공격력 상승량 상승(소)",
+                "Amplifie l'augmentation de l'ATT (peu)",
+                "Steigert ANG-Erhöhung (gering)",
+                "Mayor aumento de ATQ (poco)"
             ]
         }
     },
@@ -7277,7 +7277,7 @@
             ],
             "description": [
                 "Boosts DEF and SPR when active<br>Increases necessary HP (low)",
-                "提高發動時防禦精神的數值<br>增加發動條件的HP(小)",
+                "提高發動時防禦精神的數值<br>增加發動條件的HP值(小)",
                 "발동 시 방어력과 정신력 상승<br>발동 조건의 HP 수치 증가(소)",
                 "Augmente la DEF et la PSY une fois activé<br>Augmente les PV nécessaires (peu)",
                 "Erhöht ABW und PSY, wenn aktiv<br>Erhöht nötige LP (gering)",
@@ -7452,6 +7452,73 @@
                 "Augmente le nombre de tours des effets (moyen)",
                 "Erhöht die Anzahl aktiver Runden (mittel)",
                 "Aumenta la duración (bastante)"
+            ]
+        }
+    },
+    "204101001": {
+        "name": "Impact",
+        "skill_id_old": 20410,
+        "skill_id_new": 70410,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270000600": 20,
+                "270000700": 15,
+                "270000800": 10,
+                "270000900": 4
+            }
+        },
+        "units": [100007705],
+        "strings": {
+            "names": [
+                "Impact",
+                "衝擊",
+                "임팩트",
+                "Impact",
+                "Aufprall",
+                "Impacto"
+            ],
+            "description": [
+                "Boosts damage amount (great)",
+                "提高傷害量 (特大)",
+                "피해량 상승(특대)",
+                "Augmente les dégâts infligés (super)",
+                "Erhöht den Schaden (sehr hoch)",
+                "Aumenta el daño (muchísimo)"
+            ]
+        }
+    },
+    "204101002": {
+        "name": "Impact",
+        "skill_id_old": 70410,
+        "skill_id_new": 70420,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270000600": 30,
+                "270000700": 23,
+                "270000800": 15,
+                "270000900": 8,
+                "270001000": 2
+            }
+        },
+        "units": [100007705],
+        "strings": {
+            "names": [
+                "Impact",
+                "衝擊",
+                "임팩트",
+                "Impact",
+                "Aufprall",
+                "Impacto"
+            ],
+            "description": [
+                "Reduces fire, ice, lightning, water, wind, earth, light and dark resistances",
+                "降低火冰雷水風土光暗屬性耐性",
+                "불, 얼음, 번개, 물, 바람, 땅, 빛, 어둠속성 저항력 감소",
+                "Réduit la résistance à feu glace, foudre, eau, vent, terre, lumière et ténèbres",
+                "Verringert Feuer-, Eis-, Blitz-, Wasser-, Wind-, Erd-, Licht- und Dunkelresistenzen",
+                "Reduce la resistencia al fuego, hielo, rayo, agua, viento, tierra, luz y oscuridad"
             ]
         }
     },
@@ -8072,7 +8139,7 @@
                 "270001000": 1
             }
         },
-        "units": [100000315, 206000125, 100007205],
+        "units": [100000315, 206000125, 100007205, 100008205],
         "strings": {
             "names": [
                 "Ultima",
@@ -8106,7 +8173,7 @@
                 "270001000": 2
             }
         },
-        "units": [100000315, 206000125, 100007205],
+        "units": [100000315, 206000125, 100007205, 100008205],
         "strings": {
             "names": [
                 "Ultima",
@@ -8119,8 +8186,8 @@
             "description": [
                 "Boosts unmitigated damage (high)",
                 "提高無視防禦量(大)",
-                "방어력 무시량 상승(대)",
-                "Augmente les dégâts fixes (beaucoup)",
+                "방어 무시 피해량 상승(대)",
+                "Augmente les dégâts fixes infligés (beaucoup)<br>",
                 "Erhöht direkten Schaden (hoch)",
                 "Mayor daño absoluto"
             ]
@@ -8188,7 +8255,7 @@
                 "提高恢復量(大)",
                 "회복량 상승(대)",
                 "Augmente le pouvoir de soin (beaucoup)",
-                "Erhöht die Energiewiederherstellung (mittel)",
+                "Erhöht den Regenerationseffekt (mittel)",
                 "Aumenta el poder de curación (mucho)"
             ]
         }
@@ -8221,7 +8288,7 @@
                 "提高恢復量(特大)",
                 "회복량 상승(특대)",
                 "Augmente le pouvoir de soin (super)",
-                "Erhöht die Energiewiederherstellung (sehr hoch)",
+                "Erhöht den Regenerationseffekt (sehr hoch)",
                 "Aumenta el poder de curación (muchísimo)"
             ]
         }
@@ -8918,7 +8985,7 @@
                 "提高效果回合數(中)",
                 "효과 턴 수 상승(중)",
                 "Augmente le nombre de tours des effets (moyen)",
-                "Erhöht den Effekt über die Runden (mittel)",
+                "Erhöht Anzahl aktiver Runden (mittel)",
                 "Aumenta la duración (bastante)"
             ]
         }
@@ -9721,7 +9788,7 @@
                 "提高效果回合數(中)",
                 "효과 턴 수 상승(중)",
                 "Augmente le nombre de tours des effets (moyen)",
-                "Erhöht den Effekt über die Runden (mittel)",
+                "Erhöht Anzahl aktiver Runden (mittel)",
                 "Aumenta la duración (bastante)"
             ]
         }
@@ -9821,7 +9888,7 @@
                 "提高恢復量(小)",
                 "회복량 상승(소)",
                 "Augmente le pouvoir de soin (peu)",
-                "Erhöht die Energiewiederherstellung (gering)",
+                "Erhöht den Regenerationseffekt (gering)",
                 "Aumenta el poder de curación (poco)"
             ]
         }
@@ -10054,7 +10121,7 @@
                 "提高效果回合數(中)",
                 "효과 턴 수 상승(중)",
                 "Augmente le nombre de tours des effets (moyen)",
-                "Erhöht den Effekt über die Runden (mittel)",
+                "Erhöht Anzahl aktiver Runden (mittel)",
                 "Aumenta la duración (bastante)"
             ]
         }
@@ -10187,8 +10254,8 @@
             "description": [
                 "Boosts unmitigated damage (high)",
                 "提高無視防禦量(大)",
-                "방어력 무시량 상승(대)",
-                "Augmente les dégâts fixes (beaucoup)",
+                "방어 무시 피해량 상승(대)",
+                "Augmente les dégâts fixes infligés (beaucoup)<br>",
                 "Erhöht die Trefferzahl (hoch)",
                 "Mayor daño absoluto (mucho)"
             ]
@@ -11016,7 +11083,7 @@
                 "提高效果回合數(中)",
                 "효과 턴 수 상승(중)",
                 "Augmente le nombre de tours des effets (moyen)",
-                "Erhöht den Effekt über die Runden (mittel)",
+                "Erhöht Anzahl aktiver Runden (mittel)",
                 "Aumenta la duración (bastante)"
             ]
         }
@@ -11747,7 +11814,7 @@
                 "提高恢復量(特大)",
                 "회복량 상승(특대)",
                 "Augmente le pouvoir de soin (super)",
-                "Erhöht die Energiewiederherstellung (sehr hoch)",
+                "Erhöht den Regenerationseffekt (sehr hoch)",
                 "Aumenta el poder de curación (muchísimo)"
             ]
         }
@@ -11949,7 +12016,7 @@
                 "提高效果回合數(小)",
                 "효과 턴 수 상승(중)",
                 "Augmente le nombre de tours des effets (moyen)",
-                "Erhöht den Effekt über die Runden (mittel)",
+                "Erhöht Anzahl aktiver Runden (mittel)",
                 "Aumenta la duración (bastante)"
             ]
         }
@@ -12084,7 +12151,7 @@
                 "提高效果回合數(小)",
                 "효과 턴 수 상승(소)",
                 "Augmente le nombre de tours des effets (peu)",
-                "Erhöht den Effekt über die Runden (gering)",
+                "Erhöht Anzahl aktiver Runden (gering)",
                 "Aumenta la duración (poco)"
             ]
         }
@@ -12118,7 +12185,7 @@
                 "提高效果回合數(小)",
                 "효과 턴 수 상승(소)",
                 "Augmente le nombre de tours des effets (peu)",
-                "Erhöht den Effekt über die Runden (gering)",
+                "Erhöht Anzahl aktiver Runden (gering)",
                 "Aumenta la duración (poco)"
             ]
         }
@@ -12422,7 +12489,7 @@
                 "提高恢復量(小)",
                 "회복량 상승(소)",
                 "Augmente le pouvoir de soin (peu)",
-                "Erhöht die Energiewiederherstellung (gering)",
+                "Erhöht den Regenerationseffekt (gering)",
                 "Aumenta el poder de curación (poco)"
             ]
         }
@@ -12456,7 +12523,7 @@
                 "提高效果回合數(中)",
                 "효과 턴 수 상승(중)",
                 "Augmente le nombre de tours des effets (moyen)",
-                "Erhöht den Effekt über die Runden (mittel)",
+                "Erhöht Anzahl aktiver Runden (mittel)",
                 "Aumenta la duración (bastante)"
             ]
         }
@@ -12786,7 +12853,7 @@
                 "提高效果回合數(中)",
                 "효과 턴 수 상승(중)",
                 "Augmente le nombre de tours des effets (moyen)",
-                "Erhöht den Effekt über die Runden (mittel)",
+                "Erhöht Anzahl aktiver Runden (mittel)",
                 "Aumenta la duración (bastante)"
             ]
         }
@@ -12953,7 +13020,7 @@
                 "提高效果回合數(小)",
                 "효과 턴 수 상승(소)",
                 "Augmente le nombre de tours des effets (peu)",
-                "Erhöht den Effekt über die Runden (gering)",
+                "Erhöht Anzahl aktiver Runden (gering)",
                 "Aumenta la duración (poco)"
             ]
         }
@@ -13655,6 +13722,73 @@
                 "Augmente la DEF ignorée (moyen)",
                 "Erhöht Wert ignorierter ABW (mittel)",
                 "Ignora aún más la DEF (bastante)"
+            ]
+        }
+    },
+    "207410001": {
+        "name": "Large Sword Mastery",
+        "skill_id_old": 207410,
+        "skill_id_new": 706890,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004600": 15,
+                "270004700": 8,
+                "270004800": 5,
+                "270004900": 1
+            }
+        },
+        "units": [215001204],
+        "strings": {
+            "names": [
+                "Large Sword Mastery",
+                "大劍奧義",
+                "대검의 비법",
+                "Maîtrise des épées longues",
+                "Großschwert-Meister",
+                "Maestría de espada G"
+            ],
+            "description": [
+                "Boosts ATK increase (great)",
+                "提高攻擊增加量(大)",
+                "공격력 상승량 상승(특대)",
+                "Amplifie l'augmentation de l'ATT (super)",
+                "Steigert ANG-Erhöhung (sehr hoch)",
+                "Mayor aumento de ATQ (muchísimo)"
+            ]
+        }
+    },
+    "207410002": {
+        "name": "Large Sword Mastery",
+        "skill_id_old": 706890,
+        "skill_id_new": 706900,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004600": 23,
+                "270004700": 12,
+                "270004800": 8,
+                "270004900": 2,
+                "270005000": 1
+            }
+        },
+        "units": [215001204],
+        "strings": {
+            "names": [
+                "Large Sword Mastery",
+                "大劍奧義",
+                "대검의 비법",
+                "Maîtrise des épées longues",
+                "Großschwert-Meister",
+                "Maestría de espada G"
+            ],
+            "description": [
+                "Boosts ATK increase (great)",
+                "提高攻擊增加量(大)",
+                "공격력 상승량 상승(특대)",
+                "Amplifie l'augmentation de l'ATT (super)",
+                "Steigert ANG-Erhöhung (sehr hoch)",
+                "Mayor aumento de ATQ (muchísimo)"
             ]
         }
     },
@@ -15657,7 +15791,7 @@
                 "Bala mortal"
             ],
             "description": [
-                "Change to head shot next turn after using arm shot or leg shot",
+                "Changes to head shot next turn after using arm shot or leg shot",
                 "使用「狙腕」「狙足」後，下一回合變化為「射擊頭部」",
                 "'팔 노리기', '발 노리기' 사용 후 다음 턴에 '헤드샷'으로 변화",
                 "Change en Tir dans la tête au tour suivant après avoir utilisé Tir dans le bras  ou Tir dans le pied",
@@ -15999,7 +16133,7 @@
                 "提高效果回合數(小)",
                 "효과 턴 수 상승(소)",
                 "Augmente le nombre de tours des effets (peu)",
-                "Erhöht den Effekt über die Runden (gering)",
+                "Erhöht Anzahl aktiver Runden (gering)",
                 "Aumenta la duración (poco)"
             ]
         }
@@ -17337,7 +17471,7 @@
                 "Sueño sinfín"
             ],
             "description": [
-                "Boosts ATK increase (mid)<br>Boosts turns in effect for ATK increase (mid)<br>Boost LB gauge fill rate (great)",
+                "Boosts ATK increase (mid)<br>Boosts turns in effect for ATK increase (mid)<br>Boosts LB gauge fill rate (great)",
                 "提高攻擊增加量(中)<br>提高攻擊增加效果回合數(中)<br>提高極限技槽增加量(特大)",
                 "공격력 상승량 상승(중)<br>공격력 상승 효과 턴 수 상승(중)<br>LB 게이지 증가량 상승(특대)",
                 "Augmente le nombre de tours des effets (moyen)<br>Augmente le nombre de tours de l'augmentation de l'ATT (moyen)<br>Augmente la vitesse de remplissage de la jauge de limite (super)",
@@ -17542,6 +17676,339 @@
                 "Amplifie l'augmentation de l'ATT (moyen)<br>Augmente les dégâts physiques infligés aux monstres de pierre",
                 "Steigert die ANG-Erhöhung (mittel)<br>Erhöht physischen Schaden gegen Steinmonster",
                 "Mayor aumento de ATQ (bastante)<br>Aumenta el daño físico contra monstruos de piedra"
+            ]
+        }
+    },
+    "210010001": {
+        "name": "Will to Live",
+        "skill_id_old": 210010,
+        "skill_id_new": 705170,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270000100": 20,
+                "270000200": 15,
+                "270000300": 10,
+                "270000400": 4,
+                "270000500": 1
+            }
+        },
+        "units": [211000405],
+        "strings": {
+            "names": [
+                "Will to Live",
+                "生命意志",
+                "생명의 의지",
+                "Volonté de vivre",
+                "Wille zu Leben",
+                "Voluntad para vivir"
+            ],
+            "description": [
+                "Boosts turns in effect (high)",
+                "提高效果回合數(大)",
+                "효과 턴 수 상승(대)",
+                "Augmente le nombre de tours des effets (beaucoup)",
+                "Erhöht Anzahl aktiver Runden (gering)",
+                "Aumenta la duración (mucho)"
+            ]
+        }
+    },
+    "210010002": {
+        "name": "Will to Live",
+        "skill_id_old": 705170,
+        "skill_id_new": 705180,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270000100": 30,
+                "270000200": 23,
+                "270000300": 15,
+                "270000400": 8,
+                "270000500": 1
+            }
+        },
+        "units": [211000405],
+        "strings": {
+            "names": [
+                "Will to Live",
+                "生命意志",
+                "생명의 의지",
+                "Volonté de vivre",
+                "Wille zu Leben",
+                "Voluntad para vivir"
+            ],
+            "description": [
+                "Boosts turns in effect (high)",
+                "提高效果回合數(大)",
+                "효과 턴 수 상승(대)",
+                "Augmente le nombre de tours des effets (beaucoup)",
+                "Erhöht Anzahl aktiver Runden (hoch)",
+                "Aumenta la duración (mucho)"
+            ]
+        }
+    },
+    "210050001": {
+        "name": "Tornado Kick",
+        "skill_id_old": 210050,
+        "skill_id_new": 705150,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270002600": 20,
+                "270002700": 15,
+                "270002800": 10,
+                "270002900": 4
+            }
+        },
+        "units": [211000405],
+        "strings": {
+            "names": [
+                "Tornado Kick",
+                "鬥魂旋風腳",
+                "투귀질풍각",
+                "Coup de pied tornade",
+                "Tornadotritt",
+                "Patada tornado"
+            ],
+            "description": [
+                "Boosts DEF ignored amount (high)",
+                "提高無視防禦量(大)",
+                "방어 무시 피해량 상승(대)",
+                "Augmente la quantité de DEF ignorée (beaucoup)",
+                "Erhöht Wert ignorierter ABW (hoch)",
+                "Ignora más la DEF (mucho)"
+            ]
+        }
+    },
+    "210050002": {
+        "name": "Tornado Kick",
+        "skill_id_old": 705150,
+        "skill_id_new": 705160,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270002600": 30,
+                "270002700": 23,
+                "270002800": 15,
+                "270002900": 8,
+                "270003000": 2
+            }
+        },
+        "units": [211000405],
+        "strings": {
+            "names": [
+                "Tornado Kick",
+                "鬥魂旋風腳",
+                "투귀질풍각",
+                "Coup de pied tornade",
+                "Tornadotritt",
+                "Patada tornado"
+            ],
+            "description": [
+                "Enables prishe special for one turn after using enabled prishe special from using raging fists, berserk attack+ or tornado kick+",
+                "在「乱擊」「羅剎擊+」「鬥魂旋風腳+」後使用「普利修特技」時，1回合內可使用「普利修特技」",
+                "'난격', '나찰격+', '투귀질풍각+' 발동 후 사용 가능한 '프리쉬 스페셜' 발동 후 1턴 동안 '프리쉬 스페셜' 사용 가능",
+                "Permet d'utiliser Spécialité de Prishe à nouveau pendant un tour après l'avoir déjà utilisé suite à l'utilisation de Poings de colère, Attaque furieuse + ou Coup de pied tornade +",
+                "Ermöglicht eine Runde lang Prishe-Spezial nach durch Anwendung von Faustwirbel, Berserker+ oder Tornadotritt+ aktiviertem Prishe-Spezial",
+                "Aprende Especial de Prishe durante un turno tras usar Puños de la ira, Furia enloquecida+ o Patada tornado+"
+            ]
+        }
+    },
+    "210060001": {
+        "name": "Flawless",
+        "skill_id_old": 210060,
+        "skill_id_new": 705190,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270004600": 10,
+                "270004700": 8,
+                "270004800": 3
+            }
+        },
+        "units": [211000405],
+        "strings": {
+            "names": [
+                "Flawless",
+                "天衣無縫",
+                "천의무봉",
+                "Humilité",
+                "Glanzleistung",
+                "Perfección"
+            ],
+            "description": [
+                "Boosts MP",
+                "提高MP",
+                "MP 상승",
+                "Augmente les PM",
+                "Erhöht MP",
+                "Aumenta los PM"
+            ]
+        }
+    },
+    "210060002": {
+        "name": "Flawless",
+        "skill_id_old": 705190,
+        "skill_id_new": 705200,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270004600": 15,
+                "270004700": 12,
+                "270004800": 5,
+                "270004900": 1
+            }
+        },
+        "units": [211000405],
+        "strings": {
+            "names": [
+                "Flawless",
+                "天衣無縫",
+                "천의무봉",
+                "Humilité",
+                "Glanzleistung",
+                "Perfección"
+            ],
+            "description": [
+                "Boosts ATK and SPR increases when equipped with fists (low)<br>Boosts ATK and SPR when equipped with a hat",
+                "提高裝備格鬥武器時的攻擊精神增加量(小)<br>提高裝備帽子時的攻擊精神",
+                "격투무기 장착 시 공격력과 정신력 상승량 상승(소)<br>모자 장착 시 공격력과 정신력 상승",
+                "Augmente l'ATT et la PSY lorsque des poings sont équipés (peu)<br>Augmente l'ATT et la PSY lorsqu'un chapeau est équipé",
+                "Steigert ANG- und PSY-Erhöhungen, wenn mit Faust ausgerüstet (gering)<br>Erhöht ANG und PSY, wenn mit Hut ausgerüstet",
+                "Aumenta el ATQ y el ESP al llevar puños (poco)<br>Aumenta el ATQ y el ESP al llevar sombrero"
+            ]
+        }
+    },
+    "210090001": {
+        "name": "Master Fencer",
+        "skill_id_old": 210090,
+        "skill_id_new": 705010,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004600": 15,
+                "270004700": 8,
+                "270004800": 5,
+                "270004900": 1
+            }
+        },
+        "units": [211000204],
+        "strings": {
+            "names": [
+                "Master Fencer",
+                "劍豪",
+                "검호",
+                "Maître escrimeur",
+                "Meisterfechter",
+                "Maestro esgrimidor"
+            ],
+            "description": [
+                "Boosts HP<br>Boosts ATK when equipped with an axe",
+                "提高HP<br>提高裝備斧時的攻擊",
+                "HP 상승<br>도끼 장착 시 공격력 상승",
+                "Augmente les PV<br>Augmente l'ATT lorsqu'une hache est équipée",
+                "Erhöht LP<br>Erhöht ANG, wenn mit Axt ausgerüstet",
+                "Aumenta la VIT<br>Aumenta el ATQ al llevar hacha"
+            ]
+        }
+    },
+    "210090002": {
+        "name": "Master Fencer",
+        "skill_id_old": 705010,
+        "skill_id_new": 705020,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004600": 23,
+                "270004700": 12,
+                "270004800": 8,
+                "270004900": 2
+            }
+        },
+        "units": [211000204],
+        "strings": {
+            "names": [
+                "Master Fencer",
+                "劍豪",
+                "검호",
+                "Maître escrimeur",
+                "Meisterfechter",
+                "Maestro esgrimidor"
+            ],
+            "description": [
+                "Boosts ATK increase (high)",
+                "提高攻擊增加量(大)",
+                "공격력 상승량 상승(대)",
+                "Amplifie l'augmentation de l'ATT (beaucoup)",
+                "Steigert ANG-Erhöhung (hoch)",
+                "Mayor aumento de ATQ (mucho)"
+            ]
+        }
+    },
+    "210100001": {
+        "name": "Stone Fall",
+        "skill_id_old": 210100,
+        "skill_id_new": 704990,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270002600": 15,
+                "270002700": 8,
+                "270002800": 5,
+                "270002900": 1
+            }
+        },
+        "units": [211000204],
+        "strings": {
+            "names": [
+                "Stone Fall",
+                "墜石",
+                "낙석",
+                "Chute de pierre",
+                "Steinschlag",
+                "Avalancha de rocas"
+            ],
+            "description": [
+                "Boosts damage amount (mid)",
+                "提高傷害量(中)<br>降低MP消耗(中)",
+                "피해량 상승(중)<br>소비 MP 감소(중)",
+                "Augmente les dégâts infligés (moyen)",
+                "Erhöht Schaden (mittel)",
+                "Aumenta el daño (bastante)"
+            ]
+        }
+    },
+    "210100002": {
+        "name": "Stone Fall",
+        "skill_id_old": 704990,
+        "skill_id_new": 705000,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270002600": 23,
+                "270002700": 12,
+                "270002800": 8,
+                "270002900": 2,
+                "270003000": 1
+            }
+        },
+        "units": [211000204],
+        "strings": {
+            "names": [
+                "Stone Fall",
+                "墜石",
+                "낙석",
+                "Chute de pierre",
+                "Steinschlag",
+                "Avalancha de rocas"
+            ],
+            "description": [
+                "Boosts damage amount (great)",
+                "提高傷害量(特大)",
+                "피해량 상승(특대)",
+                "Augmente les dégâts infligés (super)",
+                "Erhöht Schaden (sehr hoch)",
+                "Aumenta el daño (muchísimo)"
             ]
         }
     },
@@ -18618,6 +19085,544 @@
             ]
         }
     },
+    "210700001": {
+        "name": "Darklord",
+        "skill_id_old": 210700,
+        "skill_id_new": 705770,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270000600": 20,
+                "270000700": 15,
+                "270000800": 10,
+                "270000900": 4
+            }
+        },
+        "units": [100007705],
+        "strings": {
+            "names": [
+                "Darklord",
+                "常暗",
+                "영원한 어둠",
+                "Seigneur des ténèbres",
+                "Düsterer Herr",
+                "Señor oscuro"
+            ],
+            "description": [
+                "Increases necessary HP (mid)",
+                "增加發動條件的HP值(中)",
+                "발동 조건의 HP 수치 증가(중)",
+                "Augmente les PV nécessaires (moyen)",
+                "Erhöht benötigte LP (mittel)",
+                "Aumenta la VIT necesaria (bastante)"
+            ]
+        }
+    },
+    "210700002": {
+        "name": "Darklord",
+        "skill_id_old": 705770,
+        "skill_id_new": 705780,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270000600": 30,
+                "270000700": 23,
+                "270000800": 15,
+                "270000900": 8,
+                "270001000": 2
+            }
+        },
+        "units": [100007705],
+        "strings": {
+            "names": [
+                "Darklord",
+                "常暗",
+                "영원한 어둠",
+                "Seigneur des ténèbres",
+                "Düsterer Herr",
+                "Señor oscuro"
+            ],
+            "description": [
+                "Boosts HP and ATK when equipped with heavy armor<br>Boosts equipment ATK when armed with a one-handed weapon with the other hand empty<br>",
+                "提高裝備重鎧甲時的HP攻擊<br>裝備單手武器且另一隻手空著的狀態下武具攻擊力提升",
+                "중갑 장착 시 HP와 공격력 상승<br>한손용 무기를 한손에만 장착 시 공격력 상승",
+                "Augmente les PV et l'ATT lorsqu'une armure lourde est équipée<br>Augmente l'ATT de l'équipement lorsqu'une arme à une main est équipée et que l'autre est vide<br>",
+                "Erhöht LP und ANG, wenn mit schwerer Rüstung ausgestattet<br>Erhöht Ausrüstung-ANG, wenn mit einer einhändigen Waffe ausgerüstet und andere Hand leer.<br>",
+                "Aumenta la VIT y el ATQ al llevar armadura pesada<br>Aumenta el ATQ del equipo al rayo un arma en una mano y nada en la otra<br>"
+            ]
+        }
+    },
+    "210710001": {
+        "name": "Dark Punishment",
+        "skill_id_old": 210710,
+        "skill_id_new": 705810,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270002600": 20,
+                "270002700": 15,
+                "270002800": 10,
+                "270002900": 4,
+                "270003000": 2
+            }
+        },
+        "units": [100007705],
+        "strings": {
+            "names": [
+                "Dark Punishment",
+                "暗黑之罪",
+                "암흑의 죄업",
+                "Punition obscure",
+                "Dunkelstrafe",
+                "Castigo tenebroso"
+            ],
+            "description": [
+                "Boosts damage amount (mid)",
+                "提高傷害量(中)",
+                "피해량 상승(중)",
+                "Augmente les dégâts infligés (moyen)",
+                "Erhöht Schaden (mittel)",
+                "Aumenta el daño (bastante)"
+            ]
+        }
+    },
+    "210710002": {
+        "name": "Dark Punishment",
+        "skill_id_old": 705810,
+        "skill_id_new": 705820,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270002600": 30,
+                "270002700": 23,
+                "270002800": 15,
+                "270002900": 8,
+                "270003000": 2
+            }
+        },
+        "units": [100007705],
+        "strings": {
+            "names": [
+                "Dark Punishment",
+                "暗黑之罪",
+                "암흑의 죄업",
+                "Punition obscure",
+                "Dunkelstrafe",
+                "Castigo tenebroso"
+            ],
+            "description": [
+                "Boosts damage amount (mid)<br>Reduces MP consumed (low)",
+                "提高傷害量(中)<br>降低MP消耗(小)",
+                "피해량 상승(중)<br>소비 MP 감소(소)",
+                "Augmente les dégâts infligés (moyen)<br>Réduit les PM consommés (peu)",
+                "Erhöht den Schaden (mittel)<br>Reduziert den MP-Verbrauch (gering)",
+                "Aumenta el daño (bastante)<br>Reduce el consumo de PM (poco)"
+            ]
+        }
+    },
+    "210770001": {
+        "name": "Flamelord",
+        "skill_id_old": 210770,
+        "skill_id_new": 705830,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270002600": 20,
+                "270002700": 15,
+                "270002800": 10,
+                "270002900": 4
+            }
+        },
+        "units": [100008005],
+        "strings": {
+            "names": [
+                "Flamelord",
+                "劫火",
+                "지옥불",
+                "Seigneur des flammes",
+                "Flammenherrscher",
+                "Señor llameante"
+            ],
+            "description": [
+                "Increases necessary HP (mid)",
+                "增加發動條件的HP值(中)",
+                "발동 조건의 HP 수치 증가(중)",
+                "Augmente les PV nécessaires (moyen)",
+                "Erhöht benötigte LP (mittel)",
+                "Aumenta la VIT necesaria (bastante)"
+            ]
+        }
+    },
+    "210770002": {
+        "name": "Flamelord",
+        "skill_id_old": 705830,
+        "skill_id_new": 705840,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270002600": 30,
+                "270002700": 23,
+                "270002800": 15,
+                "270002900": 8,
+                "270003000": 2
+            }
+        },
+        "units": [100008005],
+        "strings": {
+            "names": [
+                "Flamelord",
+                "劫火",
+                "지옥불",
+                "Seigneur des flammes",
+                "Flammenherrscher",
+                "Señor llameante"
+            ],
+            "description": [
+                "Boosts HP and DEF when equipped with heavy armor<br>Enables double axe at the beginning of battle",
+                "提高裝備重鎧甲時的HP防禦<br>戰鬥開始時可使用「雙重斧」",
+                "중갑 장착 시 HP와 방어력 상승<br>전투 시작 시 '더블 액스' 사용 가능",
+                "Augmente les PV et la DEF lorsqu'une armure lourde est équipée<br>Permet d'utiliser Double hache dès le début du combat",
+                "Erhöht LP und ABW, wenn mit schwerer Rüstung ausgestattet<br>Ermöglicht Doppelaxt zu Beginn eines Kampfes",
+                "Aumenta la VIT y la DEF al llevar armadura pesada<br>Aprende Hacha doble al inicio del combate"
+            ]
+        }
+    },
+    "210780001": {
+        "name": "Heavy Stomp",
+        "skill_id_old": 210780,
+        "skill_id_new": 911180,
+        "cost": {
+            "gil": 750000,
+            "materials": {
+                "270002600": 20,
+                "270002700": 15,
+                "270002800": 10,
+                "270002900": 4
+            }
+        },
+        "units": [100008005],
+        "strings": {
+            "names": [
+                "Heavy Stomp",
+                "沉重印章",
+                "무거운 발구르기",
+                "Piétinement",
+                "Schwerer Stampfer",
+                "Pisotón fuerte"
+            ],
+            "description": [
+                "Boosts damage amount (mid)",
+                "提高傷害量(中)",
+                "피해량 상승(중)",
+                "Augmente les dégâts infligés (moyen)",
+                "Erhöht Schaden (mittel)",
+                "Aumenta el daño (bastante)"
+            ]
+        }
+    },
+    "210780002": {
+        "name": "Heavy Stomp",
+        "skill_id_old": 911180,
+        "skill_id_new": 911181,
+        "cost": {
+            "gil": 750000,
+            "materials": {
+                "270002600": 30,
+                "270002700": 23,
+                "270002800": 15,
+                "270002900": 8,
+                "270003000": 2
+            }
+        },
+        "units": [100008005],
+        "strings": {
+            "names": [
+                "Heavy Stomp",
+                "沉重印章",
+                "무거운 발구르기",
+                "Piétinement",
+                "Schwerer Stampfer",
+                "Pisotón fuerte"
+            ],
+            "description": [
+                "Boosts damage amount (mid)",
+                "提高傷害量(中)",
+                "피해량 상승(중)",
+                "Augmente les dégâts infligés (moyen)",
+                "Erhöht Schaden (mittel)",
+                "Aumenta el daño (bastante)"
+            ]
+        }
+    },
+    "210790001": {
+        "name": "Uplift",
+        "skill_id_old": 210790,
+        "skill_id_new": 705870,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004600": 15,
+                "270004700": 8,
+                "270004800": 5,
+                "270004900": 1
+            }
+        },
+        "units": [100008005],
+        "strings": {
+            "names": [
+                "Uplift",
+                "高揚",
+                "고양감",
+                "Soulèvement",
+                "Aufschwung",
+                "Elevamiento"
+            ],
+            "description": [
+                "Boosts chance of enabling full charge stomp when receiving a physical or magic attack (low)",
+                "提高受到物理魔法攻擊時發動「超蓄力印章」的機率(小)",
+                "물리 또는 마법공격을 받으면 '전력 발구르기' 발동 확률 상승(소)",
+                "Augmente les chances de pouvoir utiliser Piétinement maximum après avoir reçu des dégâts physiques ou magiques (peu)",
+                "Erhöht Chance, Voller Stampfer zu ermöglichen, wenn mit phys. oder mag. Angriff attackiert (gering)",
+                "Mayor probabilidad de aprender Pisotón total al recibir daño físico o mágico (poco)"
+            ]
+        }
+    },
+    "210790002": {
+        "name": "Uplift",
+        "skill_id_old": 705870,
+        "skill_id_new": 705880,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004600": 23,
+                "270004700": 12,
+                "270004800": 8,
+                "270004900": 2,
+                "270005000": 1
+            }
+        },
+        "units": [100008005],
+        "strings": {
+            "names": [
+                "Uplift",
+                "高揚",
+                "고양감",
+                "Soulèvement",
+                "Aufschwung",
+                "Elevamiento"
+            ],
+            "description": [
+                "Boosts chance of enabling full charge stomp when receiving a physical or magic attack (low)",
+                "提高受到物理魔法攻擊時發動「超蓄力印章」的機率(小)",
+                "물리 또는 마법공격을 받으면 '전력 발구르기' 발동 확률 상승(소)",
+                "Augmente les chances de pouvoir utiliser Piétinement maximum après avoir reçu des dégâts physiques ou magiques (peu)",
+                "Erhöht Chance, Voller Stampfer zu ermöglichen, wenn mit phys. oder mag. Angriff attackiert (gering)",
+                "Mayor probabilidad de aprender Pisotón total al recibir daño físico o mágico (poco)"
+            ]
+        }
+    },
+    "210870001": {
+        "name": "Earthlord",
+        "skill_id_old": 210870,
+        "skill_id_new": 705890,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270003100": 20,
+                "270003200": 15,
+                "270003300": 10,
+                "270003400": 4
+            }
+        },
+        "units": [100008104],
+        "strings": {
+            "names": [
+                "Earthlord",
+                "王土",
+                "위대한 대지",
+                "Seigneur des terres",
+                "Erdherrscher",
+                "Señor terrestre"
+            ],
+            "description": [
+                "Increases necessary HP (mid)",
+                "增加發動條件的HP值(中)",
+                "발동 조건의 HP 수치 증가(중)",
+                "Augmente les PV nécessaires (moyen)",
+                "Erhöht benötigte LP (mittel)",
+                "Aumenta la VIT necesaria (bastante)"
+            ]
+        }
+    },
+    "210870002": {
+        "name": "Earthlord",
+        "skill_id_old": 705890,
+        "skill_id_new": 705900,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270003100": 30,
+                "270003200": 23,
+                "270003300": 15,
+                "270003400": 8,
+                "270003500": 2
+            }
+        },
+        "units": [100008104],
+        "strings": {
+            "names": [
+                "Earthlord",
+                "王土",
+                "위대한 대지",
+                "Seigneur des terres",
+                "Erdherrscher",
+                "Señor terrestre"
+            ],
+            "description": [
+                "Boosts HP and DEF when equipped with heavy armor<br>Restores HP every turn",
+                "提高裝備重鎧甲時的HP防禦<br>每回合恢復HP",
+                "중갑 장착 시 HP와 방어력 상승<br>매 턴마다 HP 회복",
+                "Augmente les PV et la DEF lorsqu'une armure lourde est équipée<br>Restaure les PV à chaque tour",
+                "Erhöht LP und ABW, wenn mit schwerer Rüstung ausgestattet<br>Regeneriert jede Runde LP",
+                "Aumenta la VIT y la DEF al llevar armadura pesada<br>Recupera VIT cada turno"
+            ]
+        }
+    },
+    "210880001": {
+        "name": "Incinerating Press",
+        "skill_id_old": 210880,
+        "skill_id_new": 705930,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270003100": 15,
+                "270003200": 10,
+                "270003300": 8,
+                "270003400": 2,
+                "270003500": 1
+            }
+        },
+        "units": [100008104],
+        "strings": {
+            "names": [
+                "Incinerating Press",
+                "憤怒一擊",
+                "인플레임 프레스",
+                "Pression incinératrice",
+                "Einäschernde Presse",
+                "Presa incineradora"
+            ],
+            "description": [
+                "Changes damage dealt to be based on DEF",
+                "改以自身「防禦」值來影響造成的傷害",
+                "방어력에 따라 부여하는 피해량 변화",
+                "Les dégâts infligés sont basés sur la DEF du lanceur",
+                "Ändert Schaden abhängig von ABW",
+                "Modifica el daño infligido según la DEF"
+            ]
+        }
+    },
+    "210880002": {
+        "name": "Incinerating Press",
+        "skill_id_old": 705930,
+        "skill_id_new": 705940,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270003100": 30,
+                "270003200": 23,
+                "270003300": 15,
+                "270003400": 8,
+                "270003500": 2
+            }
+        },
+        "units": [100008104],
+        "strings": {
+            "names": [
+                "Incinerating Press",
+                "憤怒一擊",
+                "인플레임 프레스",
+                "Pression incinératrice",
+                "Einäschernde Presse",
+                "Presa incineradora"
+            ],
+            "description": [
+                "Boosts turns in effect (low)",
+                "提高效果回合數(小)",
+                "효과 턴 수 상승(소)",
+                "Augmente le nombre de tours des effets (peu)",
+                "Erhöht Anzahl aktiver Runden (gering)",
+                "Aumenta la duración (poco)"
+            ]
+        }
+    },
+    "210930001": {
+        "name": "Guardian",
+        "skill_id_old": 210930,
+        "skill_id_new": 705910,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270003100": 15,
+                "270003200": 10,
+                "270003300": 8,
+                "270003400": 2
+            }
+        },
+        "units": [100008104],
+        "strings": {
+            "names": [
+                "Guardian",
+                "守衛者",
+                "가디언",
+                "Gardien",
+                "Wächter",
+                "Guardián"
+            ],
+            "description": [
+                "Boosts damage reduction when active (mid)",
+                "提高發動時傷害減少率(中)",
+                "발동 시 피해 감소량 상승 (중)",
+                "Amplifie la réduction de dégâts une fois activé (moyen)",
+                "Erhöht Schadensverringerung, wenn aktiv (mittel)",
+                "Aumenta la reducción de daño al activarse (bastante)"
+            ]
+        }
+    },
+    "210930002": {
+        "name": "Guardian",
+        "skill_id_old": 705910,
+        "skill_id_new": 705920,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270003100": 23,
+                "270003200": 15,
+                "270003300": 12,
+                "270003400": 4,
+                "270003500": 2
+            }
+        },
+        "units": [100008104],
+        "strings": {
+            "names": [
+                "Guardian",
+                "守衛者",
+                "가디언",
+                "Gardien",
+                "Wächter",
+                "Guardián"
+            ],
+            "description": [
+                "Boosts damage reduction when active (mid)",
+                "提高發動時傷害減少率(中)",
+                "발동 시 피해 감소량 상승(중)",
+                "Amplifie la réduction de dégâts une fois activé (moyen)",
+                "Erhöht Schadensverringerung, wenn aktiv (mittel)",
+                "Aumenta la reducción de daño al activarse (bastante)"
+            ]
+        }
+    },
     "210960001": {
         "name": "Overflow",
         "skill_id_old": 210960,
@@ -18748,6 +19753,74 @@
                 "Amplifie l'augmentation de la MAGIE (peu)",
                 "Steigert MAG-Erhöhung (gering)",
                 "Mayor aumento de MAG (poco)"
+            ]
+        }
+    },
+    "211110001": {
+        "name": "Dark Edge",
+        "skill_id_old": 211110,
+        "skill_id_new": 705790,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004600": 15,
+                "270004700": 10,
+                "270004800": 8,
+                "270004900": 2,
+                "270005000": 1
+            }
+        },
+        "units": [100007705],
+        "strings": {
+            "names": [
+                "Dark Edge",
+                "暗黑之刃",
+                "암흑의 칼",
+                "Entaille obscure",
+                "Dunkelschneide",
+                "Filo tenebroso"
+            ],
+            "description": [
+                "Boosts damage amount (mid)",
+                "提高傷害量(中)",
+                "피해량 상승(중)",
+                "Augmente les dégâts infligés (moyen)",
+                "Erhöht Schaden (mittel)",
+                "Aumenta el daño (bastante)"
+            ]
+        }
+    },
+    "211110002": {
+        "name": "Dark Edge",
+        "skill_id_old": 705790,
+        "skill_id_new": 705800,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004600": 23,
+                "270004700": 15,
+                "270004800": 12,
+                "270004900": 4,
+                "270005000": 1
+            }
+        },
+        "units": [100007705],
+        "strings": {
+            "names": [
+                "Dark Edge",
+                "暗黑之刃",
+                "암흑의 칼",
+                "Entaille obscure",
+                "Dunkelschneide",
+                "Filo tenebroso"
+            ],
+            "description": [
+                "Boosts damage amount (mid)",
+                "提高傷害量(中)",
+                "피해량 상승(중)",
+                "Augmente les dégâts infligés (moyen)",
+                "Erhöht Schaden (mittel)",
+                "Aumenta el daño (bastante)"
             ]
         }
     },
@@ -18882,6 +19955,674 @@
                 "Augmente le nombre de coups (moyen)",
                 "Erhöht die Trefferzahl (mittel)",
                 "Aumenta el número de golpes (bastante)"
+            ]
+        }
+    },
+    "211380001": {
+        "name": "Splendor of the Wind",
+        "skill_id_old": 211380,
+        "skill_id_new": 706190,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270001100": 20,
+                "270001200": 15,
+                "270001300": 10,
+                "270001400": 4,
+                "270001500": 2
+            }
+        },
+        "units": [203000105],
+        "strings": {
+            "names": [
+                "Splendor of the Wind",
+                "風之光輝",
+                "바람의 인도",
+                "Splendeur du vent",
+                "Windpracht",
+                "Esplendor de viento"
+            ],
+            "description": [
+                "Adds wind element to own physical attack",
+                "將自身的物理攻擊賦予風屬性",
+                "자신의 물리 공격에 바람속성 부여",
+                "Ajoute l'élément vent aux attaques physiques du lanceur",
+                "Fügt eigenem phys. Angriff Windelement hinzu",
+                "Añade elemento viento a los ataques físicos propios"
+            ]
+        }
+    },
+    "211380002": {
+        "name": "Splendor of the Wind",
+        "skill_id_old": 706190,
+        "skill_id_new": 706200,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270001100": 30,
+                "270001200": 23,
+                "270001300": 15,
+                "270001400": 8,
+                "270001500": 2
+            }
+        },
+        "units": [203000105],
+        "strings": {
+            "names": [
+                "Splendor of the Wind",
+                "風之光輝",
+                "바람의 인도",
+                "Splendeur du vent",
+                "Windpracht",
+                "Esplendor de viento"
+            ],
+            "description": [
+                "Boosts damage amount (low)",
+                "提高傷害量(小)",
+                "피해량 상승(소)",
+                "Augmente les dégâts infligés (peu)",
+                "Erhöht den Schaden (gering)<br>",
+                "Aumenta el daño (poco)"
+            ]
+        }
+    },
+    "211390001": {
+        "name": "Splendor of the Fire",
+        "skill_id_old": 211390,
+        "skill_id_new": 706210,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270002600": 20,
+                "270002700": 15,
+                "270002800": 10,
+                "270002900": 4,
+                "270003000": 2
+            }
+        },
+        "units": [203000105],
+        "strings": {
+            "names": [
+                "Splendor of the Fire",
+                "火之光輝",
+                "불꽃의 인도",
+                "Splendeur du feu",
+                "Feuerpracht",
+                "Esplendor de fuego"
+            ],
+            "description": [
+                "Adds fire element to own physical attack",
+                "將自身的物理攻擊賦予火屬性",
+                "자신의 물리 공격에 불속성 부여",
+                "Ajoute l'élément feu aux attaques physiques du lanceur",
+                "Fügt eigenem phys. Angriff Feuerelement hinzu",
+                "Añade elemento fuego a los ataques físicos propios"
+            ]
+        }
+    },
+    "211390002": {
+        "name": "Splendor of the Fire",
+        "skill_id_old": 706210,
+        "skill_id_new": 706220,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270002600": 30,
+                "270002700": 23,
+                "270002800": 15,
+                "270002900": 8,
+                "270003000": 2
+            }
+        },
+        "units": [203000105],
+        "strings": {
+            "names": [
+                "Splendor of the Fire",
+                "火之光輝",
+                "불꽃의 인도",
+                "Splendeur du feu",
+                "Feuerpracht",
+                "Esplendor de fuego"
+            ],
+            "description": [
+                "Boosts damage amount (low)",
+                "提高傷害量(小)",
+                "피해량 상승(소)",
+                "Augmente les dégâts infligés (peu)",
+                "Erhöht den Schaden (gering)<br>",
+                "Aumenta el daño (poco)"
+            ]
+        }
+    },
+    "211400001": {
+        "name": "Splendor of the Water",
+        "skill_id_old": 211400,
+        "skill_id_new": 706230,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270003600": 20,
+                "270003700": 15,
+                "270003800": 10,
+                "270003900": 4,
+                "270004000": 2
+            }
+        },
+        "units": [203000105],
+        "strings": {
+            "names": [
+                "Splendor of the Water",
+                "水之光輝",
+                "물의 인도",
+                "Splendeur de l'eau",
+                "Wasserpracht",
+                "Esplendor de agua"
+            ],
+            "description": [
+                "Adds water element to own physical attack",
+                "將自身的物理攻擊賦予水屬性",
+                "자신의 물리 공격에 물속성 부여",
+                "Ajoute l'élément eau aux attaques physiques du lanceur",
+                "Fügt eigenem phys. Angriff Wasserelement hinzu",
+                "Añade elemento agua a los ataques físicos propios"
+            ]
+        }
+    },
+    "211400002": {
+        "name": "Splendor of the Water",
+        "skill_id_old": 706230,
+        "skill_id_new": 706240,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270003600": 30,
+                "270003700": 23,
+                "270003800": 15,
+                "270003900": 8,
+                "270004000": 2
+            }
+        },
+        "units": [203000105],
+        "strings": {
+            "names": [
+                "Splendor of the Water",
+                "水之光輝",
+                "물의 인도",
+                "Splendeur de l'eau",
+                "Wasserpracht",
+                "Esplendor de agua"
+            ],
+            "description": [
+                "Boosts damage amount (low)",
+                "提高傷害量(小)",
+                "피해량 상승(소)",
+                "Augmente les dégâts infligés (peu)",
+                "Erhöht den Schaden (gering)<br>",
+                "Aumenta el daño (poco)"
+            ]
+        }
+    },
+    "211410001": {
+        "name": "Splendor of the Earth",
+        "skill_id_old": 211410,
+        "skill_id_new": 706250,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270003100": 20,
+                "270003200": 15,
+                "270003300": 10,
+                "270003400": 4,
+                "270003500": 2
+            }
+        },
+        "units": [203000105],
+        "strings": {
+            "names": [
+                "Splendor of the Earth",
+                "土之光輝",
+                "땅의 인도",
+                "Splendeur de la terre",
+                "Erdpracht",
+                "Esplendor de tierra"
+            ],
+            "description": [
+                "Adds earth element to own physical attack",
+                "將自身的物理攻擊賦予土屬性",
+                "자신의 물리 공격에 땅속성 부여",
+                "Ajoute l'élément terre aux attaques physiques du lanceur",
+                "Fügt eigenem phys. Angriff Erdelement hinzu",
+                "Añade elemento tierra a los ataques físicos propios"
+            ]
+        }
+    },
+    "211410002": {
+        "name": "Splendor of the Earth",
+        "skill_id_old": 706250,
+        "skill_id_new": 706260,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270003100": 30,
+                "270003200": 23,
+                "270003300": 15,
+                "270003400": 8,
+                "270003500": 2
+            }
+        },
+        "units": [203000105],
+        "strings": {
+            "names": [
+                "Splendor of the Earth",
+                "土之光輝",
+                "땅의 인도",
+                "Splendeur de la terre",
+                "Erdpracht",
+                "Esplendor de tierra"
+            ],
+            "description": [
+                "Boosts damage amount (low)",
+                "提高傷害量(小)",
+                "피해량 상승(소)",
+                "Augmente les dégâts infligés (peu)",
+                "Erhöht den Schaden (gering)<br>",
+                "Aumenta el daño (poco)"
+            ]
+        }
+    },
+    "211480001": {
+        "name": "Blessed Crystal",
+        "skill_id_old": 211480,
+        "skill_id_new": 706170,
+        "cost": {
+            "gil": 60000,
+            "materials": {
+                "270004600": 10,
+                "270004700": 5,
+                "270004800": 1
+            }
+        },
+        "units": [203000105],
+        "strings": {
+            "names": [
+                "Blessed Crystal",
+                "水晶加護",
+                "크리스탈의 가호",
+                "Bénédiction du cristal",
+                "Gesegneter Kristall",
+                "Guarda del cristal"
+            ],
+            "description": [
+                "Boosts poison, sleep, confusion, and disease resistance",
+                "提高中毒睡眠混亂生病耐性",
+                "독, 수면, 혼란, 질병 저항력 상승",
+                "Augmente la résistance à poison, sommeil, confusion et maladie",
+                "Erhöht Resistenz gegen Gift, Schlaf, Konfus und Virus",
+                "Aumenta la resistencia al veneno, sueño, confusión y enfermedad"
+            ]
+        }
+    },
+    "211480002": {
+        "name": "Blessed Crystal",
+        "skill_id_old": 706170,
+        "skill_id_new": 706180,
+        "cost": {
+            "gil": 60000,
+            "materials": {
+                "270004600": 15,
+                "270004700": 8,
+                "270004800": 2,
+                "270004900": 1
+            }
+        },
+        "units": [203000105],
+        "strings": {
+            "names": [
+                "Blessed Crystal",
+                "水晶加護",
+                "크리스탈의 가호",
+                "Bénédiction du cristal",
+                "Gesegneter Kristall",
+                "Guarda del cristal"
+            ],
+            "description": [
+                "Boosts ATK, DEF, and SPR when equipped with a sword, helm, or light armor",
+                "提高裝備劍頭盔輕鎧甲時的攻擊防禦精神",
+                "검, 투구, 경갑 장착 시 공격력, 방어력, 정신력 상승",
+                "Augmente l'ATT, la DEF et la PSY quand une épée, un casque ou une armure légère est équipé",
+                "Erhöht ANG, ABW und PSY, wenn mit Schwert, Helm oder leichter Rüstung ausgerüstet",
+                "Aumenta el ATQ, la DEF y el ESP al llevar espada, casco o armadura ligera"
+            ]
+        }
+    },
+    "211550001": {
+        "name": "Lucky Strike",
+        "skill_id_old": 211550,
+        "skill_id_new": 706350,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270001100": 10,
+                "270001200": 8,
+                "270001300": 3
+            }
+        },
+        "units": [203000704],
+        "strings": {
+            "names": [
+                "Lucky Strike",
+                "天運雷鳴",
+                "천운의 천둥소리",
+                "Coup de chance",
+                "Glückstreffer",
+                "Golpe de suerte"
+            ],
+            "description": [
+                "Boosts chance of adding lightning element to physical attack for one ally (mid)",
+                "提高將1名隊員的物理攻擊賦予雷屬性的機率(中)",
+                "아군 1명의 물리공격에 번개속성 부여 확률 상승(중)",
+                "Augmente les chances d'ajouter l'élément foudre aux attaques physiques d'un allié (moyen)",
+                "Erhöht Wahrsch., phys. Angriff Blitzelement hinzuzufügen (mittel)",
+                "Aumenta la probabilidad de añadir elemento rayo al ataque físico de un aliado (bastante)"
+            ]
+        }
+    },
+    "211550002": {
+        "name": "Lucky Strike",
+        "skill_id_old": 706350,
+        "skill_id_new": 706360,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270001100": 15,
+                "270001200": 12,
+                "270001300": 5,
+                "270001400": 1
+            }
+        },
+        "units": [203000704],
+        "strings": {
+            "names": [
+                "Lucky Strike",
+                "天運雷鳴",
+                "천운의 천둥소리",
+                "Coup de chance",
+                "Glückstreffer",
+                "Golpe de suerte"
+            ],
+            "description": [
+                "Boosts chance of adding lightning element to physical attack for one ally (high)",
+                "提高將1名隊員的物理攻擊賦予雷屬性的機率(大)",
+                "아군 1명의 물리공격에 번개속성 부여 확률 상승(대)",
+                "Augmente les chances d'ajouter l'élément foudre aux attaques physiques d'un allié (beaucoup)",
+                "Erhöht Wahrsch., dem phys. Angriff einees Verb. Blitzelement hinzuzufügen (mittel)",
+                "Aumenta la probabilidad de añadir elemento rayo al ataque físico de un aliado (mucho)"
+            ]
+        }
+    },
+    "211560001": {
+        "name": "Thunder Guide",
+        "skill_id_old": 211560,
+        "skill_id_new": 706330,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004600": 15,
+                "270004700": 10,
+                "270004800": 8,
+                "270004900": 2
+            }
+        },
+        "units": [203000704],
+        "strings": {
+            "names": [
+                "Thunder Guide",
+                "雷霆守護",
+                "선더 가이드",
+                "Guide tonnerre",
+                "Leitender Donner",
+                "Guía del trueno"
+            ],
+            "description": [
+                "Boosts turns in effect (mid)",
+                "提高效果回合數(中)",
+                "효과 턴 수 상승(중)",
+                "Augmente le nombre de tours des effets (moyen)",
+                "Erhöht Anzahl aktiver Runden (mittel)",
+                "Aumenta la duración (bastante)"
+            ]
+        }
+    },
+    "211560002": {
+        "name": "Thunder Guide",
+        "skill_id_old": 706330,
+        "skill_id_new": 706340,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004600": 23,
+                "270004700": 15,
+                "270004800": 12,
+                "270004900": 4,
+                "270005000": 2
+            }
+        },
+        "units": [203000704],
+        "strings": {
+            "names": [
+                "Thunder Guide",
+                "雷霆守護",
+                "선더 가이드",
+                "Guide tonnerre",
+                "Leitender Donner",
+                "Guía del trueno"
+            ],
+            "description": [
+                "Boosts damage amount (mid)",
+                "提高傷害量(中)",
+                "피해량 상승(중)",
+                "Augmente les dégâts infligés (moyen)",
+                "Erhöht Schaden (mittel)",
+                "Aumenta el daño (bastante)"
+            ]
+        }
+    },
+    "211580001": {
+        "name": "Man on a Mission",
+        "skill_id_old": 211580,
+        "skill_id_new": 706310,
+        "cost": {
+            "gil": 60000,
+            "materials": {
+                "270004100": 10,
+                "270004200": 5,
+                "270004300": 1
+            }
+        },
+        "units": [203000704],
+        "strings": {
+            "names": [
+                "Man on a Mission",
+                "使命在身",
+                "사명을 지닌 자",
+                "Homme en mission",
+                "Ein Mann, ein Auftrag",
+                "Hombre con una misión"
+            ],
+            "description": [
+                "Boosts MP",
+                "提高MP",
+                "MP 상승",
+                "Augmente les PM",
+                "Erhöht MP",
+                "Aumenta los PM"
+            ]
+        }
+    },
+    "211580002": {
+        "name": "Man on a Mission",
+        "skill_id_old": 706310,
+        "skill_id_new": 706320,
+        "cost": {
+            "gil": 60000,
+            "materials": {
+                "270004100": 15,
+                "270004200": 8,
+                "270004300": 2,
+                "270004400": 1
+            }
+        },
+        "units": [203000704],
+        "strings": {
+            "names": [
+                "Man on a Mission",
+                "使命在身",
+                "사명을 지닌 자",
+                "Homme en mission",
+                "Ein Mann, ein Auftrag",
+                "Hombre con una misión"
+            ],
+            "description": [
+                "Boosts HP and lightning resistance",
+                "提高HP雷屬性耐性",
+                "HP와 번개속성 저항력 상승",
+                "Augmente les PV et la résistance à la foudre",
+                "Erhöht LP und Blitzresistenz",
+                "Aumenta la VIT y la resistencia al rayo"
+            ]
+        }
+    },
+    "211600001": {
+        "name": "Maiden of Water",
+        "skill_id_old": 211600,
+        "skill_id_new": 706270,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004100": 15,
+                "270004200": 8,
+                "270004300": 5,
+                "270004400": 1
+            }
+        },
+        "units": [203000904],
+        "strings": {
+            "names": [
+                "Maiden of Water",
+                "水之巫女",
+                "물의 무녀",
+                "Prêtresse des eaux",
+                "Wassermaid",
+                "Doncella del agua"
+            ],
+            "description": [
+                "Boosts water resistance increase (great)",
+                "提高水屬性耐性增加量(特大)",
+                "물속성 저항력 상승량 상승(특대)",
+                "Amplifie l'augmentation de la résistance à l'eau (super)",
+                "Steigert Erhöhung von Wasserresistenz (sehr hoch)",
+                "Mayor aumento de la resistencia al agua (muchísimo)"
+            ]
+        }
+    },
+    "211600002": {
+        "name": "Maiden of Water",
+        "skill_id_old": 706270,
+        "skill_id_new": 706280,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004100": 23,
+                "270004200": 12,
+                "270004300": 8,
+                "270004400": 2,
+                "270004500": 1
+            }
+        },
+        "units": [203000904],
+        "strings": {
+            "names": [
+                "Maiden of Water",
+                "水之巫女",
+                "물의 무녀",
+                "Prêtresse des eaux",
+                "Wassermaid",
+                "Doncella del agua"
+            ],
+            "description": [
+                "Boosts HP and SPR<br>Restores MP every turn",
+                "提高HP精神<br>每回合恢復MP",
+                "HP와 정신력 상승<br>매 턴마다 MP 회복",
+                "Augmente les PV et la PSY<br>Restaure des PM à chaque tour",
+                "Erhöht LP und PSY<br>Stellt jede Runde MP wieder her",
+                "Aumenta la VIT y el ESP<br>Recupera PM cada turno"
+            ]
+        }
+    },
+    "211630001": {
+        "name": "Noble Dedication",
+        "skill_id_old": 211630,
+        "skill_id_new": 706290,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270003600": 15,
+                "270003700": 10,
+                "270003800": 8,
+                "270003900": 2
+            }
+        },
+        "units": [203000904],
+        "strings": {
+            "names": [
+                "Noble Dedication",
+                "可貴獻身",
+                "존귀한 헌신",
+                "Noble dévouement",
+                "Noble Hingabe",
+                "Dedicación noble"
+            ],
+            "description": [
+                "Boosts turns in effect (great)",
+                "提高效果回合數(特大)",
+                "효과 턴 수 상승(특대)",
+                "Augmente le nombre de tours des effets (super)",
+                "Erhöht Anzahl aktiver Runden (sehr hoch)",
+                "Aumenta la duración (muchísimo)"
+            ]
+        }
+    },
+    "211630002": {
+        "name": "Noble Dedication",
+        "skill_id_old": 706290,
+        "skill_id_new": 706300,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270003600": 23,
+                "270003700": 15,
+                "270003800": 12,
+                "270003900": 4,
+                "270004000": 2
+            }
+        },
+        "units": [203000904],
+        "strings": {
+            "names": [
+                "Noble Dedication",
+                "可貴獻身",
+                "존귀한 헌신",
+                "Noble dévouement",
+                "Noble Hingabe",
+                "Dedicación noble"
+            ],
+            "description": [
+                "Boosts turns in effect (great)<br>Boosts MP recovery amount (high)",
+                "提高效果回合數(特大)<br>提高恢復量(大)",
+                "효과 턴 수 상승(특대)<br>MP 회복량 상승(대)",
+                "Augmente le nombre de tours des effets (super)<br>Augmente le taux de récupération des PM (beaucoup)",
+                "Erhöht Anzahl aktiver Runden (sehr hoch)<br>Erhöht Regenerationseffekt (hoch)",
+                "Aumenta la duración (muchísimo)<br>Aumenta la recuperación de PM (mucho)"
             ]
         }
     },
@@ -19049,7 +20790,7 @@
                 "提高效果回合數(小)",
                 "효과 턴 수 상승(소)",
                 "Augmente le nombre de tours des effets (peu)",
-                "Erhöht den Effekt über die Runden (gering)",
+                "Erhöht Anzahl aktiver Runden (gering)",
                 "Aumenta la duración (poco)"
             ]
         }
@@ -19491,6 +21232,939 @@
             ]
         }
     },
+    "212090001": {
+        "name": "Divine Shot",
+        "skill_id_old": 212090,
+        "skill_id_new": 705990,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270000100": 20,
+                "270000200": 15,
+                "270000300": 10,
+                "270000400": 4,
+                "270000500": 1
+            }
+        },
+        "units": [100008205],
+        "strings": {
+            "names": [
+                "Divine Shot",
+                "聖徒射擊",
+                "성스러운 사격",
+                "Tir divin",
+                "Göttlicher Schuss",
+                "Disparo divino"
+            ],
+            "description": [
+                "Boosts damage amount (mid)",
+                "提高傷害量(中)",
+                "피해량 상승(중)",
+                "Augmente les dégâts infligés (moyen)",
+                "Erhöht Schaden (mittel)",
+                "Aumenta el daño (bastante)"
+            ]
+        }
+    },
+    "212090002": {
+        "name": "Divine Shot",
+        "skill_id_old": 705990,
+        "skill_id_new": 706000,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270000100": 30,
+                "270000200": 23,
+                "270000300": 15,
+                "270000400": 8,
+                "270000500": 2
+            }
+        },
+        "units": [100008205],
+        "strings": {
+            "names": [
+                "Divine Shot",
+                "聖徒射擊",
+                "성스러운 사격",
+                "Tir divin",
+                "Göttlicher Schuss",
+                "Disparo divino"
+            ],
+            "description": [
+                "Boosts damage amount (great)",
+                "提高傷害量(特大)",
+                "피해량 상승(특대)",
+                "Augmente les dégâts infligés (super)",
+                "Erhöht Schaden (sehr hoch)",
+                "Aumenta el daño (muchísimo)"
+            ]
+        }
+    },
+    "212130001": {
+        "name": "Splendor",
+        "skill_id_old": 212130,
+        "skill_id_new": 705950,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270000100": 20,
+                "270000200": 15,
+                "270000300": 10,
+                "270000400": 4
+            }
+        },
+        "units": [100008205],
+        "strings": {
+            "names": [
+                "Splendor",
+                "光輝",
+                "찬란한 빛",
+                "Splendeur",
+                "Pracht",
+                "Esplendor"
+            ],
+            "description": [
+                "Increases necessary HP (mid)",
+                "增加發動條件的HP值(中)",
+                "발동 조건의 HP 수치 증가(중)",
+                "Augmente les PV nécessaires (moyen)",
+                "Erhöht benötigte LP (mittel)",
+                "Aumenta la VIT necesaria (bastante)"
+            ]
+        }
+    },
+    "212130002": {
+        "name": "Splendor",
+        "skill_id_old": 705950,
+        "skill_id_new": 705960,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270000100": 30,
+                "270000200": 23,
+                "270000300": 15,
+                "270000400": 8,
+                "270000500": 2
+            }
+        },
+        "units": [100008205],
+        "strings": {
+            "names": [
+                "Splendor",
+                "光輝",
+                "찬란한 빛",
+                "Splendeur",
+                "Pracht",
+                "Esplendor"
+            ],
+            "description": [
+                "Boosts ATK and MAG when equipped with heavy armor<br>Enables saint buster at the beginning of battle for 1 turn",
+                "提高裝備重鎧甲時的攻擊魔力<br>戰鬥開始的1回合內可使用「神聖破壞」",
+                "중갑 장착 시 공격력과 마력 상승<br>전투 시작 시 1턴 동안 '세인트 버스터' 사용 가능",
+                "Augmente l'ATT et la MAGIE lorsqu'une armure lourde est équipée<br>Permet d'utiliser Casseur céleste dès le début du combat pendant 1 tour",
+                "Erhöht ANG und MAG, wenn mit schwerer Rüstung ausgestattet<br>Ermöglicht zu Beginn eines Kampfes eine Runde lang Heiligenjäger",
+                "Aumenta el ATQ y la MAG al llevar armadura pesada<br>Aprende Destructor santo al inicio del combate durante un turno"
+            ]
+        }
+    },
+    "212170001": {
+        "name": "License to Kill",
+        "skill_id_old": 212170,
+        "skill_id_new": 705970,
+        "cost": {
+            "gil": 750000,
+            "materials": {
+                "270004600": 15,
+                "270004700": 10,
+                "270004800": 8,
+                "270004900": 2,
+                "270005000": 1
+            }
+        },
+        "units": [100008205],
+        "strings": {
+            "names": [
+                "License to Kill",
+                "殺戮之光",
+                "죽음의 빛",
+                "Permis de tuer",
+                "Lizenz zum Töten",
+                "Licencia para matar"
+            ],
+            "description": [
+                "Boosts damage increase (low)",
+                "提高傷害增加量(小)",
+                "피해 상승량 상승(소)",
+                "Amplifie l'augmentation des dégâts (peu)",
+                "Steigert Schadenserhöhung (gering)",
+                "Aumenta el daño (poco)"
+            ]
+        }
+    },
+    "212170002": {
+        "name": "License to Kill",
+        "skill_id_old": 705970,
+        "skill_id_new": 705980,
+        "cost": {
+            "gil": 750000,
+            "materials": {
+                "270004600": 23,
+                "270004700": 15,
+                "270004800": 12,
+                "270004900": 4,
+                "270005000": 2
+            }
+        },
+        "units": [100008205],
+        "strings": {
+            "names": [
+                "License to Kill",
+                "殺戮之光",
+                "죽음의 빛",
+                "Permis de tuer",
+                "Lizenz zum Töten",
+                "Licencia para matar"
+            ],
+            "description": [
+                "Boosts damage increase (low)",
+                "提高傷害增加量(小)",
+                "피해 상승량 상승(소)",
+                "Amplifie l'augmentation des dégâts (peu)",
+                "Steigert Schadenserhöhung (gering)",
+                "Aumenta el daño (poco)"
+            ]
+        }
+    },
+    "212200001": {
+        "name": "Spineshatter Dive 1",
+        "skill_id_old": 212200,
+        "skill_id_new": 706030,
+        "cost": {
+            "gil": 15000,
+            "materials": {
+                "270001100": 6,
+                "270001200": 1
+            }
+        },
+        "units": [100007804],
+        "strings": {
+            "names": [
+                "Spineshatter Dive 1",
+                "破碎衝一式",
+                "척추 강타 1식",
+                "Piqué brise-échine style 1",
+                "Wirbelsprenger 1",
+                "Rompespaldas 1"
+            ],
+            "description": [
+                "Boosts damage amount (mid)",
+                "提高傷害量(中)",
+                "피해량 상승(중)",
+                "Augmente les dégâts infligés (moyen)",
+                "Erhöht Schaden (mittel)",
+                "Aumenta el daño (bastante)"
+            ]
+        }
+    },
+    "212200002": {
+        "name": "Spineshatter Dive 1",
+        "skill_id_old": 706030,
+        "skill_id_new": 706040,
+        "cost": {
+            "gil": 15000,
+            "materials": {
+                "270001100": 10,
+                "270001200": 2
+            }
+        },
+        "units": [100007804],
+        "strings": {
+            "names": [
+                "Spineshatter Dive 1",
+                "破碎衝一式",
+                "척추 강타 1식",
+                "Piqué brise-échine style 1",
+                "Wirbelsprenger 1",
+                "Rompespaldas 1"
+            ],
+            "description": [
+                "Boosts damage amount (mid)",
+                "提高傷害量(中)",
+                "피해량 상승(중)",
+                "Augmente les dégâts infligés (moyen)",
+                "Erhöht den Schaden (mittel)",
+                "Aumenta el daño (bastante)"
+            ]
+        }
+    },
+    "212210001": {
+        "name": "Spineshatter Dive 2",
+        "skill_id_old": 212210,
+        "skill_id_new": 706050,
+        "cost": {
+            "gil": 60000,
+            "materials": {
+                "270001100": 7,
+                "270001200": 4,
+                "270001300": 2
+            }
+        },
+        "units": [100007804],
+        "strings": {
+            "names": [
+                "Spineshatter Dive 2",
+                "破碎衝二式",
+                "척추 강타 2식",
+                "Piqué brise-échine style 2",
+                "Wirbelsprenger 2",
+                "Rompespaldas 2"
+            ],
+            "description": [
+                "Boosts damage amount (mid)",
+                "提高傷害量(中)",
+                "피해량 상승(중)",
+                "Augmente les dégâts infligés (moyen)",
+                "Erhöht Schaden (mittel)",
+                "Aumenta el daño (bastante)"
+            ]
+        }
+    },
+    "212210002": {
+        "name": "Spineshatter Dive 2",
+        "skill_id_old": 706050,
+        "skill_id_new": 706060,
+        "cost": {
+            "gil": 60000,
+            "materials": {
+                "270001100": 11,
+                "270001200": 6,
+                "270001300": 4
+            }
+        },
+        "units": [100007804],
+        "strings": {
+            "names": [
+                "Spineshatter Dive 2",
+                "破碎衝二式",
+                "척추 강타 2식",
+                "Piqué brise-échine style 2",
+                "Wirbelsprenger 2",
+                "Rompespaldas 2"
+            ],
+            "description": [
+                "Boosts damage amount (mid)",
+                "提高傷害量(中)",
+                "피해량 상승(중)",
+                "Augmente les dégâts infligés (moyen)",
+                "Erhöht den Schaden (mittel)",
+                "Aumenta el daño (bastante)"
+            ]
+        }
+    },
+    "212220001": {
+        "name": "Spineshatter Dive 3",
+        "skill_id_old": 212220,
+        "skill_id_new": 706070,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270001100": 7,
+                "270001200": 5,
+                "270001300": 4,
+                "270001400": 1
+            }
+        },
+        "units": [100007804],
+        "strings": {
+            "names": [
+                "Spineshatter Dive 3",
+                "破碎衝三式",
+                "척추 강타 3식",
+                "Piqué brise-échine style 3",
+                "Wirbelsprenger 3",
+                "Rompespaldas 3"
+            ],
+            "description": [
+                "Boosts damage amount (mid)",
+                "提高傷害量(中)",
+                "피해량 상승(중)",
+                "Augmente les dégâts infligés (moyen)",
+                "Erhöht Schaden (mittel)",
+                "Aumenta el daño (bastante)"
+            ]
+        }
+    },
+    "212220002": {
+        "name": "Spineshatter Dive 3",
+        "skill_id_old": 706070,
+        "skill_id_new": 706080,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270001100": 11,
+                "270001200": 7,
+                "270001300": 6,
+                "270001400": 1,
+                "270001500": 1
+            }
+        },
+        "units": [100007804],
+        "strings": {
+            "names": [
+                "Spineshatter Dive 3",
+                "破碎衝三式",
+                "척추 강타 3식",
+                "Piqué brise-échine style 3",
+                "Wirbelsprenger 3",
+                "Rompespaldas 3"
+            ],
+            "description": [
+                "Boosts damage amount (mid)",
+                "提高傷害量(中)",
+                "피해량 상승(중)",
+                "Augmente les dégâts infligés (moyen)",
+                "Erhöht den Schaden (mittel)",
+                "Aumenta el daño (bastante)"
+            ]
+        }
+    },
+    "212230001": {
+        "name": "Spineshatter Dive 0",
+        "skill_id_old": 212230,
+        "skill_id_new": 706090,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270001100": 15,
+                "270001200": 10,
+                "270001300": 8,
+                "270001400": 2,
+                "270001500": 1
+            }
+        },
+        "units": [100007804],
+        "strings": {
+            "names": [
+                "Spineshatter Dive 0",
+                "破碎衝零式",
+                "척추 강타 0식",
+                "Piqué brise-échine style 0",
+                "Wirbelsprenger 0",
+                "Rompespaldas 0"
+            ],
+            "description": [
+                "Boosts damage amount (mid)",
+                "提高傷害量(中)",
+                "피해량 상승(중)",
+                "Augmente les dégâts infligés (moyen)",
+                "Erhöht Schaden (mittel)",
+                "Aumenta el daño (bastante)"
+            ]
+        }
+    },
+    "212230002": {
+        "name": "Spineshatter Dive 0",
+        "skill_id_old": 706090,
+        "skill_id_new": 706100,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270001100": 23,
+                "270001200": 15,
+                "270001300": 12,
+                "270001400": 4,
+                "270001500": 1
+            }
+        },
+        "units": [100007804],
+        "strings": {
+            "names": [
+                "Spineshatter Dive 0",
+                "破碎衝零式",
+                "척추 강타 0식",
+                "Piqué brise-échine style 0",
+                "Wirbelsprenger 0",
+                "Rompespaldas 0"
+            ],
+            "description": [
+                "Boosts damage amount (great)",
+                "提高傷害量(特大)",
+                "피해량 상승(특대)",
+                "Augmente les dégâts infligés (super)",
+                "Erhöht den Schaden (sehr hoch)",
+                "Aumenta el daño (muchísimo)"
+            ]
+        }
+    },
+    "212260001": {
+        "name": "Heavenlord",
+        "skill_id_old": 212260,
+        "skill_id_new": 706010,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270001100": 20,
+                "270001200": 15,
+                "270001300": 10,
+                "270001400": 4
+            }
+        },
+        "units": [100007804],
+        "strings": {
+            "names": [
+                "Heavenlord",
+                "天風",
+                "하늘바람",
+                "Seigneur des Cieux",
+                "Himmlischer",
+                "Señor celestial"
+            ],
+            "description": [
+                "Increases necessary HP (mid)",
+                "增加發動條件的HP值(中)",
+                "발동 조건의 HP 수치 증가(중)",
+                "Augmente les PV nécessaires (moyen)",
+                "Erhöht benötigte LP (mittel)",
+                "Aumenta la VIT necesaria (bastante)"
+            ]
+        }
+    },
+    "212260002": {
+        "name": "Heavenlord",
+        "skill_id_old": 706010,
+        "skill_id_new": 706020,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270001100": 30,
+                "270001200": 23,
+                "270001300": 15,
+                "270001400": 8,
+                "270001500": 2
+            }
+        },
+        "units": [100007804],
+        "strings": {
+            "names": [
+                "Heavenlord",
+                "天風",
+                "하늘바람",
+                "Seigneur des Cieux",
+                "Himmlischer",
+                "Señor celestial"
+            ],
+            "description": [
+                "Boosts physical damage against beast, aquatic, human, stone, and plant monsters<br>Boosts HP and ATK when equipped with heavy armor",
+                "物理攻擊時提高對野獸人形水生岩石植物系魔物的傷害<br>提高裝備重鎧甲時的HP攻擊",
+                "물리공격 시 야수, 수중, 인간, 암석, 식물형 마물에게 부여하는 피해량 상승<br>중갑 장착 시 HP와 공격력 상승",
+                "Augmente les dégâts physiques infligés aux bêtes, aux monstres aquatiques, aux humains, aux monstres de type \"Pierre\" et au monstres de type \"Plante\"<br>Augmente les PV et l'ATT lorsqu'une armure lourde est équipée",
+                "Erhöht phys. Schaden gegen Bestien, Wassermonster, Menschen, Stein- und Pflanzenmonster<br>Erhöht LP und ANG, wenn mit schwerer Rüstung ausgerüstet",
+                "Aumenta el daño físico contra bestias, acuáticos, humanos, pétreos y plantas<br>Aumenta la VIT y el ATQ al llevar armadura pesada"
+            ]
+        }
+    },
+    "212290001": {
+        "name": "Mind Blast",
+        "skill_id_old": 212290,
+        "skill_id_new": 706130,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270000600": 15,
+                "270000700": 8,
+                "270000800": 5,
+                "270000900": 1
+            }
+        },
+        "units": [100007904],
+        "strings": {
+            "names": [
+                "Mind Blast",
+                "精神衝擊",
+                "정신 파괴",
+                "Rayon psychique",
+                "Psychoschlag",
+                "Estallido mental"
+            ],
+            "description": [
+                "Reduce SPR",
+                "降低精神",
+                "정신력 감소",
+                "Réduit la PSY",
+                "Verringert PSY",
+                "Reduce el ESP"
+            ]
+        }
+    },
+    "212290002": {
+        "name": "Mind Blast",
+        "skill_id_old": 706130,
+        "skill_id_new": 706140,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270000600": 23,
+                "270000700": 12,
+                "270000800": 8,
+                "270000900": 2,
+                "270001000": 1
+            }
+        },
+        "units": [100007904],
+        "strings": {
+            "names": [
+                "Mind Blast",
+                "精神衝擊",
+                "정신 파괴",
+                "Rayon psychique",
+                "Psychoschlag",
+                "Estallido mental"
+            ],
+            "description": [
+                "Changes to psycho skewer next turn",
+                "下一回合變化為「瘋狂穿刺」",
+                "다음 턴에 '사이코스큐어'로 변화",
+                "Change en Empalement psychotique au tour suivant",
+                "Wechselt in der folgenden Runde zu Psycho-Spieß",
+                "Cambia a Pincho psicopático al turno siguiente"
+            ]
+        }
+    },
+    "212300001": {
+        "name": "Forbidden Arts",
+        "skill_id_old": 212300,
+        "skill_id_new": 706150,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004100": 15,
+                "270004200": 10,
+                "270004300": 8,
+                "270004400": 2,
+                "270004500": 1
+            }
+        },
+        "units": [100007904],
+        "strings": {
+            "names": [
+                "Forbidden Arts",
+                "禁術",
+                "금지된 술법",
+                "Arts interdits",
+                "Verbotene Künste",
+                "Artes prohibidas"
+            ],
+            "description": [
+                "Boosts turns in effect (mid)",
+                "提高效果回合數(中)",
+                "효과 턴 수 상승(중)",
+                "Augmente le nombre de tours des effets (moyen)",
+                "Erhöht Anzahl aktiver Runden (mittel)",
+                "Aumenta la duración (bastante)"
+            ]
+        }
+    },
+    "212300002": {
+        "name": "Forbidden Arts",
+        "skill_id_old": 706150,
+        "skill_id_new": 706160,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270004100": 23,
+                "270004200": 15,
+                "270004300": 12,
+                "270004400": 4,
+                "270004500": 1
+            }
+        },
+        "units": [100007904],
+        "strings": {
+            "names": [
+                "Forbidden Arts",
+                "禁術",
+                "금지된 술법",
+                "Arts interdits",
+                "Verbotene Künste",
+                "Artes prohibidas"
+            ],
+            "description": [
+                "Boosts turns in effect (great)",
+                "提高效果回合數(特大)",
+                "효과 턴 수 상승(특대)",
+                "Augmente le nombre de tours des effets (super)",
+                "Erhöht Anzahl aktiver Runden (sehr hoch)",
+                "Aumenta la duración (muchísimo)"
+            ]
+        }
+    },
+    "212310001": {
+        "name": "Waterlord",
+        "skill_id_old": 212310,
+        "skill_id_new": 706110,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270003600": 20,
+                "270003700": 15,
+                "270003800": 10,
+                "270003900": 4
+            }
+        },
+        "units": [100007904],
+        "strings": {
+            "names": [
+                "Waterlord",
+                "水華",
+                "물꽃",
+                "Seigneur des Mers",
+                "Wasserherrscher",
+                "Señor marino"
+            ],
+            "description": [
+                "Increases necessary HP (mid)",
+                "增加發動條件的HP值(中)",
+                "발동 조건의 HP 수치 증가(중)",
+                "Augmente les PV nécessaires (moyen)",
+                "Erhöht benötigte LP (mittel)",
+                "Aumenta la VIT necesaria (bastante)"
+            ]
+        }
+    },
+    "212310002": {
+        "name": "Waterlord",
+        "skill_id_old": 706110,
+        "skill_id_new": 706120,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270003600": 30,
+                "270003700": 23,
+                "270003800": 15,
+                "270003900": 8,
+                "270004000": 2
+            }
+        },
+        "units": [100007904],
+        "strings": {
+            "names": [
+                "Waterlord",
+                "水華",
+                "물꽃",
+                "Seigneur des Mers",
+                "Wasserherrscher",
+                "Señor marino"
+            ],
+            "description": [
+                "Boosts MAG and SPR when equipped with heavy armor<br>Chance of activating water's revenge when receiving a physical attack",
+                "提高裝備重鎧甲時的魔力精神<br>受到物理攻擊時一定機率發動「水的報復」",
+                "중갑 장착 시 마력과 정신력 상승<br>물리공격을 받으면 일정 확률로 '물의 보복' 발동",
+                "Augmente la MAGIE et la PSY lorsqu'une armure lourde est équipée<br>Chance d'activer Vengeance de l'eau après avoir subi une attaque physique",
+                "Erhöht MAG und PSY, wenn mit schweer Rüstung ausgestattet<br>Chance, \"Vergeltung des Wassers\" zu aktivieren, wenn mit phys. Angriff attackiert.",
+                "Aumenta la MAG y el ESP al llevar armadura pesada<br>Probabilidad de aprender Venganza acuática al recibir un ataque físico"
+            ]
+        }
+    },
+    "212490001": {
+        "name": "Thousand Thrusts",
+        "skill_id_old": 212490,
+        "skill_id_new": 706390,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270002600": 15,
+                "270002700": 10,
+                "270002800": 8,
+                "270002900": 2,
+                "270003000": 1
+            }
+        },
+        "units": [100009004],
+        "strings": {
+            "names": [
+                "Thousand Thrusts",
+                "千烈槍",
+                "천열의 창",
+                "Mille coups",
+                "Tausend Stöße",
+                "Mil estoques"
+            ],
+            "description": [
+                "Boosts damage amount (mid)",
+                "提高傷害量(中)",
+                "피해량 상승(중)",
+                "Augmente les dégâts infligés (moyen)",
+                "Erhöht den Schaden (mittel)",
+                "Aumenta el daño (bastante)"
+            ]
+        }
+    },
+    "212490002": {
+        "name": "Thousand Thrusts",
+        "skill_id_old": 706390,
+        "skill_id_new": 706400,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270002600": 23,
+                "270002700": 15,
+                "270002800": 12,
+                "270002900": 4,
+                "270003000": 1
+            }
+        },
+        "units": [100009004],
+        "strings": {
+            "names": [
+                "Thousand Thrusts",
+                "千烈槍",
+                "천열의 창",
+                "Mille coups",
+                "Tausend Stöße",
+                "Mil estoques"
+            ],
+            "description": [
+                "Boosts damage amount (high)",
+                "提高傷害量(大)",
+                "피해량 상승(대)",
+                "Augmente les dégâts infligés (beaucoup)",
+                "Erhöht den Schaden (hoch)",
+                "Aumenta el daño (mucho)"
+            ]
+        }
+    },
+    "212540001": {
+        "name": "Excitement",
+        "skill_id_old": 212540,
+        "skill_id_new": 706410,
+        "cost": {
+            "gil": 60000,
+            "materials": {
+                "270004100": 10,
+                "270004200": 5,
+                "270004300": 1
+            }
+        },
+        "units": [100009004],
+        "strings": {
+            "names": [
+                "Excitement",
+                "激動",
+                "격앙",
+                "Excitation",
+                "Aufregung",
+                "Excitación"
+            ],
+            "description": [
+                "Boosts burst stones fill rate increase (low)",
+                "提高極限技石對極限技槽的增加量(小)",
+                "LB 게이지 효율 상승량 상승(소)",
+                "Augmente le taux de remplissage des pierres de limite (peu)",
+                "Verstärkt den Effekt von Limitsteinen (gering)",
+                "Las piedras de estallido recuperarán más EL (poco)"
+            ]
+        }
+    },
+    "212540002": {
+        "name": "Excitement",
+        "skill_id_old": 706410,
+        "skill_id_new": 706420,
+        "cost": {
+            "gil": 60000,
+            "materials": {
+                "270004100": 15,
+                "270004200": 8,
+                "270004300": 2,
+                "270004400": 1
+            }
+        },
+        "units": [100009004],
+        "strings": {
+            "names": [
+                "Excitement",
+                "激動",
+                "격앙",
+                "Excitation",
+                "Aufregung",
+                "Excitación"
+            ],
+            "description": [
+                "Boosts burst stones fill rate increase (mid)",
+                "提高極限技石對極限技槽的增加量(中)",
+                "LB 게이지 효율 상승량 상승(중)",
+                "Augmente le taux de remplissage des pierres de limite (moyen)",
+                "Verstärkt den Effekt von Limitsteinen (mittel)",
+                "Las piedras de estallido recuperarán más EL (bastante)"
+            ]
+        }
+    },
+    "212560001": {
+        "name": "Wind Spear Mastery",
+        "skill_id_old": 212560,
+        "skill_id_new": 706370,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004600": 15,
+                "270004700": 8,
+                "270004800": 5,
+                "270004900": 1
+            }
+        },
+        "units": [100009004],
+        "strings": {
+            "names": [
+                "Wind Spear Mastery",
+                "風槍奧義",
+                "바람의 창의 비법",
+                "Maîtrise des lances de vent",
+                "Windspeermeister",
+                "Maestría de lanza siroco"
+            ],
+            "description": [
+                "Boosts wind resistance increase (high)",
+                "提高風屬性耐性增加量(大)",
+                "바람속성 저항력 상승량 상승(대)",
+                "Amplifie l'augmentation de la résistance au vent (beaucoup)",
+                "Steigert Erhöhung von Windresistenz (hoch)",
+                "Mayor aumento de la resistencia al viento (mucho)"
+            ]
+        }
+    },
+    "212560002": {
+        "name": "Wind Spear Mastery",
+        "skill_id_old": 706370,
+        "skill_id_new": 706380,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004600": 23,
+                "270004700": 12,
+                "270004800": 8,
+                "270004900": 2,
+                "270005000": 1
+            }
+        },
+        "units": [100009004],
+        "strings": {
+            "names": [
+                "Wind Spear Mastery",
+                "風槍奧義",
+                "바람의 창의 비법",
+                "Maîtrise des lances de vent",
+                "Windspeermeister",
+                "Maestría de lanza siroco"
+            ],
+            "description": [
+                "Boosts ATK increase (great)",
+                "提高攻擊增加量(特大)",
+                "공격력 상승량 상승(특대)",
+                "Amplifie l'augmentation de l'ATT (super)",
+                "Steigert ANG-Erhöhung (sehr hoch)",
+                "Mayor aumento de ATQ (muchísimo)"
+            ]
+        }
+    },
     "213300001": {
         "name": "Innocent Shot",
         "skill_id_old": 213300,
@@ -19551,6 +22225,807 @@
                 "Augmente le taux de remplissages des pierres de limite",
                 "Verstärkt den Effekt von Limit-Steinen",
                 "Las piedras de estallido recuperarán más EL"
+            ]
+        }
+    },
+    "213330001": {
+        "name": "Warp Strike",
+        "skill_id_old": 213330,
+        "skill_id_new": 706830,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270000600": 15,
+                "270000700": 8,
+                "270000800": 5,
+                "270000900": 1
+            }
+        },
+        "units": [215001105],
+        "strings": {
+            "names": [
+                "Warp Strike",
+                "變移破解",
+                "시프트 브레이크",
+                "Assaut éclipse",
+                "Warp-Angriff",
+                "Lux Impetus"
+            ],
+            "description": [
+                "Reduces MP consumed (mid)",
+                "降低MP消耗(中)",
+                "소비 MP 감소(중)",
+                "Réduit les PM consommés (moyen)",
+                "Verringert MP-Verbrauch (mittel)",
+                "Reduce el consumo de PM (bastante)"
+            ]
+        }
+    },
+    "213330002": {
+        "name": "Warp Strike",
+        "skill_id_old": 706830,
+        "skill_id_new": 706840,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270000600": 23,
+                "270000700": 12,
+                "270000800": 8,
+                "270000900": 2,
+                "270001000": 1
+            }
+        },
+        "units": [215001105],
+        "strings": {
+            "names": [
+                "Warp Strike",
+                "變移破解",
+                "시프트 브레이크",
+                "Assaut éclipse",
+                "Warp-Angriff",
+                "Lux Impetus"
+            ],
+            "description": [
+                "Boosts reductions to ATK and DEF (low)<br>Boosts turns in effect (mid)",
+                "提高攻擊防禦減少量(小)<br>提高效果回合數(中)",
+                "공격력과 방어력 감소량 상승(소)<br>효과 턴 수 상승(중)",
+                "Amplifie les réductions de l'ATT et de la DEF (peu)<br>Augmente le nombre de tours des effets (moyen)",
+                "Steigert ANG- und ABW-Verringerungen (gering)<br>Erhöht Anzahl aktiver Runden (mittel)",
+                "Aumenta la reducción del ATQ y la DEF (poco)<br>Aumenta la duración (bastante)"
+            ]
+        }
+    },
+    "213340001": {
+        "name": "Warp Charge",
+        "skill_id_old": 213340,
+        "skill_id_new": 706850,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270000600": 15,
+                "270000700": 8,
+                "270000800": 5,
+                "270000900": 1
+            }
+        },
+        "units": [215001105],
+        "strings": {
+            "names": [
+                "Warp Charge",
+                "變移蓄力",
+                "시프트 차지",
+                "Charge éclipse",
+                "Warpansturm",
+                "Lux Assultus"
+            ],
+            "description": [
+                "Reduces MP consumed (mid)",
+                "降低MP消耗(中)",
+                "소비 MP 감소(중)",
+                "Réduit les PM consommés (moyen)",
+                "Verringert MP-Verbrauch (mittel)",
+                "Reduce el consumo de PM (bastante)"
+            ]
+        }
+    },
+    "213340002": {
+        "name": "Warp Charge",
+        "skill_id_old": 706850,
+        "skill_id_new": 706860,
+        "cost": {
+            "gil": 375000,
+            "materials": {
+                "270000600": 23,
+                "270000700": 12,
+                "270000800": 8,
+                "270000900": 2,
+                "270001000": 1
+            }
+        },
+        "units": [215001105],
+        "strings": {
+            "names": [
+                "Warp Charge",
+                "變移蓄力",
+                "시프트 차지",
+                "Charge éclipse",
+                "Warpansturm",
+                "Lux Assultus"
+            ],
+            "description": [
+                "Boosts reductions to MAG and SPR (low)<br>Boosts turns in effect (mid)",
+                "提高魔力精神減少量(小)<br>提高效果回合數(中)",
+                "마력과 정신력 감소량 상승(소)<br>효과 턴 수 상승(중)",
+                "Amplifie les réductions de la MAGIE et de la PSY (peu)<br>Augmente le nombre de tours des effets (moyen)",
+                "Steigert MAG- und PSY-Verringerungen (gering)<br>Erhöht Anzahl aktiver Runden (mittel)",
+                "Aumenta la reducción de la MAG y el ESP (poco)<br>Aumenta la duración (bastante)"
+            ]
+        }
+    },
+    "213360001": {
+        "name": "Kingsglaive",
+        "skill_id_old": 213360,
+        "skill_id_new": 706870,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270002600": 20,
+                "270002700": 15,
+                "270002800": 10,
+                "270002900": 4,
+                "270003000": 2
+            }
+        },
+        "units": [215001105],
+        "strings": {
+            "names": [
+                "Kingsglaive",
+                "王之劍",
+                "왕의 검",
+                "Glaive du roi",
+                "Königsgleve",
+                "Glaive real"
+            ],
+            "description": [
+                "Boosts damage amount (mid)",
+                "提高傷害量(中)",
+                "피해량 상승(중)",
+                "Augmente les dégâts infligés (moyen)",
+                "Erhöht den Schaden (mittel)",
+                "Aumenta el daño (bastante)"
+            ]
+        }
+    },
+    "213360002": {
+        "name": "Kingsglaive",
+        "skill_id_old": 706870,
+        "skill_id_new": 706880,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270002600": 30,
+                "270002700": 23,
+                "270002800": 15,
+                "270002900": 8,
+                "270003000": 2
+            }
+        },
+        "units": [215001105],
+        "strings": {
+            "names": [
+                "Kingsglaive",
+                "王之劍",
+                "왕의 검",
+                "Glaive du roi",
+                "Königsgleve",
+                "Glaive real"
+            ],
+            "description": [
+                "Boosts damage amount (low)<br>Boosts fire resistance reduction (mid)",
+                "提高傷害量(小)<br>提高火屬性耐性減少量(中)",
+                "피해량 상승(소)<br>불속성 저항력 감소량 상승(중)",
+                "Augmente les dégâts infligés (peu)<br>Amplifie la réduction de la résistance au feu (moyen)",
+                "Erhöht den Schaden (gering)<br>Steigert Verringerung von Feuerresistenz (mittel)",
+                "Aumenta el daño (poco)<br>Mayor resistencia a la reducción de fuego (bastante)"
+            ]
+        }
+    },
+    "213410001": {
+        "name": "Dagger Mastery",
+        "skill_id_old": 213410,
+        "skill_id_new": 706810,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004600": 15,
+                "270004700": 8,
+                "270004800": 5,
+                "270004900": 1
+            }
+        },
+        "units": [215001105],
+        "strings": {
+            "names": [
+                "Dagger Mastery",
+                "短劍奧義",
+                "단검의 비법",
+                "Maîtrise des dagues",
+                "Dolchmeisterschaft",
+                "Maestría de espada"
+            ],
+            "description": [
+                "Boosts ATK increase (high)",
+                "提高攻擊增加量(大)",
+                "공격력 상승량 상승(대)",
+                "Amplifie l'augmentation de l'ATT (beaucoup)",
+                "Steigert ANG-Erhöhung (hoch)",
+                "Mayor aumento del ATQ (mucho)"
+            ]
+        }
+    },
+    "213410002": {
+        "name": "Dagger Mastery",
+        "skill_id_old": 706810,
+        "skill_id_new": 706820,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270004600": 23,
+                "270004700": 12,
+                "270004800": 8,
+                "270004900": 2,
+                "270005000": 1
+            }
+        },
+        "units": [215001105],
+        "strings": {
+            "names": [
+                "Dagger Mastery",
+                "短劍奧義",
+                "단검의 비법",
+                "Maîtrise des dagues",
+                "Dolchmeisterschaft",
+                "Maestría de espada"
+            ],
+            "description": [
+                "Boosts ATK increase (high)",
+                "提高攻擊增加量(大)",
+                "공격력 상승량 상승(대)",
+                "Amplifie l'augmentation de l'ATT (beaucoup)",
+                "Steigert ANG-Erhöhung (hoch)",
+                "Mayor aumento del ATQ (mucho)"
+            ]
+        }
+    },
+    "213480001": {
+        "name": "Great Chop",
+        "skill_id_old": 213480,
+        "skill_id_new": 706930,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270002600": 15,
+                "270002700": 10,
+                "270002800": 8,
+                "270002900": 2
+            }
+        },
+        "units": [215001204],
+        "strings": {
+            "names": [
+                "Great Chop",
+                "大斬擊",
+                "대참격",
+                "Grand coup",
+                "Großes Beil",
+                "Despedazador"
+            ],
+            "description": [
+                "Reduces MP consumed (mid)",
+                "降低MP消耗(中)",
+                "소비 MP 감소(중)",
+                "Réduit les PM consommés (moyen)",
+                "Verringert den MP-Verbrauch (mittel)</color>",
+                "Reduce el consumo de PM (bastante)"
+            ]
+        }
+    },
+    "213480002": {
+        "name": "Great Chop",
+        "skill_id_old": 706930,
+        "skill_id_new": 706940,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270002600": 23,
+                "270002700": 15,
+                "270002800": 12,
+                "270002900": 4,
+                "270003000": 2
+            }
+        },
+        "units": [215001204],
+        "strings": {
+            "names": [
+                "Great Chop",
+                "大斬擊",
+                "대참격",
+                "Grand coup",
+                "Großes Beil",
+                "Despedazador"
+            ],
+            "description": [
+                "Boosts damage amount (high)",
+                "提高傷害量(大)",
+                "피해량 상승(대)",
+                "Augmente les dégâts infligés (beaucoup)",
+                "Erhöht den Schaden (hoch)",
+                "Aumenta el daño (mucho)"
+            ]
+        }
+    },
+    "213490001": {
+        "name": "Automatic Repairs",
+        "skill_id_old": 213490,
+        "skill_id_new": 706910,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270003600": 15,
+                "270003700": 8,
+                "270003800": 5,
+                "270003900": 1
+            }
+        },
+        "units": [215001204],
+        "strings": {
+            "names": [
+                "Automatic Repairs",
+                "啟動自律修復",
+                "자동 복원 기동",
+                "Réparations automatiques",
+                "Automatische Reparaturen",
+                "Reparación automática"
+            ],
+            "description": [
+                "Boosts turns in effect (mid)",
+                "提高效果回合數(中)",
+                "효과 턴 수 상승(중)",
+                "Augmente le nombre de tours des effets (moyen)",
+                "Erhöht Anzahl aktiver Runden (mittel)",
+                "Aumenta la duración (bastante)"
+            ]
+        }
+    },
+    "213490002": {
+        "name": "Automatic Repairs",
+        "skill_id_old": 706910,
+        "skill_id_new": 706920,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270003600": 23,
+                "270003700": 12,
+                "270003800": 8,
+                "270003900": 2,
+                "270004000": 1
+            }
+        },
+        "units": [215001204],
+        "strings": {
+            "names": [
+                "Automatic Repairs",
+                "啟動自律修復",
+                "자동 복원 기동",
+                "Réparations automatiques",
+                "Automatische Reparaturen",
+                "Reparación automática"
+            ],
+            "description": [
+                "Restores MP<br>Gradually restores MP",
+                "恢復MP<br>持續恢復MP",
+                "MP 회복<br>MP 서서히 회복",
+                "Restaure les PM<br>Restaure progressivement les PM",
+                "Stellt MP wieder her<br>Stellt MP allmählich wieder her",
+                "Recupera PM<br>Recupera PM poco a poco"
+            ]
+        }
+    },
+    "213600001": {
+        "name": "Lone Woman",
+        "skill_id_old": 213600,
+        "skill_id_new": 706970,
+        "cost": {
+            "gil": 60000,
+            "materials": {
+                "270004100": 10,
+                "270004200": 5,
+                "270004300": 1
+            }
+        },
+        "units": [215001304],
+        "strings": {
+            "names": [
+                "Lone Woman",
+                "一點紅",
+                "홍일점",
+                "Femme solitaire",
+                "Einsame Frau",
+                "Mujer solitaria"
+            ],
+            "description": [
+                "Boosts burst stones fill rate increase (low)",
+                "提高極限技石對極限技槽的增加量(小)",
+                "LB 게이지 효율 상승량 상승(소)",
+                "Augmente le taux de remplissage des pierres de limite (peu)",
+                "Verstärkt den Effekt von Limitsteinen (gering)",
+                "Las piedras de estallido recuperarán más EL (poco)"
+            ]
+        }
+    },
+    "213600002": {
+        "name": "Lone Woman",
+        "skill_id_old": 706970,
+        "skill_id_new": 706980,
+        "cost": {
+            "gil": 60000,
+            "materials": {
+                "270004100": 15,
+                "270004200": 8,
+                "270004300": 2,
+                "270004400": 1
+            }
+        },
+        "units": [215001304],
+        "strings": {
+            "names": [
+                "Lone Woman",
+                "一點紅",
+                "홍일점",
+                "Femme solitaire",
+                "Einsame Frau",
+                "Mujer solitaria"
+            ],
+            "description": [
+                "Boosts burst stones fill rate increase (low)",
+                "提高極限技石對極限技槽的增加量(小)",
+                "LB 게이지 효율 상승량 상승(소)",
+                "Augmente le taux de remplissage des pierres de limite (peu)",
+                "Verstärkt den Effekt von Limitsteinen (gering)",
+                "Las piedras de estallido recuperarán más EL (poco)"
+            ]
+        }
+    },
+    "213610001": {
+        "name": "For Hearth and Home",
+        "skill_id_old": 213610,
+        "skill_id_new": 706990,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270003100": 15,
+                "270003200": 10,
+                "270003300": 8,
+                "270003400": 2,
+                "270003500": 1
+            }
+        },
+        "units": [215001304],
+        "strings": {
+            "names": [
+                "For Hearth and Home",
+                "故鄉的榮耀",
+                "고향의 긍지를 걸고!",
+                "Pour nos terres et nos foyers !",
+                "Für Heimat und Ehre",
+                "Por la familia y el hogar"
+            ],
+            "description": [
+                "Reduces MP consumed (mid)",
+                "降低MP消耗(中)",
+                "소비 MP 감소(중)",
+                "Réduit les PM consommés (moyen)",
+                "Verringert den MP-Verbrauch (mittel)",
+                "Reduce el consumo de PM (bastante)"
+            ]
+        }
+    },
+    "213610002": {
+        "name": "For Hearth and Home",
+        "skill_id_old": 706990,
+        "skill_id_new": 707000,
+        "cost": {
+            "gil": 500000,
+            "materials": {
+                "270003100": 23,
+                "270003200": 15,
+                "270003300": 12,
+                "270003400": 4,
+                "270003500": 2
+            }
+        },
+        "units": [215001304],
+        "strings": {
+            "names": [
+                "For Hearth and Home",
+                "故鄉的榮耀",
+                "고향의 긍지를 걸고!",
+                "Pour nos terres et nos foyers !",
+                "Für Heimat und Ehre",
+                "Por la familia y el hogar"
+            ],
+            "description": [
+                "Boosts turns in effect (low)",
+                "提高效果回合數(小)",
+                "효과 턴 수 상승(소)",
+                "Augmente le nombre de tours des effets (peu)",
+                "Erhöht Anzahl aktiver Runden (gering)",
+                "Aumenta la duración (poco)"
+            ]
+        }
+    },
+    "213630001": {
+        "name": "Sister Spirit",
+        "skill_id_old": 213630,
+        "skill_id_new": 706950,
+        "cost": {
+            "gil": 60000,
+            "materials": {
+                "270004100": 10,
+                "270004200": 5,
+                "270004300": 1
+            }
+        },
+        "units": [215001304],
+        "strings": {
+            "names": [
+                "Sister Spirit",
+                "妹妹的志氣",
+                "여동생의 의지",
+                "Tempérament de sœur",
+                "Schwesterfigur",
+                "Temperamento de hermana"
+            ],
+            "description": [
+                "Boosts DEF and SPR when HP falls below a certain point",
+                "HP降低到一定數值以下時提高防禦精神",
+                "HP가 일정량 이하일 때 방어력과 정신력 상승",
+                "Augmente la DEF et la PSY quand les PV tombent en dessous d'un certain seuil",
+                "Erhöht ABW und PSY, wenn LP unter einen bestimmten Wert fallen.",
+                "Aumenta la DEF y el ESP cuando la VIT se encuentra por debajo de cierto nivel"
+            ]
+        }
+    },
+    "213630002": {
+        "name": "Sister Spirit",
+        "skill_id_old": 706950,
+        "skill_id_new": 706960,
+        "cost": {
+            "gil": 60000,
+            "materials": {
+                "270004100": 15,
+                "270004200": 8,
+                "270004300": 2,
+                "270004400": 1
+            }
+        },
+        "units": [215001304],
+        "strings": {
+            "names": [
+                "Sister Spirit",
+                "妹妹的志氣",
+                "여동생의 의지",
+                "Tempérament de sœur",
+                "Schwesterfigur",
+                "Temperamento de hermana"
+            ],
+            "description": [
+                "Boosts HP<br>Restores MP every turn",
+                "提高HP<br>每回合恢復MP",
+                "HP 상승<br>매 턴마다 MP 회복",
+                "Augmente les PV<br>Restaure les PM à chaque tour",
+                "Erhöht LP<br>Stellt jede Runde MP wieder her",
+                "Aumenta la VIT<br>Recupera PM cada turno"
+            ]
+        }
+    },
+    "213920001": {
+        "name": "Stop Detach",
+        "skill_id_old": 213920,
+        "skill_id_new": 707186,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270001100": 15,
+                "270001200": 8,
+                "270001300": 5,
+                "270001400": 1
+            }
+        },
+        "units": [100008605],
+        "strings": {
+            "names": [
+                "Stop Detach",
+                "停止分離",
+                "스톱 해제",
+                "Retire stop",
+                "Gelöster Stopp",
+                "Desvinculo de paro"
+            ],
+            "description": [
+                "Boosts resistance to stop",
+                "提高停止耐性",
+                "스톱 저항력 상승",
+                "Augmente la résistance à stop",
+                "Erhöht Stopp-Resistenz",
+                "Aumenta la resistencia contra paro"
+            ]
+        }
+    },
+    "213920002": {
+        "name": "Stop Detach",
+        "skill_id_old": 707186,
+        "skill_id_new": 707187,
+        "cost": {
+            "gil": 250000,
+            "materials": {
+                "270001100": 23,
+                "270001200": 12,
+                "270001300": 8,
+                "270001400": 2,
+                "270001500": 1
+            }
+        },
+        "units": [100008605],
+        "strings": {
+            "names": [
+                "Stop Detach",
+                "停止分離",
+                "스톱 해제",
+                "Retire stop",
+                "Gelöster Stopp",
+                "Desvinculo de paro"
+            ],
+            "description": [
+                "Boosts turns in effect (high)",
+                "提高效果回合數(大)",
+                "효과 턴 수 상승(대)",
+                "Augmente le nombre de tours des effets (beaucoup)",
+                "Erhöht Anzahl aktiver Runden (hoch)",
+                "Aumenta la duración (mucho)"
+            ]
+        }
+    },
+    "213950001": {
+        "name": "Dedication",
+        "skill_id_old": 213950,
+        "skill_id_new": 707184,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270003600": 20,
+                "270003700": 15,
+                "270003800": 10,
+                "270003900": 4,
+                "270004000": 2
+            }
+        },
+        "units": [100008605],
+        "strings": {
+            "names": [
+                "Dedication",
+                "奉獻",
+                "헌신",
+                "Dévouement",
+                "Hingabe",
+                "Dedicación"
+            ],
+            "description": [
+                "Increases LB gauge",
+                "增加極限技槽",
+                "LB 게이지 증가",
+                "Remplit la jauge de limite",
+                "Füllt den Limitmeter",
+                "Aumenta la barra de EL"
+            ]
+        }
+    },
+    "213950002": {
+        "name": "Dedication",
+        "skill_id_old": 707184,
+        "skill_id_new": 707185,
+        "cost": {
+            "gil": 1000000,
+            "materials": {
+                "270003600": 30,
+                "270003700": 23,
+                "270003800": 15,
+                "270003900": 8,
+                "270004000": 2
+            }
+        },
+        "units": [100008605],
+        "strings": {
+            "names": [
+                "Dedication",
+                "奉獻",
+                "헌신",
+                "Dévouement",
+                "Hingabe",
+                "Dedicación"
+            ],
+            "description": [
+                "Boosts HP restoration amount (low)<br>Boosts MP restoration amount (high)<br>Boosts LB gauge increase (great)",
+                "提高HP恢復量(小)<br>提高MP恢復量(大)<br>提高極限技槽增加量(特大)",
+                "HP 회복량 상승(소)<br>MP 회복량 상승(대)<br>LB 게이지 증가량 상승(특대)",
+                "Augmente le taux de restauration des PV (peu)<br>Augmente le taux de restauration des PM (beaucoup)<br>Amplifie l'augmentation de la jauge de limite (super)",
+                "Erhöht den Wert regenerierter LP (gering)<br>Erhöht den Wert regenerierter MP (hoch)<br>Steigerung von Limitmetererhöhung (sehr hoch)",
+                "Aumenta la recuperación de VIT (poco)<br>Aumenta la recuperación de PM (mucho)<br>Mayor aumento de la barra de EL (muchísimo)"
+            ]
+        }
+    },
+    "213990001": {
+        "name": "Sage Wisdom",
+        "skill_id_old": 213990,
+        "skill_id_new": 707182,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270004600": 10,
+                "270004700": 8,
+                "270004800": 3
+            }
+        },
+        "units": [100008605],
+        "strings": {
+            "names": [
+                "Sage Wisdom",
+                "賢者教誨",
+                "현자의 가르침",
+                "Savoir de sage",
+                "Hohe Weisheit",
+                "Enseñanzas de sabio"
+            ],
+            "description": [
+                "Boosts SPR increase (high)",
+                "提高精神增加量(大)",
+                "정신력 상승량 상승(대)",
+                "Amplifie l'augmentation de la PSY (beaucoup)",
+                "Steigert PSY-Erhöhung (hoch)",
+                "Mayor aumento de ESP (mucho)"
+            ]
+        }
+    },
+    "213990002": {
+        "name": "Sage Wisdom",
+        "skill_id_old": 707182,
+        "skill_id_new": 707183,
+        "cost": {
+            "gil": 120000,
+            "materials": {
+                "270004600": 15,
+                "270004700": 12,
+                "270004800": 5,
+                "270004900": 1
+            }
+        },
+        "units": [100008605],
+        "strings": {
+            "names": [
+                "Sage Wisdom",
+                "賢者教誨",
+                "현자의 가르침",
+                "Savoir de sage",
+                "Hohe Weisheit",
+                "Enseñanzas de sabio"
+            ],
+            "description": [
+                "Boosts SPR increase (mid)<br>Increases LB gauge every turn",
+                "提高精神增加量(中)<br>每回合增加極限技槽",
+                "정신력 상승량 상승(중)<br>매 턴마다 LB 게이지 증가",
+                "Amplifie l'augmentation de la PSY (moyen)<br>Remplit la jauge de limite à chaque tour",
+                "Steigert PSY-Erhöhung (mittel)<br>Füllt jede Runde den Limitmeter",
+                "Mayor aumento de ESP (bastante)<br>Aumenta la barra de EL cada turno"
             ]
         }
     },
@@ -20103,7 +23578,7 @@
             ],
             "description": [
                 "Increases necessary HP (mid)",
-                "增加發動條件的HP(中)",
+                "增加發動條件的HP值(中)",
                 "발동 조건의 HP 수치 증가(중)",
                 "Augmente les PV nécessaires (moyen)",
                 "Erhöht nötige LP (mittel)",
@@ -24373,7 +27848,7 @@
                 "提高復活時的恢復量(中)",
                 "회복량 상승(중)",
                 "Augmente le pouvoir de soin (moyen)",
-                "Erhöht Energiewiederherstellung (mittel)",
+                "Erhöht den Regenerationseffekt (mittel)",
                 "Aumenta el poder de curación (bastante)"
             ]
         }
@@ -24406,7 +27881,7 @@
                 "提高復活時的恢復量(中)",
                 "회복량 상승(중)",
                 "Augmente le pouvoir de soin (moyen)",
-                "Erhöht Energiewiederherstellung (mittel)",
+                "Erhöht den Regenerationseffekt (mittel)",
                 "Aumenta el poder de curación (bastante)"
             ]
         }
@@ -25038,7 +28513,7 @@
                 "權威",
                 "권위",
                 "Autorité",
-                "Macht",
+                "Autorität",
                 "Autoridad"
             ],
             "description": [
@@ -25072,7 +28547,7 @@
                 "權威",
                 "권위",
                 "Autorité",
-                "Macht",
+                "Autorität",
                 "Autoridad"
             ],
             "description": [
@@ -25313,7 +28788,7 @@
             ],
             "description": [
                 "Boosts recovery amount (low)",
-                "提高復活時的恢復量(小)",
+                "提高恢復量(小)",
                 "회복량 상승(소)",
                 "Augmente le pouvoir de soin (peu)",
                 "Erhöht Regenerationseffekt (gering)",

@@ -515,7 +515,7 @@
             "母親陸行鳥的住處",
             "엄마 초코보의 거처",
             "Antre de maman chocobo",
-            "Mamas Chocobo-Höhle",
+            "Mama Chocobos Nest",
             "Hogar de Mamá chocobo"
         ],
         "world_id": 3,
@@ -674,12 +674,27 @@
         "position": [195, 2130],
         "icon": "map_icon_3430201.png"
     },
+    "14205": {
+        "names": [
+            "Village of the Whyt",
+            "波其卡村",
+            "포치카의 마을",
+            "Village de Pochad",
+            "Dorf der Pochka",
+            "Aldea de los Whyt"
+        ],
+        "world_id": 3,
+        "region_id": 34,
+        "subregion_id": 1142,
+        "position": [1501, 3240],
+        "icon": "map_icon_3430202.png"
+    },
     "14301": {
         "names": [
             "Madam's Manor",
             "夫人公館",
             "마담의 저택",
-            "Manoir de Dame",
+            "Maison de Madame",
             "Damenresidenz",
             "Mansión de Madam"
         ],
@@ -688,5 +703,65 @@
         "subregion_id": 1143,
         "position": [320, 610],
         "icon": "map_icon_3450201.png"
+    },
+    "15101": {
+        "names": [
+            "City of Trials Dendalio",
+            "修煉之街迪恩達里奧",
+            "수행의 도시 덴다리오",
+            "Dendalio, Cité des défis",
+            "Dendalio, Stadt der Prüfungen",
+            "Dendalio, ciudad del entrenamiento"
+        ],
+        "world_id": 3,
+        "region_id": 35,
+        "subregion_id": 1151,
+        "position": [2341, 986],
+        "icon": "map_icon_3510201_2.png"
+    },
+    "15102": {
+        "names": [
+            "Mama Chocobo's Den",
+            "母親陸行鳥的住處",
+            "엄마 초코보의 거처",
+            "Antre de maman chocobo",
+            "Mama Chocobos Nest",
+            "Hogar de Mamá chocobo"
+        ],
+        "world_id": 3,
+        "region_id": 35,
+        "subregion_id": 1151,
+        "position": [3104, 858],
+        "icon": "map_icon_3210202.png"
+    },
+    "15103": {
+        "names": [
+            "Karvell Resort Town",
+            "加維爾宿驛",
+            "카벨 리조트 타운",
+            "Karvell, ville saisonnière",
+            "Urlaubsort Karvell",
+            "Karvell, pueblo vacacional"
+        ],
+        "world_id": 3,
+        "region_id": 35,
+        "subregion_id": 1151,
+        "position": [2890, 1438],
+        "icon": "map_icon_3520201_2.png"
+    },
+    "15104": {
+        "names": [
+            "Plains Town Relaks",
+            "草原村莊利拉克",
+            "초원의 마을 릴락",
+            "Relaks, village de campagne",
+            "Ebenendorf Relaks",
+            "Relaks, pueblo de la llanura"
+        ],
+        "world_id": 3,
+        "region_id": 35,
+        "subregion_id": 1151,
+        "position": [1946, 1899],
+        "icon": "map_icon_3530201_2.png"
     }
 }

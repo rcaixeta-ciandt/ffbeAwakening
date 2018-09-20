@@ -114,7 +114,8 @@
                 },
                 "element_resist": [0, 0, -50, 50, 0, 0, 0, 0],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 30
+                "exp_pattern": 30,
+                "stat_pattern": 1
             },
             {
                 "stats": {
@@ -127,7 +128,8 @@
                 },
                 "element_resist": [0, 0, -50, 50, 0, 0, 0, 0],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 40
+                "exp_pattern": 40,
+                "stat_pattern": 1
             },
             {
                 "stats": {
@@ -140,7 +142,8 @@
                 },
                 "element_resist": [0, 0, -50, 50, 0, 0, 0, 0],
                 "status_resist": [0, 0, 100, 0, 0, 0, 0, 0],
-                "growth_pattern": 50
+                "exp_pattern": 50,
+                "stat_pattern": 1
             }
         ]
     },
@@ -250,7 +253,8 @@
                 },
                 "element_resist": [50, -50, 0, 0, 0, 0, 0, 0],
                 "status_resist": [0, 10, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 30
+                "exp_pattern": 30,
+                "stat_pattern": 1
             },
             {
                 "stats": {
@@ -263,7 +267,8 @@
                 },
                 "element_resist": [50, -50, 0, 0, 0, 0, 0, 0],
                 "status_resist": [0, 10, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 40
+                "exp_pattern": 40,
+                "stat_pattern": 1
             },
             {
                 "stats": {
@@ -276,7 +281,8 @@
                 },
                 "element_resist": [50, -50, 0, 0, 0, 0, 0, 0],
                 "status_resist": [0, 100, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 50
+                "exp_pattern": 50,
+                "stat_pattern": 1
             }
         ]
     },
@@ -386,7 +392,8 @@
                 },
                 "element_resist": [-50, 50, 0, 0, 0, 0, 0, 0],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 30
+                "exp_pattern": 30,
+                "stat_pattern": 1
             },
             {
                 "stats": {
@@ -399,7 +406,8 @@
                 },
                 "element_resist": [-50, 50, 0, 0, 0, 0, 0, 0],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 40
+                "exp_pattern": 40,
+                "stat_pattern": 1
             },
             {
                 "stats": {
@@ -412,7 +420,8 @@
                 },
                 "element_resist": [-50, 50, 0, 0, 0, 0, 0, 0],
                 "status_resist": [0, 0, 0, 0, 100, 0, 0, 0],
-                "growth_pattern": 50
+                "exp_pattern": 50,
+                "stat_pattern": 1
             }
         ]
     },
@@ -522,7 +531,8 @@
                 },
                 "element_resist": [0, 0, 0, 0, 0, 0, 50, -50],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 30
+                "exp_pattern": 30,
+                "stat_pattern": 1
             },
             {
                 "stats": {
@@ -535,7 +545,8 @@
                 },
                 "element_resist": [0, 0, 0, 0, 0, 0, 50, -50],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 40
+                "exp_pattern": 40,
+                "stat_pattern": 1
             },
             {
                 "stats": {
@@ -548,7 +559,8 @@
                 },
                 "element_resist": [0, 0, 0, 0, 0, 0, 50, -50],
                 "status_resist": [0, 0, 0, 0, 0, 0, 100, 0],
-                "growth_pattern": 50
+                "exp_pattern": 50,
+                "stat_pattern": 1
             }
         ]
     },
@@ -617,11 +629,11 @@
                 }
             },
             "10503": {
-                "effects": ["Magic* dark damage (260x, EVO MAG) to all enemies"],
-                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  26000]]],
+                "effects": ["Magic* dark damage (300x, EVO MAG) to all enemies"],
+                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  30000]]],
                 "attack_count": [1],
                 "attack_damage": [[100]],
-                "attack_frames": [[30]],
+                "attack_frames": [[400]],
                 "effect_frames": [[0,  0]],
                 "strings": {
                     "name": [
@@ -658,7 +670,8 @@
                 },
                 "element_resist": [0, 0, 0, 0, 0, 0, -50, 50],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 30
+                "exp_pattern": 30,
+                "stat_pattern": 1
             },
             {
                 "stats": {
@@ -671,20 +684,22 @@
                 },
                 "element_resist": [0, 0, 0, 0, 0, 0, -50, 50],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 40
+                "exp_pattern": 40,
+                "stat_pattern": 1
             },
             {
                 "stats": {
-                    "HP": [5000, 5800],
-                    "MP": [6200, 7700],
-                    "ATK": [1600, 1800],
-                    "DEF": [2400, 2900],
-                    "MAG": [5400, 6900],
-                    "SPR": [3400, 3900]
+                    "HP": [5000, 7800],
+                    "MP": [6200, 8500],
+                    "ATK": [1600, 3700],
+                    "DEF": [2400, 5800],
+                    "MAG": [5400, 7200],
+                    "SPR": [3400, 5000]
                 },
                 "element_resist": [0, 0, 0, 0, 0, 0, -50, 50],
-                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 50
+                "status_resist": [100, 0, 0, 0, 0, 0, 0, 0],
+                "exp_pattern": 50,
+                "stat_pattern": 1
             }
         ]
     },
@@ -794,7 +809,8 @@
                 },
                 "element_resist": [0, 0, 0, 0, -50, 50, 0, 0],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 30
+                "exp_pattern": 30,
+                "stat_pattern": 1
             },
             {
                 "stats": {
@@ -807,7 +823,8 @@
                 },
                 "element_resist": [0, 0, 0, 0, -50, 50, 0, 0],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 40
+                "exp_pattern": 40,
+                "stat_pattern": 1
             },
             {
                 "stats": {
@@ -820,7 +837,8 @@
                 },
                 "element_resist": [0, 0, 0, 0, -50, 50, 0, 0],
                 "status_resist": [0, 0, 0, 0, 0, 100, 0, 0],
-                "growth_pattern": 50
+                "exp_pattern": 50,
+                "stat_pattern": 1
             }
         ]
     },
@@ -930,7 +948,8 @@
                 },
                 "element_resist": [0, 0, 50, -50, 0, 0, 0, 0],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 30
+                "exp_pattern": 30,
+                "stat_pattern": 1
             },
             {
                 "stats": {
@@ -943,7 +962,8 @@
                 },
                 "element_resist": [0, 0, 50, -50, 0, 0, 0, 0],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 40
+                "exp_pattern": 40,
+                "stat_pattern": 1
             },
             {
                 "stats": {
@@ -956,7 +976,8 @@
                 },
                 "element_resist": [0, 0, 50, -50, 0, 0, 0, 0],
                 "status_resist": [0, 0, 0, 100, 0, 0, 0, 0],
-                "growth_pattern": 50
+                "exp_pattern": 50,
+                "stat_pattern": 1
             }
         ]
     },
@@ -1018,7 +1039,7 @@
                         "Earth damage to all enemies",
                         "對全體敵人發動土屬性攻擊",
                         "적 전체에 땅속성 피해",
-                        "Dégâts de terre sur tous ennemis",
+                        "Dégâts de terre sur tous les ennemis",
                         "Erdschaden, alle Gegner",
                         "Inflige daño de tierra a todos los enemigos"
                     ]
@@ -1044,7 +1065,7 @@
                         "Earth damage to all enemies",
                         "對全體敵人發動土屬性攻擊",
                         "적 전체에 땅속성 피해",
-                        "Dégâts de terre sur tous ennemis",
+                        "Dégâts de terre sur tous les ennemis",
                         "Erdschaden, alle Gegner",
                         "Inflige daño de tierra a todos los enemigos"
                     ]
@@ -1066,7 +1087,8 @@
                 },
                 "element_resist": [0, 0, 0, 0, -50, 50, 0, 0],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 30
+                "exp_pattern": 30,
+                "stat_pattern": 1
             },
             {
                 "stats": {
@@ -1079,7 +1101,8 @@
                 },
                 "element_resist": [0, 0, 0, 0, -50, 50, 0, 0],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 40
+                "exp_pattern": 40,
+                "stat_pattern": 1
             },
             {
                 "stats": {
@@ -1092,7 +1115,8 @@
                 },
                 "element_resist": [0, 0, 0, 0, -50, 50, 0, 0],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 100],
-                "growth_pattern": 50
+                "exp_pattern": 50,
+                "stat_pattern": 1
             }
         ]
     },
@@ -1161,8 +1185,8 @@
                 }
             },
             "10903": {
-                "effects": ["Magic* wind damage (270x, EVO MAG) to all enemies"],
-                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  27000]]],
+                "effects": ["Magic* wind damage (230x, EVO MAG) to all enemies"],
+                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  23000]]],
                 "attack_count": [1],
                 "attack_damage": [[100]],
                 "attack_frames": [[230]],
@@ -1202,7 +1226,8 @@
                 },
                 "element_resist": [0, 0, 0, 0, 50, -50, 0, 0],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 30
+                "exp_pattern": 30,
+                "stat_pattern": 1
             },
             {
                 "stats": {
@@ -1215,20 +1240,22 @@
                 },
                 "element_resist": [0, 0, 0, 0, 50, -50, 0, 0],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 40
+                "exp_pattern": 40,
+                "stat_pattern": 1
             },
             {
                 "stats": {
-                    "HP": [4400, 5000],
-                    "MP": [5600, 6800],
-                    "ATK": [2800, 3400],
-                    "DEF": [2200, 2600],
-                    "MAG": [6300, 7900],
-                    "SPR": [3600, 4200]
+                    "HP": [4400, 7000],
+                    "MP": [5600, 7700],
+                    "ATK": [2800, 5300],
+                    "DEF": [2200, 5000],
+                    "MAG": [6300, 8800],
+                    "SPR": [3600, 6000]
                 },
                 "element_resist": [0, 0, 0, 0, 50, -50, 0, 0],
-                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 50
+                "status_resist": [0, 0, 100, 0, 0, 0, 0, 0],
+                "exp_pattern": 50,
+                "stat_pattern": 1
             }
         ]
     },
@@ -1301,10 +1328,10 @@
             },
             "11003": {
                 "effects": [
-                    "Physical* damage (300x, EVO ATK) to all enemies",
+                    "Physical* damage (210x, EVO ATK) to all enemies",
                     "Instant KO (60%) to all enemies"
                 ],
-                "effects_raw": [[2, 1, 94, [30000,  60,  1]]],
+                "effects_raw": [[2, 1, 94, [21000,  60,  1]]],
                 "attack_count": [1],
                 "attack_damage": [[100]],
                 "attack_frames": [[70]],
@@ -1342,7 +1369,8 @@
                 },
                 "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 30
+                "exp_pattern": 30,
+                "stat_pattern": 1
             },
             {
                 "stats": {
@@ -1355,20 +1383,22 @@
                 },
                 "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 40
+                "exp_pattern": 40,
+                "stat_pattern": 1
             },
             {
                 "stats": {
-                    "HP": [5300, 6600],
-                    "MP": [4000, 4900],
-                    "ATK": [6300, 7800],
-                    "DEF": [4300, 5500],
-                    "MAG": [2100, 2500],
-                    "SPR": [2300, 2700]
+                    "HP": [5300, 8700],
+                    "MP": [4000, 7500],
+                    "ATK": [6300, 9200],
+                    "DEF": [4300, 8200],
+                    "MAG": [2100, 6600],
+                    "SPR": [2300, 6800]
                 },
                 "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 50
+                "status_resist": [0, 0, 0, 0, 100, 0, 0, 0],
+                "exp_pattern": 50,
+                "stat_pattern": 1
             }
         ]
     },
@@ -1476,7 +1506,8 @@
                 },
                 "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 30
+                "exp_pattern": 30,
+                "stat_pattern": 1
             },
             {
                 "stats": {
@@ -1489,7 +1520,8 @@
                 },
                 "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 40
+                "exp_pattern": 40,
+                "stat_pattern": 1
             },
             {
                 "stats": {
@@ -1502,7 +1534,8 @@
                 },
                 "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
                 "status_resist": [0, 0, 0, 0, 0, 100, 0, 0],
-                "growth_pattern": 50
+                "exp_pattern": 50,
+                "stat_pattern": 1
             }
         ]
     },
@@ -1571,8 +1604,8 @@
                 }
             },
             "11203": {
-                "effects": ["Magic* water damage (480x, EVO MAG) to all enemies"],
-                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  48000]]],
+                "effects": ["Magic* water damage (400x, EVO MAG) to all enemies"],
+                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  40000]]],
                 "attack_count": [1],
                 "attack_damage": [[100]],
                 "attack_frames": [[160]],
@@ -1613,7 +1646,8 @@
                 },
                 "element_resist": [0, 0, -50, 50, 25, -25, 0, 0],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 33
+                "exp_pattern": 33,
+                "stat_pattern": 2
             },
             {
                 "stats": {
@@ -1626,20 +1660,122 @@
                 },
                 "element_resist": [0, 0, -50, 50, 25, -25, 0, 0],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 43
+                "exp_pattern": 43,
+                "stat_pattern": 2
             },
             {
                 "stats": {
-                    "HP": [7400, 9600],
+                    "HP": [7400, 11000],
                     "MP": [5900, 7600],
-                    "ATK": [5400, 7000],
-                    "DEF": [3200, 4000],
-                    "MAG": [6100, 7800],
-                    "SPR": [3200, 4000]
+                    "ATK": [5400, 6900],
+                    "DEF": [3200, 7800],
+                    "MAG": [6100, 8700],
+                    "SPR": [3200, 8000]
                 },
                 "element_resist": [0, 0, -50, 50, 25, -25, 0, 0],
+                "status_resist": [0, 0, 0, 100, 0, 0, 0, 0],
+                "exp_pattern": 53,
+                "stat_pattern": 2
+            }
+        ]
+    },
+    "13": {
+        "names": [
+            "Alexander",
+            "亞歷山大",
+            "알렉산더",
+            "Alexandre",
+            "Alexander",
+            "Alejandro"
+        ],
+        "image": "beast181.png",
+        "icon": "beast_thum181.png",
+        "skill": {
+            "11301": {
+                "effects": ["Magic* light damage (50x, EVO MAG) to all enemies"],
+                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  5000]]],
+                "attack_count": [1],
+                "attack_damage": [[100]],
+                "attack_frames": [[100]],
+                "effect_frames": [[0,  0]],
+                "strings": {
+                    "name": [
+                        "Divine Judgment",
+                        "神聖審判",
+                        "성스러운 심판",
+                        "Jugement divin",
+                        "Jüngstes Gericht",
+                        "Veredicto final"
+                    ],
+                    "desc": [
+                        "Light damage to all enemies",
+                        "對全體敵人發動光屬性攻擊",
+                        "적 전체에 빛속성 피해",
+                        "Dégâts de lumière sur tous les ennemis",
+                        "Lichtschaden, alle Ziele",
+                        "Daño de luz a todos los enemigos"
+                    ]
+                }
+            },
+            "11302": {
+                "effects": ["Magic* light damage (140x, EVO MAG) to all enemies"],
+                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  14000]]],
+                "attack_count": [1],
+                "attack_damage": [[100]],
+                "attack_frames": [[110]],
+                "effect_frames": [[0,  0]],
+                "strings": {
+                    "name": [
+                        "Divine Judgment",
+                        "神聖審判",
+                        "성스러운 심판",
+                        "Jugement divin",
+                        "Jüngstes Gericht",
+                        "Veredicto final"
+                    ],
+                    "desc": [
+                        "Light damage to all enemies",
+                        "對全體敵人發動光屬性攻擊",
+                        "적 전체에 빛속성 피해",
+                        "Dégâts de lumière sur tous les ennemis",
+                        "Lichtschaden, alle Ziele",
+                        "Daño de luz a todos los enemigos"
+                    ]
+                }
+            }
+        },
+        "color": {
+            "White": 1.5,
+            "Yellow": 1.5
+        },
+        "entries": [
+            {
+                "stats": {
+                    "HP": [2600, 3300],
+                    "MP": [1100, 1400],
+                    "ATK": [1200, 1500],
+                    "DEF": [2400, 3000],
+                    "MAG": [2300, 3000],
+                    "SPR": [3000, 3800]
+                },
+                "element_resist": [0, 0, 25, -25, 0, 0, 50, -50],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 53
+                "exp_pattern": 32,
+                "stat_pattern": 2
+            },
+            {
+                "stats": {
+                    "HP": [3600, 5000],
+                    "MP": [1500, 2100],
+                    "ATK": [1600, 2200],
+                    "DEF": [3200, 4600],
+                    "MAG": [3200, 4500],
+                    "SPR": [4100, 5800]
+                },
+                "element_resist": [0, 0, 25, -25, 0, 0, 50, -50],
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
+                "exp_pattern": 42,
+                "stat_pattern": 2
             }
         ]
     },
@@ -1712,6 +1848,35 @@
                         "Daño de fuego a todos los enemigos y revive a todos los aliados K.O."
                     ]
                 }
+            },
+            "11403": {
+                "effects": [
+                    "Magic* fire damage (200x, EVO MAG) to all enemies",
+                    "Revive all allies from KO (90% HP)"
+                ],
+                "effects_raw": [[2, 1, 80, [0,  0,  0,  0,  0,  1,  20000]], [2, 2, 4, [90]]],
+                "attack_count": [1],
+                "attack_damage": [[100]],
+                "attack_frames": [[110]],
+                "effect_frames": [[0,  0]],
+                "strings": {
+                    "name": [
+                        "Flames of Rebirth",
+                        "轉生之炎",
+                        "윤회의 불꽃",
+                        "Feu résurrecteur",
+                        "Reinkarnationsflamme",
+                        "Llamas del renacer"
+                    ],
+                    "desc": [
+                        "Fire damage to all enemies and revive all KO'd allies",
+                        "對全體敵人發動火屬性攻擊+使全體隊員從無法戰鬥狀態中復活",
+                        "적 전체에 불속성 피해+아군 전체의 전투불능 상태 회복",
+                        "Dégâts de feu sur tous les ennemis et ressuscite tous les alliés KO",
+                        "Fügt allen Gegnern Feuerschaden zu und belebt alle kampfunf. Verb. wieder",
+                        "Daño de fuego a todos los enemigos y revive a todos los aliados K.O."
+                    ]
+                }
             }
         },
         "color": {
@@ -1730,7 +1895,8 @@
                 },
                 "element_resist": [50, -50, 0, 0, -25, 25, 0, 0],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 32
+                "exp_pattern": 32,
+                "stat_pattern": 2
             },
             {
                 "stats": {
@@ -1743,7 +1909,22 @@
                 },
                 "element_resist": [50, -50, 0, 0, -25, 25, 0, 0],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 42
+                "exp_pattern": 42,
+                "stat_pattern": 2
+            },
+            {
+                "stats": {
+                    "HP": [5900, 8800],
+                    "MP": [5400, 7200],
+                    "ATK": [2400, 4900],
+                    "DEF": [3200, 5800],
+                    "MAG": [3900, 5500],
+                    "SPR": [6000, 7800]
+                },
+                "element_resist": [50, -50, 0, 0, -25, 25, 0, 0],
+                "status_resist": [0, 0, 0, 0, 0, 0, 100, 0],
+                "exp_pattern": 52,
+                "stat_pattern": 2
             }
         ]
     },
@@ -1851,7 +2032,8 @@
                 },
                 "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 31
+                "exp_pattern": 31,
+                "stat_pattern": 2
             },
             {
                 "stats": {
@@ -1864,7 +2046,8 @@
                 },
                 "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 41
+                "exp_pattern": 41,
+                "stat_pattern": 2
             },
             {
                 "stats": {
@@ -1877,7 +2060,8 @@
                 },
                 "element_resist": [0, 0, 0, 0, 0, 0, 0, 0],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 51
+                "exp_pattern": 51,
+                "stat_pattern": 2
             }
         ]
     },
@@ -1950,10 +2134,10 @@
             },
             "11603": {
                 "effects": [
-                    "Increase ATK, DEF, MAG and SPR by 80% for 3 turns to all allies",
-                    "Dodge 2 physical attacks for 4 turns to all allies"
+                    "Increase ATK, DEF, MAG and SPR by 120% for 3 turns to all allies",
+                    "Dodge 1 physical attacks for 3 turns to all allies"
                 ],
-                "effects_raw": [[2, 2, 3, [80,  80,  80,  80,  3,  1]], [2, 2, 54, [2,  4]]],
+                "effects_raw": [[2, 2, 3, [120,  120,  120,  120,  3,  1]], [2, 2, 54, [1,  3]]],
                 "attack_count": [1],
                 "attack_damage": [[100]],
                 "attack_frames": [[30]],
@@ -1994,7 +2178,8 @@
                 },
                 "element_resist": [-50, 50, 0, 0, 0, 0, -25, 25],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 32
+                "exp_pattern": 32,
+                "stat_pattern": 2
             },
             {
                 "stats": {
@@ -2007,20 +2192,22 @@
                 },
                 "element_resist": [-50, 50, 0, 0, 0, 0, -25, 25],
                 "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 42
+                "exp_pattern": 42,
+                "stat_pattern": 2
             },
             {
                 "stats": {
-                    "HP": [5000, 7200],
-                    "MP": [3200, 4600],
+                    "HP": [5000, 8000],
+                    "MP": [3200, 6000],
                     "ATK": [5700, 8400],
-                    "DEF": [2700, 3800],
+                    "DEF": [2700, 4800],
                     "MAG": [5700, 8400],
-                    "SPR": [2700, 3800]
+                    "SPR": [2700, 4800]
                 },
                 "element_resist": [-50, 50, 0, 0, 0, 0, -25, 25],
-                "status_resist": [0, 0, 0, 0, 0, 0, 0, 0],
-                "growth_pattern": 52
+                "status_resist": [0, 0, 0, 0, 0, 0, 0, 100],
+                "exp_pattern": 52,
+                "stat_pattern": 2
             }
         ]
     }

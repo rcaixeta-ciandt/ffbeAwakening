@@ -629,8 +629,8 @@
                             "秘密的寶物庫",
                             "비밀의 보물창고",
                             "Coffre aux trésors cachés",
-                            "Schließfach der verborgenen Schätze",
-                            "Cámara del tesoro"
+                            "Gewölbe der verborgenen Schätze",
+                            "Cámara de los Tesoros Escondidos"
                         ],
                         "dungeons": {
                             "30101": "Vault of Hidden Treasures"
@@ -643,7 +643,7 @@
                             "비밀의 보물창고",
                             "Coffre aux trésors cachés",
                             "Gewölbe der verborgenen Schätze",
-                            "Cámara del tesoro"
+                            "Cámara de los Tesoros Escondidos"
                         ],
                         "dungeons": {
                             "30201": "Vault of Hidden Treasures"
@@ -667,7 +667,7 @@
                     "402": {
                         "names": [
                             "2nd Anniversary Short Story",
-                            "二週年短篇故事",
+                            "2週年紀念短篇故事",
                             "2주년 기념·짧은 이야기",
                             "2e anniversaire - histoire courte",
                             "2-Jahre-Jubiläum Kurzgeschichte",
@@ -707,7 +707,10 @@
                             "60013": "Paladia Chapter 1 Part 2",
                             "60014": "Paladia Chapter 1 Part 3",
                             "60015": "Paladia Chapter 2 Part 1",
-                            "60016": "Paladia Chapter 2 Part 2"
+                            "60016": "Paladia Chapter 2 Part 2",
+                            "60017": "Paladia Chapter 3 Part 1",
+                            "60018": "Paladia Chapter 3 Part 2",
+                            "60019": "Paladia Chapter 3 Part 3"
                         }
                     },
                     "701": {
@@ -733,7 +736,7 @@
                             "Imperial Saga"
                         ],
                         "dungeons": {
-                            "70201": "<na>"
+                            "70201": null
                         }
                     },
                     "703": {
@@ -1002,7 +1005,7 @@
                             "The Floating Continent",
                             "FF6魔大陸",
                             "FF6 마의 대륙",
-                            "Le continent flottant<br>",
+                            "Le continent flottant",
                             "Der schwebende Kontinent",
                             "Continente flotante"
                         ],
@@ -1064,7 +1067,7 @@
                             "黑涅魔石礦",
                             "헤네 마석광",
                             "Les mines de Henne",
-                            "Henne-Minen",
+                            "Henna-Minen",
                             "Minas de Henne"
                         ],
                         "dungeons": {
@@ -1424,7 +1427,7 @@
                             "바위신 타이탄 토벌전",
                             "Dans l'antre de Titan",
                             "Marsch zu Titan",
-                            "Marcha sobre Titán"
+                            "A la caza de Titán"
                         ],
                         "dungeons": {
                             "75101": "March on Titan"
@@ -1572,7 +1575,7 @@
                             "바람신 가루다 토벌전",
                             "Garuda, la Souffleuse de rafales",
                             "Garuda, die Dame des Vortex",
-                            "Garuda, señora del vórtice"
+                            "A la caza de Garuda"
                         ],
                         "dungeons": {
                             "76101": "March on Garuda"
@@ -1635,8 +1638,8 @@
                             "76506": "Kunshira's Determination",
                             "76507": "Reconciliation of the Beasts",
                             "76508": "A Strange Friendship",
-                            "76509": "Extra Stage 1",
-                            "76510": "Extra Stage 2"
+                            "76509": "Bonus Stage 1",
+                            "76510": "Bonus Stage 2"
                         }
                     },
                     "766": {
@@ -1709,8 +1712,8 @@
                             "77006": "The Followers' Reality",
                             "77007": "Assassination on Emperor Shera",
                             "77008": "A New Era",
-                            "77009": "Extra Stage 1",
-                            "77010": "Extra Stage 2"
+                            "77009": "Bonus Stage 1",
+                            "77010": "Bonus Stage 2"
                         }
                     },
                     "771": {
@@ -1783,8 +1786,8 @@
                             "77506": "Battle for Dilmagia",
                             "77507": "Unending Calamity",
                             "77508": "A New Journey",
-                            "77509": "Extra Stage 1",
-                            "77510": "Extra Stage 2"
+                            "77509": "Bonus Stage 1",
+                            "77510": "Bonus Stage 2"
                         }
                     },
                     "776": {
@@ -1921,12 +1924,12 @@
                     },
                     "785": {
                         "names": [
-                            "Grandshelt Warsong",
+                            "The Ballad of Grandshelt",
                             "格蘭謝爾特戰功詩",
                             "그랑셸트 무훈시",
-                            "Chant de guerre de Grandshelt",
-                            "Grandshelt Kriegslied",
-                            "Himno de guerra de Grandshelt"
+                            "La ballade de Grandshelt",
+                            "Die Ballade von Grandshelt",
+                            "La balada de Grandshelt"
                         ],
                         "dungeons": {
                             "78501": "Public Practice",
@@ -1945,6 +1948,167 @@
                             "78514": "Cave of Crystals (Tech)",
                             "78515": "Cave of Crystals (Healing)",
                             "78516": "Cave of Crystals (Support)"
+                        }
+                    },
+                    "786": {
+                        "names": [
+                            "Equipment Enhancement Event",
+                            "武具強化活動",
+                            "장비 강화 이벤트",
+                            "Événement d'amélioration d'équipement",
+                            "Ausrüstung Verbesserungsereignis",
+                            "Evento de mejora de equipo"
+                        ],
+                        "dungeons": {
+                            "78601": "Steel Castle Melfikya"
+                        }
+                    },
+                    "787": {
+                        "names": [
+                            "Once Per Day 2nd Anniversary Raid",
+                            null,
+                            "하루 한정  2주년 기념 레이드",
+                            "Raid du 2e anniversaire (une fois par jour)",
+                            null,
+                            null
+                        ],
+                        "dungeons": {
+                            "78701": "Once Per Day 2nd Anniversary Raid"
+                        }
+                    },
+                    "789": {
+                        "names": [
+                            "SeeD Field Exam",
+                            "SeeD實地試驗",
+                            "SeeD 실기 시험",
+                            "Examen Seed",
+                            "SEED Praxisprüfung",
+                            "Campo de pruebas SeeD"
+                        ],
+                        "dungeons": {
+                            "78901": "SeeD Field Exam"
+                        }
+                    },
+                    "790": {
+                        "names": [
+                            "Dollet - Exploration",
+                            "多爾・探索",
+                            "돌·탐색",
+                            "Dollet - Exploration",
+                            "Dollet - Erkundung",
+                            "Dollet - Exploración"
+                        ],
+                        "dungeons": {
+                            "79001": "Dollet - Exploration"
+                        }
+                    },
+                    "791": {
+                        "names": [
+                            "Domain for Two",
+                            "兩人的領域",
+                            "두 사람의 영역",
+                            "Domaine pour deux",
+                            "Territorium für Zwei",
+                            "Dominio doble"
+                        ],
+                        "dungeons": {
+                            "79101": "Domain",
+                            "79102": "Soldiers on the Border",
+                            "79103": "Expectations of the Servants",
+                            "79104": "The Girl and the Coeurl",
+                            "79105": "Vanquish Orders",
+                            "79106": "General Offensive",
+                            "79107": "Rescue Mission",
+                            "79108": "Where We Belong",
+                            "79109": "Cave of Crystals (Black)",
+                            "79110": "Cave of Crystals (White)",
+                            "79111": "Cave of Crystals (Green)",
+                            "79112": "Cave of Crystals (Power)",
+                            "79113": "Cave of Crystals (Guard)",
+                            "79114": "Cave of Crystals (Tech)",
+                            "79115": "Cave of Crystals (Healing)",
+                            "79116": "Cave of Crystals (Support)"
+                        }
+                    },
+                    "792": {
+                        "names": [
+                            "Estark's Challenge",
+                            "艾斯塔克挑戰",
+                            "에스타크 챌린지",
+                            "Le défi d'Estark",
+                            "Estarks Herausforderung",
+                            "El desafío de Estark"
+                        ],
+                        "dungeons": {
+                            "79201": "Estark's Challenge"
+                        }
+                    },
+                    "793": {
+                        "names": [
+                            "March on the Lord of the Underworld",
+                            "地獄帝王艾斯塔克討伐",
+                            "지옥의 황제 에스타크 토벌전",
+                            "Offensive contre le Seigneur des Enfers",
+                            "Jagd auf den Herrn der Unterwelt",
+                            "A la caza del Señor del Inframundo"
+                        ],
+                        "dungeons": {
+                            "79301": "March on the Lord of the Underworld"
+                        }
+                    },
+                    "794": {
+                        "names": [
+                            "Shrine of Ru'Avitau",
+                            "露·艾比塔烏神殿",
+                            "루아비타우 신전",
+                            "Tombeau de Ru'Avitau",
+                            "Ru'Avitau-Schrein",
+                            "Templo de Ru'Avitau"
+                        ],
+                        "dungeons": {
+                            "79401": "Shrine of Ru'Avitau"
+                        }
+                    },
+                    "795": {
+                        "names": [
+                            "Shrine of Ru'Avitau - Exploration",
+                            "露·艾比塔烏神殿·探索",
+                            "루아비타우 신전·탐색",
+                            "Tombeau de Ru'Avitau - Exploration",
+                            "Ru'Avitau-Schrein - Erkundung",
+                            "Templo de Ru'Avitau - Exploración"
+                        ],
+                        "dungeons": {
+                            "79501": "Shrine of Ru'Avitau - Exploration"
+                        }
+                    },
+                    "796": {
+                        "names": [
+                            "The Color of Heartlessness",
+                            "無情七色",
+                            "비정은 무지갯빛",
+                            "De la difficulté d'être impitoyable",
+                            "Die Nuancen der Herzlosigkeit",
+                            "Los tonos del descorazonamiento"
+                        ],
+                        "dungeons": {
+                            "79601": "New Orders",
+                            "79602": "Shatal and Domino",
+                            "79603": "Assault on Hess's Hideout",
+                            "79604": "Welling Doubts",
+                            "79605": "The Betrayal",
+                            "79606": "Hyoh's Plan",
+                            "79607": "Truth Brought to Light",
+                            "79608": "For You",
+                            "79609": "Bonus Stage",
+                            "79610": "Cave of Crystals (Black)",
+                            "79611": "Cave of Crystals (White)",
+                            "79612": "Cave of Crystals (Green)",
+                            "79613": "Cave of Crystals (Power)",
+                            "79614": "Cave of Crystals (Guard)",
+                            "79615": "Cave of Crystals (Tech)",
+                            "79616": "Cave of Crystals (Healing)",
+                            "79617": "Cave of Crystals (Support)"
                         }
                     },
                     "797": {
@@ -1973,6 +2137,113 @@
                             "79801": "Rats from the Gutters"
                         }
                     },
+                    "799": {
+                        "names": [
+                            "The Heart of a King",
+                            "身為王者",
+                            "왕의 자격",
+                            "L'Étoffe des Rois",
+                            "Das Herz eines Königs",
+                            "El peso de la corona"
+                        ],
+                        "dungeons": {
+                            "79901": "The Heart of a King"
+                        }
+                    },
+                    "800": {
+                        "names": [
+                            "Fodina Caestino - Exploration",
+                            "凱斯特諾礦山·探索",
+                            "케스티노 광산·탐색",
+                            "Fodina Caestino - Exploration",
+                            "Fodina Caestino – Erkundung",
+                            "Fodina Caestino - Exploración"
+                        ],
+                        "dungeons": {
+                            "80001": "Fodina Caestino - Exploration"
+                        }
+                    },
+                    "801": {
+                        "names": [
+                            "Piercing Light",
+                            "穿透之光",
+                            "삐걱이는 빛",
+                            "Une lumière vacillante",
+                            "Durchbohrendes Licht",
+                            "Luz penetrante"
+                        ],
+                        "dungeons": {
+                            "80101": "The Day of Release",
+                            "80102": "The Ambitious Repairman",
+                            "80103": "Thoughts Invoked",
+                            "80104": "Citra Lost",
+                            "80105": "Location of the Abducted",
+                            "80106": "An Unfortunate Reunion",
+                            "80107": "Silence Broken",
+                            "80108": "True Darkness",
+                            "80109": "Bonus Stage",
+                            "80110": "Cave of Crystals (Black)",
+                            "80111": "Cave of Crystals (White)",
+                            "80112": "Cave of Crystals (Green)",
+                            "80113": "Cave of Crystals (Power)",
+                            "80114": "Cave of Crystals (Guard)",
+                            "80115": "Cave of Crystals (Tech)",
+                            "80116": "Cave of Crystals (Healing)",
+                            "80117": "Cave of Crystals (Support)"
+                        }
+                    },
+                    "802": {
+                        "names": [
+                            "Lost City of Dipan",
+                            "滅亡都市迪龎",
+                            "잃어버린 도시 디판",
+                            "Dipan, la ville perdue",
+                            "Verlorene Stadt Dipan",
+                            "Ciudad perdida de Dipan"
+                        ],
+                        "dungeons": {
+                            "80201": "Lost City of Dipan"
+                        }
+                    },
+                    "803": {
+                        "names": [
+                            "Tower of Lezard Valeth",
+                            "雷薩德·瓦雷斯之塔",
+                            "레자드 발레스의 탑",
+                            "La tour de Lezard Valeth",
+                            "Turm von Lezard Valeth",
+                            "La torre de Lezard Valeth"
+                        ],
+                        "dungeons": {
+                            "80301": "Tower of Lezard Valeth"
+                        }
+                    },
+                    "804": {
+                        "names": [
+                            "Gaea's Cliff",
+                            "蓋亞絕壁",
+                            "가이아의 절벽",
+                            "Falaise de Gaëa",
+                            "Gaia-Klippe",
+                            "Acantilados de Gaia"
+                        ],
+                        "dungeons": {
+                            "80401": "Gaea's Cliff"
+                        }
+                    },
+                    "805": {
+                        "names": [
+                            "Gaea's Cliff - Exploration",
+                            "蓋亞絕壁·探索",
+                            "가이아의 절벽·탐색",
+                            "Falaise de Gaëa - Exploration",
+                            "Gaia-Klippe – Erkundung",
+                            "Acantilados de Gaia - Exploración"
+                        ],
+                        "dungeons": {
+                            "80501": "Gaea's Cliff - Exploration"
+                        }
+                    },
                     "898": {
                         "names": [
                             "Chamber of Arms",
@@ -1980,7 +2251,7 @@
                             "십이무구의 틈새",
                             "Chambre des armes",
                             "Waffenkammer",
-                            "Cámara de las reliquias"
+                            "Cámara de las Reliquias"
                         ],
                         "dungeons": {
                             "89801": "Chamber of Arms"
@@ -2001,6 +2272,8 @@
                             "89730": "Scorn of the Brachiosaur",
                             "89731": "Scorn of the Intangir",
                             "89732": "Scorn of the Surging Menace",
+                            "89733": "Scorn of Antenolla",
+                            "89734": "Scorn of the 2-Headed Dragon",
                             "89901": "Chamber of the Reborn",
                             "89921": "Chamber of Trials",
                             "89931": "Attack of the Intangir",
@@ -2016,8 +2289,12 @@
                             "89941": "The Fallen Ice Bird",
                             "89942": "The Legendary Stag",
                             "89943": "Armor of Oppression",
+                            "89944": "Great Explosion Festival",
+                            "89945": "Ancient Hellbringer",
+                            "89946": "Venomous Vines of Death",
                             "90013": "The Lure of Echidna",
-                            "90016": "The Rumble of Malboro"
+                            "90016": "The Rumble of Malboro",
+                            "90035": "The Torturous Trio"
                         }
                     },
                     "900": {
@@ -2039,8 +2316,8 @@
                             "移動至十二武具之間",
                             "십이무구의 틈새로 이동",
                             "Transition vers la chambre des armes",
-                            "Wechsel in die Waffenkammer",
-                            "Avanzando hacia la Cámara de las reliquias"
+                            "Zur Waffenkammer",
+                            "Avanzando hacia la Cámara de las Reliquias"
                         ],
                         "dungeons": {
                             "90001": "Demons Unleashed"
@@ -2442,8 +2719,8 @@
                             "秘密的寶物庫",
                             "비밀의 보물창고",
                             "Coffre aux trésors cachés",
-                            "Schließfach der verborgenen Schätze",
-                            "Cámara del tesoro"
+                            "Gewölbe der verborgenen Schätze",
+                            "Cámara de los Tesoros Escondidos"
                         ],
                         "dungeons": {
                             "90032": "Vault of Hidden Treasures"
@@ -2475,12 +2752,64 @@
                             "90034": "Strike of the URGA Mstitel"
                         }
                     },
+                    "936": {
+                        "names": [
+                            "Deus Ex: Mankind Divided",
+                            "Deus Ex: Mankind Divided",
+                            "Deus Ex: 인류 분열",
+                            "Deus Ex: Mankind Divided",
+                            "Deus Ex: Mankind Divided",
+                            "Deus Ex: Mankind Divided"
+                        ],
+                        "dungeons": {
+                            "93601": "Deus Ex: Mankind Divided"
+                        }
+                    },
+                    "937": {
+                        "names": [
+                            "Stopping Marchenko",
+                            "阻止馬爾琴科",
+                            "마르첸코를 막아라",
+                            "Barrez la route à Marchenko",
+                            "Halte Marchenko auf",
+                            "Deteniendo a Marchenko"
+                        ],
+                        "dungeons": {
+                            "93701": "Stopping Marchenko"
+                        }
+                    },
+                    "938": {
+                        "names": [
+                            "Vault of Hidden Treasures",
+                            "秘密的寶物庫",
+                            "비밀의 보물창고",
+                            "Coffre aux trésors cachés",
+                            "Gewölbe der verborgenen Schätze",
+                            "Cámara de los Tesoros Escondidos"
+                        ],
+                        "dungeons": {
+                            "90038": "Vault of Hidden Treasures"
+                        }
+                    },
+                    "939": {
+                        "names": [
+                            "Sun, Sand, and Sea",
+                            "陽光、沙灘、海洋",
+                            "햇살, 모래 그리고 바다",
+                            "Le ciel, le soleil et la mer",
+                            "Sonne, Sand und Meer",
+                            "Sol, mar y tierra"
+                        ],
+                        "dungeons": {
+                            "93901": "Sun, Sand, and Sea"
+                        }
+                    },
                     "9001": {
-                        "names": [],
+                        "names": [null, null, null, null, null, null],
                         "dungeons": []
                     },
                     "61000": {
-                        "names": [],
+                        "names": [null, null, null, null, null, null],
                         "dungeons": {
                             "6100000": "Lands of Plenty"
                         }
@@ -2674,7 +3003,8 @@
                         ],
                         "dungeons": {
                             "114301": "Madam's Manor",
-                            "114302": "Ancient Ruins Level 1"
+                            "114302": "Ancient Ruins Level 1",
+                            "114303": "Ancient Ruins Level 2"
                         }
                     }
                 }
@@ -2683,12 +3013,41 @@
                 "names": [
                     "Visectrum",
                     "維瑟庫特拉姆",
-                    null,
-                    null,
-                    null,
-                    null
+                    "뷔섹트럼",
+                    "Visectrum",
+                    "Visektrum",
+                    "Visectrum"
                 ],
-                "subregions": []
+                "subregions": {
+                    "1151": {
+                        "names": [
+                            "Visectrum",
+                            "維瑟庫特拉姆",
+                            "뷔섹트럼",
+                            "Visectrum",
+                            "Visektrum",
+                            "Visectrum"
+                        ],
+                        "dungeons": {
+                            "115101": "Mizass Mountains",
+                            "115102": "Arc Bay",
+                            "115103": "Slumson Plains",
+                            "115104": "Molera Flatlands",
+                            "115105": "Camp Danacos",
+                            "115106": "Savage Ruins",
+                            "115107": "Madelle Bridge",
+                            "115108": "Barriered Base",
+                            "115109": "Grave of the Warriors",
+                            "115110": "Grassy Road",
+                            "115111": "Emerald Lake",
+                            "115112": "Protta Forest",
+                            "115113": "Rock Pile Hill",
+                            "115114": "Ghastly Valley",
+                            "115115": "Helmna Heights",
+                            "115151": "Sacred Valley"
+                        }
+                    }
+                }
             }
         }
     }
