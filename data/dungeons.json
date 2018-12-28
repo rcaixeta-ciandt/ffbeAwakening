@@ -1772,7 +1772,8 @@
             "1425103": "Eroded Castle - Path to the Underground",
             "1425104": "Eroded Castle - A Great Presence",
             "1425105": "Eroded Castle - The Iron Blade",
-            "1425106": "Trial of the Blade"
+            "1425106": "Trial of the Blade",
+            "1425107": "New Trial of the Blade"
         }
     },
     "15101": {
@@ -3290,10 +3291,10 @@
         "position": [0, 0],
         "icon": "spd_bn_list_00002.png",
         "missions": {
-            "2110391": "Chamber of Awakening - BGN",
-            "2110392": "Chamber of Awakening - INT",
-            "2110393": "Chamber of Awakening - ADV",
-            "2110394": "Chamber of Awakening - PRO"
+            "2110391": "Chamber of Awakening - 2★ Units",
+            "2110392": "Chamber of Awakening - 3★ Units",
+            "2110393": "Chamber of Awakening - 4★ Units",
+            "2110394": "Chamber of Awakening - 5★ Units"
         }
     },
     "21104": {
@@ -3587,7 +3588,17 @@
             "3010161": "Vault of Hidden Treasures 1/5",
             "3010162": "Vault of Hidden Treasures 1/6",
             "3010163": "Vault of Hidden Treasures 1/7",
-            "3010164": "Vault of Hidden Treasures 1/8"
+            "3010164": "Vault of Hidden Treasures 1/8",
+            "3010175": "Vault of Hidden Treasures 4/11",
+            "3010176": "Vault of Hidden Treasures 4/12",
+            "3010177": "Vault of Hidden Treasures 4/13",
+            "3010178": "Vault of Hidden Treasures 4/14",
+            "3010179": "Vault of Hidden Treasures 4/15",
+            "3010180": "Vault of Hidden Treasures 4/16",
+            "3010181": "Vault of Hidden Treasures 4/17",
+            "3010182": "Vault of Hidden Treasures 4/18",
+            "3010183": "Vault of Hidden Treasures 4/19",
+            "3010184": "Vault of Hidden Treasures 4/20"
         }
     },
     "30201": {
@@ -4009,7 +4020,8 @@
             "6000607": "pb_Magic Research Center - Laboratory",
             "6000608": "Eroded Castle - Obtain Odin",
             "6000609": "Eroded Castle - Evolve Odin",
-            "6000610": "Electric Tower ATM Battle"
+            "6000610": "Electric Tower ATM Battle",
+            "6000611": "Eroded Castle - Odin's Awakening"
         }
     },
     "60007": {
@@ -4154,7 +4166,8 @@
         "icon": "spd_bn_dummy.png",
         "missions": {
             "6001301": "Obtain Fenrir",
-            "6001302": "Evolve Fenrir"
+            "6001302": "Evolve Fenrir",
+            "6001303": "Fenrir - Awakening"
         }
     },
     "60014": {
@@ -4198,7 +4211,8 @@
             "6001505": "Ruins of the Water God_Field Dialog 2-1",
             "6001506": "Ruins of the Water God_Field Dialog 3",
             "6001507": "Ruins of the Water God_Obtain Leviathan",
-            "6001508": "Ruins of the Water God_Evolve Leviathan"
+            "6001508": "Ruins of the Water God_Evolve Leviathan",
+            "6001509": "Ruins of the Water God_Leviathan's Awakening"
         }
     },
     "60016": {
@@ -4247,7 +4261,8 @@
             "6001704": "Barrier Station 1",
             "6001705": "Kappa Village Phoenix Beginning",
             "6001706": "Obtain Phoenix",
-            "6001707": "Evolve Phoenix"
+            "6001707": "Evolve Phoenix",
+            "6001708": "Phoenix's Awakening"
         }
     },
     "60018": {
@@ -4289,11 +4304,59 @@
             "6001904": "Capital of Despair Hellstya 1"
         }
     },
+    "60020": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "600",
+        "position": [0, 0],
+        "icon": "spd_bn_dummy.png"
+    },
     "60021": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "600",
+        "position": [0, 0],
+        "icon": "spd_bn_dummy.png",
         "missions": {
+            "6002101": "Karvell Resort Town",
             "6002102": "Obtain Alexander",
-            "6002103": "Evolve Alexander"
+            "6002103": "Evolve Alexander",
+            "6002104": null
         }
+    },
+    "60022": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "600",
+        "position": [0, 0],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "6002201": "Londell Road 1",
+            "6002202": "Londell Road 2"
+        }
+    },
+    "60023": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "600",
+        "position": [0, 0],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "6002301": "Obtain Anima",
+            "6002302": "Evolve Anima"
+        }
+    },
+    "60024": {
+        "names": [null, null, null, null, null, null],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "600",
+        "position": [0, 0],
+        "icon": "spd_bn_dummy.png"
     },
     "70101": {
         "names": [
@@ -4412,7 +4475,7 @@
             "魔導院聖櫃朱雀",
             "마도원 페리시티리움 주작",
             "Akademeia",
-            "Akademeia",
+            "Akademie",
             "La Academia"
         ],
         "world_id": 2,
@@ -7180,7 +7243,12 @@
             "7560106": "Maritime Strategist Nichol",
             "7560107": "Raegen",
             "7560108": "Hyoh",
-            "7560109": "Citra"
+            "7560109": "Citra",
+            "7560110": "Sieghard",
+            "7560111": "Folka",
+            "7560112": "Ignacio",
+            "7560113": "Cid",
+            "7560114": "Akstar"
         }
     },
     "75701": {
@@ -8842,7 +8910,7 @@
             "Cave of Crystals (Power)",
             "晶石的洞窟【攻擊】",
             "수정의 동굴 [공격]",
-            "Caverne de cristaux d'attaque",
+            "Caverne de cristaux puissants",
             "Höhle der Kristalle (Kraft)",
             "Cueva de los crists potentes"
         ],
@@ -8863,7 +8931,7 @@
             "Cave of Crystals (Guard)",
             "晶石的洞窟【防禦】",
             "수정의 동굴 [수비]",
-            "Caverne de cristaux de défense",
+            "Caverne de cristaux gardiens",
             "Höhle der Kristalle (Wächter)",
             "Cueva de los crists guardianes"
         ],
@@ -8905,7 +8973,7 @@
             "Cave of Crystals (Healing)",
             "晶石的洞窟【治癒】",
             "수정의 동굴 [치유]",
-            "Caverne de cristaux de soin",
+            "Caverne de cristaux curatifs",
             "Höhle der Kristalle (Heilung)",
             "Cueva de los crists curativos"
         ],
@@ -9293,7 +9361,7 @@
             "Cave of Crystals (Power)",
             "晶石的洞窟【攻擊】2",
             "수정의 동굴 [공격]",
-            "Caverne de cristaux d'attaque",
+            "Caverne de cristaux puissants",
             "Höhle der Kristalle (Kraft)",
             "Cueva de los crists potentes"
         ],
@@ -9314,7 +9382,7 @@
             "Cave of Crystals (Guard)",
             "晶石的洞窟【防禦】1",
             "수정의 동굴 [수비]",
-            "Caverne de cristaux de défense",
+            "Caverne de cristaux gardiens",
             "Höhle der Kristalle (Wächter)",
             "Cueva de los crists guardianes"
         ],
@@ -9356,7 +9424,7 @@
             "Cave of Crystals (Healing)",
             "晶石的洞窟【治癒】",
             "수정의 동굴 [치유]",
-            "Caverne de cristaux de soin",
+            "Caverne de cristaux curatifs",
             "Höhle der Kristalle (Heilung)",
             "Cueva de los crists curativos"
         ],
@@ -9757,7 +9825,7 @@
             "Cave of Crystals (Power)",
             "晶石的洞窟【攻擊】",
             "수정의 동굴 [공격]",
-            "Caverne de cristaux d'attaque",
+            "Caverne de cristaux puissants",
             "Höhle der Kristalle (Kraft)",
             "Cueva de los crists potentes"
         ],
@@ -9778,7 +9846,7 @@
             "Cave of Crystals (Guard)",
             "晶石的洞窟【防禦】",
             "수정의 동굴 [수비]",
-            "Caverne de cristaux de défense",
+            "Caverne de cristaux gardiens",
             "Höhle der Kristalle (Wächter)",
             "Cueva de los crists guardianes"
         ],
@@ -9820,7 +9888,7 @@
             "Cave of Crystals (Healing)",
             "晶石的洞窟【治癒】",
             "수정의 동굴 [치유]",
-            "Caverne de cristaux de soin",
+            "Caverne de cristaux curatifs",
             "Höhle der Kristalle (Heilung)",
             "Cueva de los crists curativos"
         ],
@@ -10162,19 +10230,6 @@
         }
     },
     "79610": {
-        "names": [
-            "Cave of Crystals (Black)",
-            "晶石的洞窟【黑】",
-            "수정의 동굴 [흑]",
-            "Caverne de cristaux noirs",
-            "Höhle der Kristalle (Schwarz)",
-            "Cueva de los crists negros"
-        ],
-        "world_id": 2,
-        "region_id": "21",
-        "subregion_id": "796",
-        "position": [160, 2460],
-        "icon": "map_icon_78009.png",
         "missions": {
             "7961000": "Cave of Crystals (Black)",
             "7961001": "Cave of Crystals (Black) 1",
@@ -10183,19 +10238,6 @@
         }
     },
     "79611": {
-        "names": [
-            "Cave of Crystals (White)",
-            "晶石的洞窟【白】",
-            "수정의 동굴 [백]",
-            "Caverne de cristaux blancs",
-            "Höhle der Kristalle (Weiß)",
-            "Cueva de los crists blancos"
-        ],
-        "world_id": 2,
-        "region_id": "21",
-        "subregion_id": "796",
-        "position": [320, 2640],
-        "icon": "map_icon_78010.png",
         "missions": {
             "7961100": "Cave of Crystals (White)",
             "7961101": "Cave of Crystals (White) 1",
@@ -10204,19 +10246,6 @@
         }
     },
     "79612": {
-        "names": [
-            "Cave of Crystals (Green)",
-            "晶石的洞窟【綠】",
-            "수정의 동굴 [녹]",
-            "Caverne de cristaux verts",
-            "Höhle der Kristalle (Grün)",
-            "Cueva de los crists verdes"
-        ],
-        "world_id": 2,
-        "region_id": "21",
-        "subregion_id": "796",
-        "position": [480, 2460],
-        "icon": "map_icon_78011.png",
         "missions": {
             "7961200": "Cave of Crystals (Green)",
             "7961201": "Cave of Crystals (Green) 1",
@@ -10225,19 +10254,6 @@
         }
     },
     "79613": {
-        "names": [
-            "Cave of Crystals (Power)",
-            "晶石的洞窟【攻擊】",
-            "수정의 동굴 [공격]",
-            "Caverne de cristaux d'attaque",
-            "Höhle der Kristalle (Kraft)",
-            "Cueva de los crists potentes"
-        ],
-        "world_id": 2,
-        "region_id": "21",
-        "subregion_id": "796",
-        "position": [160, 2840],
-        "icon": "map_icon_78012.png",
         "missions": {
             "7961300": "Cave of Crystals (Power)",
             "7961301": "Cave of Crystals (Power) 1",
@@ -10246,19 +10262,6 @@
         }
     },
     "79614": {
-        "names": [
-            "Cave of Crystals (Guard)",
-            "晶石的洞窟【防禦】",
-            "수정의 동굴 [수비]",
-            "Caverne de cristaux de défense",
-            "Höhle der Kristalle (Wächter)",
-            "Cueva de los crists guardianes"
-        ],
-        "world_id": 2,
-        "region_id": "21",
-        "subregion_id": "796",
-        "position": [320, 3020],
-        "icon": "map_icon_78013.png",
         "missions": {
             "7961400": "Cave of Crystals (Guard)",
             "7961401": "Cave of Crystals (Guard) 1",
@@ -10267,19 +10270,6 @@
         }
     },
     "79615": {
-        "names": [
-            "Cave of Crystals (Tech)",
-            "晶石的洞窟【技巧】",
-            "수정의 동굴 [기술]",
-            "Caverne de cristaux techniques",
-            "Höhle der Kristalle (Tech)",
-            "Cueva de los crists técnicos"
-        ],
-        "world_id": 2,
-        "region_id": "21",
-        "subregion_id": "796",
-        "position": [480, 2840],
-        "icon": "map_icon_78014.png",
         "missions": {
             "7961500": "Cave of Crystals (Tech)",
             "7961501": "Cave of Crystals (Tech) 1",
@@ -10288,19 +10278,6 @@
         }
     },
     "79616": {
-        "names": [
-            "Cave of Crystals (Healing)",
-            "晶石的洞窟【治癒】",
-            "수정의 동굴 [치유]",
-            "Caverne de cristaux de soin",
-            "Höhle der Kristalle (Heilung)",
-            "Cueva de los crists curativos"
-        ],
-        "world_id": 2,
-        "region_id": "21",
-        "subregion_id": "796",
-        "position": [160, 3200],
-        "icon": "map_icon_78015.png",
         "missions": {
             "7961600": "Cave of Crystals (Healing)",
             "7961601": "Cave of Crystals (Healing) 1",
@@ -10309,19 +10286,6 @@
         }
     },
     "79617": {
-        "names": [
-            "Cave of Crystals (Support)",
-            "晶石的洞窟【支援】",
-            "수정의 동굴 [지원]",
-            "Caverne de cristaux de soutien",
-            "Höhle der Kristalle (Unterstützung)",
-            "Cueva de los crists apoyadores"
-        ],
-        "world_id": 2,
-        "region_id": "21",
-        "subregion_id": "796",
-        "position": [480, 3200],
-        "icon": "map_icon_78016.png",
         "missions": {
             "7961700": "Cave of Crystals (Support)",
             "7961701": "Cave of Crystals (Support) 1",
@@ -10396,7 +10360,7 @@
             "Fodina Caestino - Exploration",
             "凱斯特諾礦山·探索",
             "케스티노 광산·탐색",
-            "Fodina Caestino - Exploration",
+            "Mine de Caestino - Exploration",
             "Fodina Caestino - Erkundung",
             "Fodina Caestino - Exploración"
         ],
@@ -10425,7 +10389,7 @@
         "position": [320, 2048],
         "icon": "map_icon_1510105.png",
         "missions": {
-            "8010100": "Upcoming Release",
+            "8010100": "The Day of Release",
             "8010101": "Falling Apart at the Seams",
             "8010102": "Those Left",
             "8010103": "Thoughts of a Younger Sister",
@@ -10702,7 +10666,7 @@
             "Cave of Crystals (Power)",
             "晶石的洞窟【攻擊】",
             "수정의 동굴 [공격]",
-            "Caverne de cristaux de puissance",
+            "Caverne de cristaux puissants",
             "Höhle der Kristalle (Kraft)",
             "Cueva de los crists potentes"
         ],
@@ -10723,7 +10687,7 @@
             "Cave of Crystals (Guard)",
             "晶石的洞窟【防禦】",
             "수정의 동굴 [수비]",
-            "Caverne de cristaux protecteurs",
+            "Caverne de cristaux gardiens",
             "Höhle der Kristalle (Wächter)",
             "Cueva de los crists guardianes"
         ],
@@ -10765,7 +10729,7 @@
             "Cave of Crystals (Healing)",
             "晶石的洞窟【治癒】",
             "수정의 동굴 [치유]",
-            "Caverne de cristaux de soin",
+            "Caverne de cristaux curatifs",
             "Höhle der Kristalle (Heilung)",
             "Cueva de los crists curativos"
         ],
@@ -10806,9 +10770,9 @@
         "names": [
             "Lost City of Dipan",
             "滅亡都市迪龐",
-            "잃어버린 도시 디판",
-            "Dipan, la ville perdue",
-            "Verlorene Stadt Dipan",
+            "망실의 도시 디판",
+            "Cité perdue de Dipan",
+            "Die Verlorene Stadt Dipan",
             "Ciudad perdida de Dipan"
         ],
         "world_id": 2,
@@ -10818,19 +10782,19 @@
         "icon": "spd_bn_dummy.png",
         "missions": {
             "8020101": "Lost City of Dipan - INT",
-            "8020102": "Lost City of Dipan - PRO",
-            "8020103": "Lost City of Dipan - ELT",
-            "8020104": "Lost City of Dipan - LGD"
+            "8020102": "Lost City of Dipan - ADV",
+            "8020103": "Lost City of Dipan - PRO",
+            "8020104": "Lost City of Dipan - ELT"
         }
     },
     "80301": {
         "names": [
             "Tower of Lezard Valeth",
             "雷薩德·瓦雷斯之塔",
-            "레자드 발레스의 탑",
+            "레저드 발레스의 탑",
             "Tour de Lezard Valeth",
-            "Turm von Lezard Valeth",
-            "La torre de Lezard Valeth"
+            "Der Turm von Lezard Valeth",
+            "Torre de Lezard Valeth"
         ],
         "world_id": 2,
         "region_id": "21",
@@ -10846,7 +10810,7 @@
             "Gaea's Cliff",
             "蓋亞絕壁",
             "가이아의 절벽",
-            "Falaise de Gaëa",
+            "Falaise de Gaïa",
             "Klippen von Gaia",
             "Acantilados de Gaia"
         ],
@@ -10869,7 +10833,7 @@
             "Gaea's Cliff - Exploration",
             "蓋亞絕壁·探索",
             "가이아의 절벽·탐색",
-            "Falaise de Gaëa - Exploration",
+            "Falaise de Gaïa - Exploration",
             "Klippen von Gaia - Erkundung",
             "Acantilados de Gaia - Exploración"
         ],
@@ -10881,6 +10845,2705 @@
         "missions": {
             "8050101": "Gaea's Cliff - Exploration (HARD)",
             "8050102": "Gaea's Cliff - Exploration (EASY)"
+        }
+    },
+    "80601": {
+        "names": [
+            "The Lion's Tale",
+            "獅子的故事",
+            "어느 사자 이야기",
+            "L'histoire d'un lion",
+            "Die Geschichte des Löwen",
+            "El cuento del león"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [320, 2048],
+        "icon": "map_icon_1120102.png",
+        "missions": {
+            "8060100": "The Lion's Tale",
+            "8060101": "The Lion's Tale",
+            "8060102": "To the Dark Wood",
+            "8060103": "Meandering Trail",
+            "8060104": "Bewitching Fog",
+            "8060105": "Nest of the Beasts",
+            "8060106": "The Stare",
+            "8060107": "The Beautiful Mage"
+        }
+    },
+    "80602": {
+        "names": [
+            "The Kind Frog",
+            "善良的青蛙",
+            "마음 착한 개구리",
+            "La grenouille au grand cœur",
+            "Der liebe Frosch",
+            "La rana bondadosa"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [141, 1805],
+        "icon": "map_icon_1110102.png",
+        "missions": {
+            "8060200": "The Kind Frog",
+            "8060201": "The Lonely Sprite",
+            "8060202": "The Frog and the Sprite",
+            "8060203": "The Search for Tim",
+            "8060204": "A Difficult Hunt",
+            "8060205": "The Worrisome Frog",
+            "8060206": "Spring of the Fairies",
+            "8060207": "Turtle from the Depths",
+            "8060208": "The Fairy's Guidance"
+        }
+    },
+    "80603": {
+        "names": [
+            "The Fairy Queen",
+            "妖精女王",
+            "요정의 여왕",
+            "La reine des fées",
+            "Die Königin der Feen",
+            "La reina de las hadas"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [482, 1562],
+        "icon": "map_icon_1110102.png",
+        "missions": {
+            "8060300": "The Fairy Queen",
+            "8060301": "The Fairy Queen",
+            "8060302": "Elephim, the Kind",
+            "8060303": "Fairy Intuition",
+            "8060304": "The Hunt for Mediena",
+            "8060305": "Deep in the Forest",
+            "8060306": "The Beautiful Stallion",
+            "8060307": "Problem Child"
+        }
+    },
+    "80604": {
+        "names": [
+            "Polar Opposites",
+            "完全相反的兩人",
+            "정반대의 두 사람",
+            "Un duo mal assorti",
+            "Vollständige Gegensätze",
+            "Polos opuestos"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [165, 1343],
+        "icon": "map_icon_1310101.png",
+        "missions": {
+            "8060400": "Polar Opposites",
+            "8060401": "Unlock the Magic",
+            "8060402": "Mage of the Future?",
+            "8060403": "Mediena's Disciple",
+            "8060404": "Frog Habits",
+            "8060405": "An Outlandish Wish",
+            "8060406": "Blood Starved Bugs",
+            "8060407": "Polar Opposites"
+        }
+    },
+    "80605": {
+        "names": [
+            "Chef in the Wilds",
+            "迷失之森的廚師",
+            "외톨이 숲의 요리사",
+            "Le cuisinier des bois",
+            "Chefkoch der Wildnis",
+            "Un chef en tierras salvajes"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [473, 1101],
+        "icon": "map_icon_1210104.png",
+        "missions": {
+            "8060500": "Chef in the Wilds",
+            "8060501": "The Lost Elf",
+            "8060502": "All is Edible",
+            "8060503": "Of Another Tribe",
+            "8060504": "Desertion",
+            "8060505": "Incoming Chef",
+            "8060506": "Ensuing Fear",
+            "8060507": "Why Run?",
+            "8060508": "Lost Lion"
+        }
+    },
+    "80606": {
+        "names": [
+            "Leopold's Rescue",
+            "救出雷歐波特",
+            "레오폴드 구출",
+            "À la rescousse de Leopold",
+            "Leopolds Rettung",
+            "El rescate de Leopoldo"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [176, 858],
+        "icon": "map_icon_3530105_1.png",
+        "missions": {
+            "8060600": "Leopold's Rescue",
+            "8060601": "The Novice Mage's Resolution",
+            "8060602": "Bluff",
+            "8060603": "A List of Complaints",
+            "8060604": "Magna's Surprise",
+            "8060605": "Home of the Lost Elf",
+            "8060606": "The Hungry Greenery",
+            "8060607": "Mysterious Dish"
+        }
+    },
+    "80607": {
+        "names": [
+            "The Bottomless Heart",
+            "徹頭徹尾的老好人",
+            "착해빠진 사람",
+            "Un cœur gros comme ça",
+            "Bodenlose Gutmütigkeit",
+            "Un corazón lleno de bondad"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [478, 601],
+        "icon": "map_icon_1310106.png",
+        "missions": {
+            "8060700": "The Bottomless Heart",
+            "8060701": "A Time of Need",
+            "8060702": "A Clue to the Lock",
+            "8060703": "Rejected Gratitude",
+            "8060704": "Testing the Taste",
+            "8060705": "Magna's Disposition",
+            "8060706": "Only the Best Ingredients",
+            "8060707": "The Bottomless Heart"
+        }
+    },
+    "80608": {
+        "names": [
+            "Tale of the Fairy",
+            "由此誕生的妖精譚",
+            "그리하여 생겨난 요정 이야기",
+            "La naissance d'un conte",
+            "Die Geschichte der Fee",
+            "El cuento del hada"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [160, 368],
+        "icon": "map_icon_1310106.png",
+        "missions": {
+            "8060800": "Tale of the Fairy",
+            "8060801": "Broken Promise",
+            "8060802": "Elephim's Punishment",
+            "8060803": "The Strong Lion",
+            "8060804": "Kind Coercion",
+            "8060805": "Less in Numbers",
+            "8060806": "Mage Against the Queen",
+            "8060807": "Tale of the Fairy"
+        }
+    },
+    "80609": {
+        "names": [
+            "Bonus Stage",
+            "特別關卡",
+            "엑스트라 스테이지",
+            "Niveau bonus",
+            "Bonuslevel",
+            "Misión especial"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [480, 300],
+        "icon": "map_icon_79609.png",
+        "missions": {
+            "8060900": "Bonus Stage",
+            "8060901": "Bonus Stage 1",
+            "8060902": "Bonus Stage 2",
+            "8060903": "Bonus Stage 3"
+        }
+    },
+    "80610": {
+        "names": [
+            "Cave of Crystals (Black)",
+            "晶石的洞窟【黑】",
+            "수정의 동굴 [흑]",
+            "Caverne de cristaux noirs",
+            "Höhle der Kristalle (Schwarz)",
+            "Cueva de los crists negros"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [160, 2460],
+        "icon": "map_icon_78009.png",
+        "missions": {
+            "8061000": "Cave of Crystals (Black)",
+            "8061001": "Cave of Crystals (Black) 1",
+            "8061002": "Cave of Crystals (Black) 2",
+            "8061003": "Cave of Crystals (Black) 3"
+        }
+    },
+    "80611": {
+        "names": [
+            "Cave of Crystals (White)",
+            "晶石的洞窟【白】",
+            "수정의 동굴 [백]",
+            "Caverne de cristaux blancs",
+            "Höhle der Kristalle (Weiß)",
+            "Cueva de los crists blancos"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [320, 2640],
+        "icon": "map_icon_78010.png",
+        "missions": {
+            "8061100": "Cave of Crystals (White)",
+            "8061101": "Cave of Crystals (White) 1",
+            "8061102": "Cave of Crystals (White) 2",
+            "8061103": "Cave of Crystals (White) 3"
+        }
+    },
+    "80612": {
+        "names": [
+            "Cave of Crystals (Green)",
+            "晶石的洞窟【綠】",
+            "수정의 동굴 [녹]",
+            "Caverne de cristaux verts",
+            "Höhle der Kristalle (Grün)",
+            "Cueva de los crists verdes"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [480, 2460],
+        "icon": "map_icon_78011.png",
+        "missions": {
+            "8061200": "Cave of Crystals (Green)",
+            "8061201": "Cave of Crystals (Green) 1",
+            "8061202": "Cave of Crystals (Green) 2",
+            "8061203": "Cave of Crystals (Green) 3"
+        }
+    },
+    "80613": {
+        "names": [
+            "Cave of Crystals (Power)",
+            "晶石的洞窟【攻擊】",
+            "수정의 동굴 [공격]",
+            "Caverne de cristaux puissants",
+            "Höhle der Kristalle (Kraft)",
+            "Cueva de los crists potentes"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [160, 2840],
+        "icon": "map_icon_78012.png",
+        "missions": {
+            "8061300": "Cave of Crystals (Power)",
+            "8061301": "Cave of Crystals (Power) 1",
+            "8061302": "Cave of Crystals (Power) 2",
+            "8061303": "Cave of Crystals (Power) 3"
+        }
+    },
+    "80614": {
+        "names": [
+            "Cave of Crystals (Guard)",
+            "晶石的洞窟【防禦】",
+            "수정의 동굴 [수비]",
+            "Caverne de cristaux gardiens",
+            "Höhle der Kristalle (Wächter)",
+            "Cueva de los crists guardianes"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [320, 3020],
+        "icon": "map_icon_78013.png",
+        "missions": {
+            "8061400": "Cave of Crystals (Guard)",
+            "8061401": "Cave of Crystals (Guard) 1",
+            "8061402": "Cave of Crystals (Guard) 2",
+            "8061403": "Cave of Crystals (Guard) 3"
+        }
+    },
+    "80615": {
+        "names": [
+            "Cave of Crystals (Tech)",
+            "晶石的洞窟【技巧】",
+            "수정의 동굴 [기술]",
+            "Caverne de cristaux techniques",
+            "Höhle der Kristalle (Tech)",
+            "Cueva de los crists técnicos"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [480, 2840],
+        "icon": "map_icon_78014.png",
+        "missions": {
+            "8061500": "Cave of Crystals (Tech)",
+            "8061501": "Cave of Crystals (Tech) 1",
+            "8061502": "Cave of Crystals (Tech) 2",
+            "8061503": "Cave of Crystals (Tech) 3"
+        }
+    },
+    "80616": {
+        "names": [
+            "Cave of Crystals (Healing)",
+            "晶石的洞窟【治癒】",
+            "수정의 동굴 [치유]",
+            "Caverne de cristaux curatifs",
+            "Höhle der Kristalle (Heilung)",
+            "Cueva de los crists curativos"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [160, 3200],
+        "icon": "map_icon_78015.png",
+        "missions": {
+            "8061600": "Cave of Crystals (Healing)",
+            "8061601": "Cave of Crystals (Healing) 1",
+            "8061602": "Cave of Crystals (Healing) 2",
+            "8061603": "Cave of Crystals (Healing) 3"
+        }
+    },
+    "80617": {
+        "names": [
+            "Cave of Crystals (Support)",
+            "晶石的洞窟【支援】",
+            "수정의 동굴 [지원]",
+            "Caverne de cristaux de soutien",
+            "Höhle der Kristalle (Unterstützung)",
+            "Cueva de los crists apoyadores"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "806",
+        "position": [480, 3200],
+        "icon": "map_icon_78016.png",
+        "missions": {
+            "8061700": "Cave of Crystals (Support)",
+            "8061701": "Cave of Crystals (Support) 1",
+            "8061702": "Cave of Crystals (Support) 2",
+            "8061703": "Cave of Crystals (Support) 3"
+        }
+    },
+    "80701": {
+        "names": [
+            "The Divine Beast",
+            "受到祭祀的神獸",
+            "성스러운 신수",
+            "Bête divine",
+            "Göttliche Bestie",
+            "La bestia divina"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "807",
+        "position": [0, 0],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "8070101": "Mana Beast - INT",
+            "8070102": "Mana Beast - ADV",
+            "8070103": "Mana Beast - PRO",
+            "8070104": "Mana Beast - ELT"
+        }
+    },
+    "80801": {
+        "names": [
+            "The Dreaded Wandering Lands",
+            "破壞與恐怖的浮游大陸",
+            "파괴와 공포의 부유대륙",
+            "Terres errantes redoutées",
+            "Gefürchtete Wandernde Länder",
+            "Las temidas Tierras Errantes"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "808",
+        "position": [320, 389],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "8080101": "The Dreaded Wandering Lands"
+        }
+    },
+    "80901": {
+        "names": [
+            "30 Million Lapis Giveaway",
+            "合計3000萬寶石禮物活動",
+            "총 3,000만 라피스 선물 이벤트",
+            "Offre de 30 millions de Lapis",
+            "30 Millionen Lapis Verlosung",
+            "Regalo de 30 millones de lapis"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "809",
+        "position": [320, 389],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "8090101": "30 Million Lapis Giveaway"
+        }
+    },
+    "81001": {
+        "names": [
+            "Dominion Defensive Line",
+            "朱雀軍防線",
+            "주작군 수비 라인",
+            "Ligne de défense de Suzaku",
+            "Herrschaftsverteidigungslinie",
+            "Línea de defensa del subyugador"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "810",
+        "position": [0, 0],
+        "icon": "spd_20180228_bn_list_FF0.png",
+        "missions": {
+            "8100101": "Dominion Defensive Line - BGN",
+            "8100102": "Dominion Defensive Line - INT",
+            "8100103": "Dominion Defensive Line - ADV",
+            "8100104": "Dominion Defensive Line - PRO",
+            "8100105": "Dominion Defensive Line - ELT",
+            "8100106": "Dominion Defensive Line - LGD"
+        }
+    },
+    "81101": {
+        "names": [
+            "The Big Bridge - Exploration",
+            "大橋·探索",
+            "빅 브릿지·탐색",
+            "Le Grand Pont - Exploration",
+            "Große Brücke – Erkundung",
+            "Gran Puente - Exploración"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "811",
+        "position": [0, 0],
+        "icon": "spd_20180228_bn_list_FF0_02.png",
+        "missions": {
+            "8110101": "Big Bridge - Exploration (HARD)",
+            "8110102": "Big Bridge - Exploration (EASY)"
+        }
+    },
+    "81201": {
+        "names": [
+            "A Day in a Man's Life",
+            "美麗男人的前半生",
+            "아름다운 남자의 반평생",
+            "La vie d'un bel éphèbe",
+            "Das Leben eines Mannes",
+            "Un día en la vida de un hombre"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [320, 2048],
+        "icon": "map_icon_1710106.png",
+        "missions": {
+            "8120100": "A Day in a Man's Life",
+            "8120101": "A Beautiful Clan",
+            "8120102": "In the Royal Family's Hire",
+            "8120103": "Elegant Technique",
+            "8120104": "Sisterly Praise",
+            "8120105": "Brotherly Blessing",
+            "8120106": "The Troubling Vermin",
+            "8120107": "Ingenius Viewpoint"
+        }
+    },
+    "81202": {
+        "names": [
+            "The Robbery",
+            "被盜事件",
+            "도난 사건",
+            "L'affaire du cambriolage",
+            "Der Raubzug",
+            "El robo"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [141, 1805],
+        "icon": "map_icon_3530102_1.png",
+        "missions": {
+            "8120200": "The Robbery",
+            "8120201": "The Incident",
+            "8120202": "Beautiful Responsibility",
+            "8120203": "Site of the Incident",
+            "8120204": "Brotherly Aphorism",
+            "8120205": "On the Scene",
+            "8120206": "Magnificent Resolution",
+            "8120207": "The Desperate Thief",
+            "8120208": "Sibling Triumph"
+        }
+    },
+    "81203": {
+        "names": [
+            "The Troubled Masses",
+            "庶民所困擾的事",
+            "서민의 고민",
+            "Les tourments du peuple",
+            "Die besorgte Masse",
+            "La multitud perturbada"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [482, 1562],
+        "icon": "map_icon_3530105_1.png",
+        "missions": {
+            "8120300": "The Troubled Masses",
+            "8120301": "Dietlinde's Proclamation",
+            "8120302": "Classy Promenade",
+            "8120303": "Sisterly Resolution",
+            "8120304": "Sisterly Aphorism",
+            "8120305": "Invaders Incoming",
+            "8120306": "Beautiful Restraint",
+            "8120307": "The Unshakeable",
+            "8120308": "Beautiful Philosophy"
+        }
+    },
+    "81204": {
+        "names": [
+            "First Defeat",
+            "初次敗北",
+            "첫 패배",
+            "Première disgrâce",
+            "Erste Niederlage",
+            "La primera derrota"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [165, 1343],
+        "icon": "map_icon_1620104.png",
+        "missions": {
+            "8120400": "First Defeat",
+            "8120401": "A Novel Complaint",
+            "8120402": "How it Happened",
+            "8120403": "Enthusiasm for a Resolution",
+            "8120404": "Crowding Beasts",
+            "8120405": "A Cry for Help",
+            "8120406": "Beasts in the Castle",
+            "8120407": "First Defeat"
+        }
+    },
+    "81205": {
+        "names": [
+            "The Woman's Identity",
+            "女人的真身",
+            "여자의 정체",
+            "La mystérieuse inconnue",
+            "Identität der Frau",
+            "La identidad de la mujer"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [473, 1101],
+        "icon": "map_icon_1110108.png",
+        "missions": {
+            "8120500": "The Woman's Identity",
+            "8120501": "Secret Investigation",
+            "8120502": "Mulling Responsibilities",
+            "8120503": "Another Errand",
+            "8120504": "A Straightforward Question",
+            "8120505": "Return to the Grounds",
+            "8120506": "The Hard-working Maid",
+            "8120507": "The Furious Beast",
+            "8120508": "Investigation Report"
+        }
+    },
+    "81206": {
+        "names": [
+            "Birth of a Rival",
+            "對手誕生",
+            "라이벌 탄생",
+            "La naissance d'une rivale",
+            "Geburt eines Rivalen",
+            "Nacimiento de un rival"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [176, 858],
+        "icon": "map_icon_3510105_1.png",
+        "missions": {
+            "8120600": "Birth of a Rival",
+            "8120601": "Sieghard's Challenge",
+            "8120602": "The Indifferent Beast",
+            "8120603": "Redrawing Boundaries",
+            "8120604": "Beastly Treatment",
+            "8120605": "All-out Battle",
+            "8120606": "True Beast",
+            "8120607": "Birth of a Rival"
+        }
+    },
+    "81207": {
+        "names": [
+            "The Family's Trial",
+            "一族的試煉",
+            "일족의 시련",
+            "L'épreuve du clan",
+            "Die Stammesprüfung",
+            "La prueba de la familia"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [478, 601],
+        "icon": "map_icon_3410108.png",
+        "missions": {
+            "8120700": "The Clan's Trial",
+            "8120701": "Blessed Determination",
+            "8120702": "Midnight Garden",
+            "8120703": "Familial Discomfort",
+            "8120704": "The Road Home",
+            "8120705": "Test of Resolution",
+            "8120706": "Beautiful Siblings",
+            "8120707": "Sieghard's Departure"
+        }
+    },
+    "81208": {
+        "names": [
+            "Magnificent Fate",
+            "華麗的命運",
+            "화려한 운명",
+            "Un destin magnifique",
+            "Prunkvolles Schicksal",
+            "Un destino espléndido"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [160, 368],
+        "icon": "map_icon_3530107_1.png",
+        "missions": {
+            "8120800": "Magnificent Fate",
+            "8120801": "Armor of the Veritas",
+            "8120802": "The Kind Water Maiden",
+            "8120803": "The Isolated Leader",
+            "8120804": "The Flaming Swordsman",
+            "8120805": "The Lightning-clad Girl",
+            "8120806": "The Noble General",
+            "8120807": "The Cool-headed Soldier",
+            "8120808": "The Darkness Fighter",
+            "8120809": "A Beautiful End"
+        }
+    },
+    "81209": {
+        "names": [
+            "Bonus Stage",
+            "特別關卡",
+            "엑스트라 스테이지",
+            "Niveau bonus",
+            "Bonusabschnitt",
+            "Misión especial"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [480, 300],
+        "icon": "map_icon_79609.png",
+        "missions": {
+            "8120900": "Bonus Stage",
+            "8120901": "Bonus Stage 1",
+            "8120902": "Bonus Stage 2",
+            "8120903": "Bonus Stage 3"
+        }
+    },
+    "81210": {
+        "names": [
+            "Cave of Crystals (Black)",
+            "晶石的洞窟【黑】",
+            "수정의 동굴 [흑]",
+            "Caverne de cristaux noirs",
+            "Höhle der Kristalle (Schwarz)",
+            "Cueva de los crists negros"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [160, 2460],
+        "icon": "map_icon_78009.png",
+        "missions": {
+            "8121000": "Cave of Crystals (Black)",
+            "8121001": "Cave of Crystals (Black) 1",
+            "8121002": "Cave of Crystals (Black) 2",
+            "8121003": "Cave of Crystals (Black) 3"
+        }
+    },
+    "81211": {
+        "names": [
+            "Cave of Crystals (White)",
+            "晶石的洞窟【白】",
+            "수정의 동굴 [백]",
+            "Caverne de cristaux blancs",
+            "Höhle der Kristalle (Weiß)",
+            "Cueva de los crists blancos"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [320, 2640],
+        "icon": "map_icon_78010.png",
+        "missions": {
+            "8121100": "Cave of Crystals (White)",
+            "8121101": "Cave of Crystals (White) 1",
+            "8121102": "Cave of Crystals (White) 2",
+            "8121103": "Cave of Crystals (White) 3"
+        }
+    },
+    "81212": {
+        "names": [
+            "Cave of Crystals (Green)",
+            "晶石的洞窟【綠】",
+            "수정의 동굴 [녹]",
+            "Caverne de cristaux verts",
+            "Höhle der Kristalle (Grün)",
+            "Cueva de los crists verdes"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [480, 2460],
+        "icon": "map_icon_78011.png",
+        "missions": {
+            "8121200": "Cave of Crystals (Green)",
+            "8121201": "Cave of Crystals (Green) 1",
+            "8121202": "Cave of Crystals (Green) 2",
+            "8121203": "Cave of Crystals (Green) 3"
+        }
+    },
+    "81213": {
+        "names": [
+            "Cave of Crystals (Power)",
+            "晶石的洞窟【攻擊】",
+            "수정의 동굴 [공격]",
+            "Caverne de cristaux puissants",
+            "Höhle der Kristalle (Kraft)",
+            "Cueva de los crists potentes"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [160, 2840],
+        "icon": "map_icon_78012.png",
+        "missions": {
+            "8121300": "Cave of Crystals (Power)",
+            "8121301": "Cave of Crystals (Power) 1",
+            "8121302": "Cave of Crystals (Power) 2",
+            "8121303": "Cave of Crystals (Power) 3"
+        }
+    },
+    "81214": {
+        "names": [
+            "Cave of Crystals (Guard)",
+            "晶石的洞窟【防禦】",
+            "수정의 동굴 [수비]",
+            "Caverne de cristaux gardiens",
+            "Höhle der Kristalle (Wächter)",
+            "Cueva de los crists guardianes"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [320, 3020],
+        "icon": "map_icon_78013.png",
+        "missions": {
+            "8121400": "Cave of Crystals (Guard)",
+            "8121401": "Cave of Crystals (Guard) 1",
+            "8121402": "Cave of Crystals (Guard) 2",
+            "8121403": "Cave of Crystals (Guard) 3"
+        }
+    },
+    "81215": {
+        "names": [
+            "Cave of Crystals (Tech)",
+            "晶石的洞窟【技巧】",
+            "수정의 동굴 [기술]",
+            "Caverne de cristaux techniques",
+            "Höhle der Kristalle (Tech)",
+            "Cueva de los crists técnicos"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [480, 2840],
+        "icon": "map_icon_78014.png",
+        "missions": {
+            "8121500": "Cave of Crystals (Tech)",
+            "8121501": "Cave of Crystals (Tech) 1",
+            "8121502": "Cave of Crystals (Tech) 2",
+            "8121503": "Cave of Crystals (Tech) 3"
+        }
+    },
+    "81216": {
+        "names": [
+            "Cave of Crystals (Healing)",
+            "晶石的洞窟【治癒】",
+            "수정의 동굴 [치유]",
+            "Caverne de cristaux curatifs",
+            "Höhle der Kristalle (Heilung)",
+            "Cueva de los crists curativos"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [160, 3200],
+        "icon": "map_icon_78015.png",
+        "missions": {
+            "8121600": "Cave of Crystals (Healing)",
+            "8121601": "Cave of Crystals (Healing) 1",
+            "8121602": "Cave of Crystals (Healing) 2",
+            "8121603": "Cave of Crystals (Healing) 3"
+        }
+    },
+    "81217": {
+        "names": [
+            "Cave of Crystals (Support)",
+            "晶石的洞窟【支援】",
+            "수정의 동굴 [지원]",
+            "Caverne de cristaux de soutien",
+            "Höhle der Kristalle (Unterstützung)",
+            "Cueva de los crists apoyadores"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "812",
+        "position": [480, 3200],
+        "icon": "map_icon_78016.png",
+        "missions": {
+            "8121700": "Cave of Crystals (Support)",
+            "8121701": "Cave of Crystals (Support) 1",
+            "8121702": "Cave of Crystals (Support) 2",
+            "8121703": "Cave of Crystals (Support) 3"
+        }
+    },
+    "81301": {
+        "names": [
+            "Tomb of the Silversmith",
+            "白銀工匠遺跡",
+            "은세공사의 유적",
+            "Tombeau de l'Orfèvre",
+            "Grab des Silberschmieds",
+            "Tumba del platero"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "813",
+        "position": [0, 0],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "8130101": "March on Apep - INT",
+            "8130102": "March on Apep - ADV",
+            "8130103": "March on Apep - PRO",
+            "8130104": "March on Apep - ELT"
+        }
+    },
+    "81401": {
+        "names": [
+            "God of Chaos",
+            "混沌之神",
+            "혼돈의 신",
+            "Dieu du chaos",
+            "Gott des Chaos",
+            "Dios del caos"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "814",
+        "position": [320, 389],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "8140101": "God of Chaos"
+        }
+    },
+    "81501": {
+        "names": [
+            "Cave of Darkness",
+            "暗黑洞窟",
+            "암흑의 동굴",
+            "Cave d'Obscurité",
+            "Höhle der Dunkelheit",
+            "Cueva de la Oscuridad"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "815",
+        "position": [0, 0],
+        "icon": "spd_20180330_bn_list_FF3.png",
+        "missions": {
+            "8150101": "Cave of Shadows - BGN",
+            "8150102": "Cave of Shadows - INT",
+            "8150103": "Cave of Shadows - ADV",
+            "8150104": "Cave of Shadows - PRO",
+            "8150105": "Cave of Shadows - ELT",
+            "8150106": "Cave of Shadows - LGD"
+        }
+    },
+    "81601": {
+        "names": [
+            "Doga's Grotto - Exploration",
+            "多加洞窟·探索",
+            "도가의 동굴·탐색",
+            "Grotte de Doga - Exploration",
+            "Dogas Grotte - Erkundung",
+            "Gruta de Doga - Exploración"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "816",
+        "position": [0, 0],
+        "icon": "spd_20180330_bn_list_FF3_02.png",
+        "missions": {
+            "8160101": "Doga's Grotto - Exploration (HARD)",
+            "8160102": "Doga's Grotto - Exploration (EASY)"
+        }
+    },
+    "81701": {
+        "names": [
+            "Priestess of the Land",
+            "大地巫女",
+            "대지의 무녀",
+            "Prêtresse de la Terre",
+            "Priesterin der Erde",
+            "Sacerdotisa de la tierra"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [320, 2048],
+        "icon": "map_icon_1320301.png",
+        "missions": {
+            "8170100": "Priestess of the Land",
+            "8170101": "Ritual of Exorcism",
+            "8170102": "Guardians of the Priestess",
+            "8170103": "The Knight and the Black Chocobo",
+            "8170104": "Lucky Black Chocobo",
+            "8170105": "Zealous Follower",
+            "8170106": "A Log and a Hard Place",
+            "8170107": "A Goddess Appears"
+        }
+    },
+    "81702": {
+        "names": [
+            "Encounter with the Goddess",
+            "邂逅女神",
+            "여신과의 해후",
+            "Rencontre avec l'inconnu",
+            "Begegnung mit der Göttin",
+            "Encuentro con la diosa"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [141, 1805],
+        "icon": "map_icon_1310109.png",
+        "missions": {
+            "8170200": "Encounter with the Goddess",
+            "8170201": "Goddess or Illusion?",
+            "8170202": "Not Illusion!",
+            "8170203": "Ichor's Confusion",
+            "8170204": "Chasing the Goddess",
+            "8170205": "Forest Chase",
+            "8170206": "Lost But Found",
+            "8170207": "Treacherous Waters",
+            "8170208": "Encounter with the Goddess"
+        }
+    },
+    "81703": {
+        "names": [
+            "Cataclysm",
+            "天地異變",
+            "천재지변",
+            "Cataclysme",
+            "Kataklysmus",
+            "Cataclismo"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [482, 1562],
+        "icon": "map_icon_1710101.png",
+        "missions": {
+            "8170300": "Cataclysm",
+            "8170301": "Fathomless Flood",
+            "8170302": "Monster Extermination",
+            "8170303": "Unfamiliar Monsters",
+            "8170304": "Saved by the Priestess",
+            "8170305": "The Cost of Faith",
+            "8170306": "A Suspicious Shadow",
+            "8170307": "Out for Blood",
+            "8170308": "Opposing Views"
+        }
+    },
+    "81704": {
+        "names": [
+            "To the Rampaging Serpent",
+            "尋找暴亂之龍",
+            "사나운 용의 곁으로",
+            "Vers le serpent enragé",
+            "Zur blindwütigen Schlange",
+            "A la víbora devastadora"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [165, 1343],
+        "icon": "map_icon_1320108.png",
+        "missions": {
+            "8170400": "To the Rampaging Serpent",
+            "8170401": "To the Rampaging Serpent",
+            "8170402": "Concern",
+            "8170403": "Show of Power",
+            "8170404": "Woman of Mystery",
+            "8170405": "Over the Waterfall",
+            "8170406": "Hungry Giant",
+            "8170407": "Question"
+        }
+    },
+    "81705": {
+        "names": [
+            "Priestess of the Water",
+            "水之巫女",
+            "물의 무녀",
+            "La prêtresse de l’eau",
+            "Die Wasserpriesterin",
+            "La doncella del agua"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [473, 1101],
+        "icon": "map_icon_1310103.png",
+        "missions": {
+            "8170500": "Priestess of the Water",
+            "8170501": "About Ichor",
+            "8170502": "Story of my Life",
+            "8170503": "Kihana and Yubel",
+            "8170504": "Hearts Growng Closer",
+            "8170505": "A Great Presence",
+            "8170506": "Conversation with the Serpent",
+            "8170507": "Raging Serpent",
+            "8170508": "Calmed Water God"
+        }
+    },
+    "81706": {
+        "names": [
+            "Peace at Last",
+            "平穩之後",
+            "평온, 그리고",
+            "Enfin la paix",
+            "Ende gut, alles gut",
+            "Paz al fin"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [176, 858],
+        "icon": "map_icon_1320301.png",
+        "missions": {
+            "8170600": "Peace at Last",
+            "8170601": "Quiet Days",
+            "8170602": "Encouraging Yubel",
+            "8170603": "Through the Woods",
+            "8170604": "Doing the Right Thing",
+            "8170605": "Root-Ridden Road",
+            "8170606": "Beast of Greed",
+            "8170607": "Doubt"
+        }
+    },
+    "81707": {
+        "names": [
+            "The Goddess From Afar",
+            "遠方來的女神",
+            "저편에서 온 여신",
+            "La Déesse des terres lointaines",
+            "Die Göttin von weit her",
+            "La diosa de una tierra lejana"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [478, 601],
+        "icon": "map_icon_1310109.png",
+        "missions": {
+            "8170700": "The Goddess From Afar",
+            "8170701": "To Each Their Own",
+            "8170702": "Chasing Folka",
+            "8170703": "Following Footsteps",
+            "8170704": "Ichor's Wish",
+            "8170705": "Cold Rejection",
+            "8170706": "Folka the Water Priestess",
+            "8170707": "Star-Crossed Parting"
+        }
+    },
+    "81708": {
+        "names": [
+            "Protector of the Aquapolis",
+            "守護水都之人",
+            "물의 도시를 지키는 자",
+            "Le protecteur de la Ville Aquatique",
+            "Beschützer der Aquapolis",
+            "Protector de la Aquópolis"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [160, 368],
+        "icon": "map_icon_1310109.png",
+        "missions": {
+            "8170800": "Protector of the Aquapolis",
+            "8170801": "The Passage of Time",
+            "8170802": "To the Lake",
+            "8170803": "Inherited Flaws",
+            "8170804": "Luluna's True Strength",
+            "8170805": "Nearing Lake Dorr",
+            "8170806": "Shadow in the Depths",
+            "8170807": "Protector of the Aquapolis"
+        }
+    },
+    "81709": {
+        "names": [
+            "Bonus Stage",
+            "特別關卡",
+            "엑스트라 스테이지",
+            "Niveau bonus",
+            "Bonusabschnitt",
+            "Misión especial"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [480, 300],
+        "icon": "map_icon_79609.png",
+        "missions": {
+            "8170900": "Bonus Stage",
+            "8170901": "Bonus Stage 1",
+            "8170902": "Bonus Stage 2",
+            "8170903": "Bonus Stage 3"
+        }
+    },
+    "81710": {
+        "names": [
+            "Cave of Crystals (Black)",
+            "晶石的洞窟【黑】",
+            "수정의 동굴 [흑]",
+            "Caverne de cristaux noirs",
+            "Höhle der Kristalle (Schwarz)",
+            "Cueva de los crists negros"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [160, 2460],
+        "icon": "map_icon_78009.png",
+        "missions": {
+            "8171000": "Cave of Crystals (Black)",
+            "8171001": "Cave of Crystals (Black) 1",
+            "8171002": "Cave of Crystals (Black) 2",
+            "8171003": "Cave of Crystals (Black) 3"
+        }
+    },
+    "81711": {
+        "names": [
+            "Cave of Crystals (White)",
+            "晶石的洞窟【白】",
+            "수정의 동굴 [백]",
+            "Caverne de cristaux blancs",
+            "Höhle der Kristalle (Weiß)",
+            "Cueva de los crists blancos"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [320, 2640],
+        "icon": "map_icon_78010.png",
+        "missions": {
+            "8171100": "Cave of Crystals (White)",
+            "8171101": "Cave of Crystals (White) 1",
+            "8171102": "Cave of Crystals (White) 2",
+            "8171103": "Cave of Crystals (White) 3"
+        }
+    },
+    "81712": {
+        "names": [
+            "Cave of Crystals (Green)",
+            "晶石的洞窟【綠】",
+            "수정의 동굴 [녹]",
+            "Caverne de cristaux verts",
+            "Höhle der Kristalle (Grün)",
+            "Cueva de los crists verdes"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [480, 2460],
+        "icon": "map_icon_78011.png",
+        "missions": {
+            "8171200": "Cave of Crystals (Green)",
+            "8171201": "Cave of Crystals (Green) 1",
+            "8171202": "Cave of Crystals (Green) 2",
+            "8171203": "Cave of Crystals (Green) 3"
+        }
+    },
+    "81713": {
+        "names": [
+            "Cave of Crystals (Power)",
+            "晶石的洞窟【攻擊】",
+            "수정의 동굴 [공격]",
+            "Caverne de cristaux puissants",
+            "Höhle der Kristalle (Kraft)",
+            "Cueva de los crists potentes"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [160, 2840],
+        "icon": "map_icon_78012.png",
+        "missions": {
+            "8171300": "Cave of Crystals (Power)",
+            "8171301": "Cave of Crystals (Power) 1",
+            "8171302": "Cave of Crystals (Power) 2",
+            "8171303": "Cave of Crystals (Power) 3"
+        }
+    },
+    "81714": {
+        "names": [
+            "Cave of Crystals (Guard)",
+            "晶石的洞窟【防禦】",
+            "수정의 동굴 [수비]",
+            "Caverne de cristaux gardiens",
+            "Höhle der Kristalle (Wächter)",
+            "Cueva de los crists guardianes"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [320, 3020],
+        "icon": "map_icon_78013.png",
+        "missions": {
+            "8171400": "Cave of Crystals (Guard)",
+            "8171401": "Cave of Crystals (Guard) 1",
+            "8171402": "Cave of Crystals (Guard) 2",
+            "8171403": "Cave of Crystals (Guard) 3"
+        }
+    },
+    "81715": {
+        "names": [
+            "Cave of Crystals (Tech)",
+            "晶石的洞窟【技巧】",
+            "수정의 동굴 [기술]",
+            "Caverne de cristaux techniques",
+            "Höhle der Kristalle (Tech)",
+            "Cueva de los crists técnicos"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [480, 2840],
+        "icon": "map_icon_78014.png",
+        "missions": {
+            "8171500": "Cave of Crystals (Tech)",
+            "8171501": "Cave of Crystals (Tech) 1",
+            "8171502": "Cave of Crystals (Tech) 2",
+            "8171503": "Cave of Crystals (Tech) 3"
+        }
+    },
+    "81716": {
+        "names": [
+            "Cave of Crystals (Healing)",
+            "晶石的洞窟【治癒】",
+            "수정의 동굴 [치유]",
+            "Caverne de cristaux curatifs",
+            "Höhle der Kristalle (Heilung)",
+            "Cueva de los crists curativos"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [160, 3200],
+        "icon": "map_icon_78015.png",
+        "missions": {
+            "8171600": "Cave of Crystals (Healing)",
+            "8171601": "Cave of Crystals (Healing) 1",
+            "8171602": "Cave of Crystals (Healing) 2",
+            "8171603": "Cave of Crystals (Healing) 3"
+        }
+    },
+    "81717": {
+        "names": [
+            "Cave of Crystals (Support)",
+            "晶石的洞窟【支援】",
+            "수정의 동굴 [지원]",
+            "Caverne de cristaux de soutien",
+            "Höhle der Kristalle (Unterstützung)",
+            "Cueva de los crists apoyadores"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "817",
+        "position": [480, 3200],
+        "icon": "map_icon_78016.png",
+        "missions": {
+            "8171700": "Cave of Crystals (Support)",
+            "8171701": "Cave of Crystals (Support) 1",
+            "8171702": "Cave of Crystals (Support) 2",
+            "8171703": "Cave of Crystals (Support) 3"
+        }
+    },
+    "81801": {
+        "names": [
+            "The Moogle and the Lost Map",
+            "莫古利王丟失的地圖",
+            "모그리 왕의 잃어버린 지도",
+            "Le Mog et la carte perdue",
+            "Der Mogry und die verlorene Karte",
+            "El moguri y el mapa perdido"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "818",
+        "position": [0, 0],
+        "icon": "spd_bn_top_dummy.png",
+        "missions": {
+            "8180101": "Trust Moogle (ALL 1%) Map",
+            "8180102": "Megacryst Map (Exploration)",
+            "8180103": "Rank EXP Map",
+            "8180104": "Awakening Material Map (Exploration)",
+            "8180105": "Starquartz Map",
+            "8180106": "Gil Map"
+        }
+    },
+    "81901": {
+        "names": [
+            "Elements' Formation",
+            "元素構成",
+            "엘리먼츠 포메이션",
+            "Formation élémentaire",
+            "Elementarformation",
+            "Formación elemental"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "819",
+        "position": [0, 0],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "8190101": "Elements’ Formation - INT",
+            "8190102": "Elements’ Formation - ADV",
+            "8190103": "Elements’ Formation - PRO",
+            "8190104": "Elements’ Formation - ELT"
+        }
+    },
+    "82001": {
+        "names": [
+            "Desert Despair",
+            "緋紅鬼神　悲傷沉入熱砂之海",
+            "붉은 귀신, 슬픔은 열사의 바다로",
+            "Désert du désespoir",
+            "Wüste der Verzweifulung",
+            "Desesperación en el desierto"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "820",
+        "position": [320, 389],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "8200101": "Desert Despair"
+        }
+    },
+    "82101": {
+        "names": [
+            "Zanarkand Ruins",
+            "札納爾坎德遺跡",
+            "자나르칸드 유적",
+            "Ruines de Zanarkand",
+            "Ruinen von Zanarkand",
+            "Ruinas de Zanarkand"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "821",
+        "position": [0, 0],
+        "icon": "spd_20180427_bn_list_FF10.png",
+        "missions": {
+            "8210101": "Zanarkand Ruins - BGN",
+            "8210102": "Zanarkand Ruins - INT",
+            "8210103": "Zanarkand Ruins - ADV",
+            "8210104": "Zanarkand Ruins - PRO",
+            "8210105": "Zanarkand Ruins - ELT",
+            "8210106": "Zanarkand Ruins - LGD",
+            "8210107": "Once-a-Day Special Quest! 5/1",
+            "8210108": "Once-a-Day Special Quest! 5/2",
+            "8210109": "Once-a-Day Special Quest! 5/3",
+            "8210110": "Once-a-Day Special Quest! 5/4",
+            "8210111": "Once-a-Day Special Quest! 5/5",
+            "8210112": "Once-a-Day Special Quest! 5/6",
+            "8210113": "Once-a-Day Special Quest! 5/7",
+            "8210114": "Once-a-Day Special Quest! 5/8",
+            "8210115": "Once-a-Day Special Quest! 5/9",
+            "8210116": "Once-a-Day Special Quest! 5/10",
+            "8210117": "Once-a-Day Special Quest! 5/11",
+            "8210118": "Once-a-Day Special Quest! 5/12",
+            "8210119": "Once-a-Day Special Quest! 5/13",
+            "8210120": "Once-a-Day Special Quest! 5/14"
+        }
+    },
+    "82201": {
+        "names": [
+            "Yevon Dome - Exploration",
+            "耶朋巨蛋·探索",
+            "에본 돔·탐색",
+            "Dôme de Yevon - Exploration",
+            "Yevon Dom - Erkundung",
+            "Domo de Yevon - Exploración"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "822",
+        "position": [0, 0],
+        "icon": "spd_20180427_bn_list_FF10_02.png",
+        "missions": {
+            "8220101": "Yevon Dome - Exploration (HARD)",
+            "8220102": "Yevon Dome - Exploration (EASY)"
+        }
+    },
+    "82301": {
+        "names": [
+            "Ignacio the Blacksmith",
+            "鍛冶工匠伊格尼西奧",
+            "대장장이 이그니시오",
+            "Ignacio le forgeron",
+            "Ignacio der Schmied",
+            "Ignacio, el herrero"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [320, 2048],
+        "icon": "map_icon_3320106.png",
+        "missions": {
+            "8230100": "Ignacio the Blacksmith",
+            "8230101": "The Usual Request",
+            "8230102": "Mining for Ore",
+            "8230103": "Ignacio's Dilemma",
+            "8230104": "A Difficult Weapon",
+            "8230105": "Time to Start Working!",
+            "8230106": "Finished",
+            "8230107": "Brutal Beast",
+            "8230108": "The Pride of a Blacksmith"
+        }
+    },
+    "82302": {
+        "names": [
+            "City of Soldiers",
+            "戰士們的都市",
+            "전사들의 도시",
+            "Cité des soldats",
+            "Stadt der Soldaten",
+            "Ciudad de soldados"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [141, 1805],
+        "icon": "map_icon_3520102_1.png",
+        "missions": {
+            "8230200": "City of Soldiers",
+            "8230201": "Land of Desolation",
+            "8230202": "Arrival at Visectrum",
+            "8230203": "Heart Flutters",
+            "8230204": "Remnants of War",
+            "8230205": "Endless Green",
+            "8230206": "Flight of the Killer Bird",
+            "8230207": "The Warrior, the Weapon, and the Perfect Robo"
+        }
+    },
+    "82303": {
+        "names": [
+            "Burning Passion",
+            "燃燒的男人",
+            "타오르는 남자",
+            "Passion brûlante",
+            "Brennende Leidenschaft",
+            "Pasión ardiente"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [482, 1562],
+        "icon": "map_icon_3520106_1.png",
+        "missions": {
+            "8230300": "Burning Passion",
+            "8230301": "Zealous Challenge",
+            "8230302": "For the Blade",
+            "8230303": "Into the Wilderness",
+            "8230304": "Countless Stones",
+            "8230305": "Searching for Ores",
+            "8230306": "Unyielding Heart",
+            "8230307": "Winged Guardian of the Ores",
+            "8230308": "A New Problem"
+        }
+    },
+    "82304": {
+        "names": [
+            "The Swordmaster",
+            "用刀之人",
+            "도를 쥔 자",
+            "Le maître d'épée",
+            "Der Schwertmeister",
+            "El maestro espadachín"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [165, 1343],
+        "icon": "map_icon_3520201_1.png",
+        "missions": {
+            "8230400": "The Swordmaster",
+            "8230401": "A Scoundrel of a Woman",
+            "8230402": "Suzume and the Rogues",
+            "8230403": "Sharp Words",
+            "8230404": "Head Honcho",
+            "8230405": "Fate"
+        }
+    },
+    "82305": {
+        "names": [
+            "Forging the Greatest Sword",
+            "製作一生一次的刀",
+            "일생일대의 도 제작",
+            "Forger la meilleure épée",
+            "Schmiede des mächtigsten Schwertes",
+            "La forja de la mejor espada"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [473, 1101],
+        "icon": "map_icon_3530107_1.png",
+        "missions": {
+            "8230500": "Forging the Greatest Sword",
+            "8230501": "Forging the Greatest Sword",
+            "8230502": "Hammer Time, Again",
+            "8230503": "Hammer Time, Again and Again",
+            "8230504": "Hammer Time, Again and Again and Again",
+            "8230505": "Hammer Time, One More Time",
+            "8230506": "Suzume",
+            "8230507": "Of Blacksmiths and Warriors"
+        }
+    },
+    "82306": {
+        "names": [
+            "Get Ready for Battle!",
+            "一決勝負！",
+            "자, 승부하자!",
+            "Prêt pour la bataille !",
+            "Mach dich bereit!",
+            "¡Prepárate para la batalla!"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [176, 858],
+        "icon": "map_icon_3550106_1.png",
+        "missions": {
+            "8230600": "Get Ready for Battle!",
+            "8230601": "Fight!",
+            "8230602": "Trial - First Match",
+            "8230603": "Trial - Monster",
+            "8230604": "Trial - Poison",
+            "8230605": "Trial - Thing",
+            "8230606": "The Sharp Giant",
+            "8230607": "True Power"
+        }
+    },
+    "82307": {
+        "names": [
+            "An Unavoidable Conflict",
+            "無法撤退的戰鬥",
+            "피할 수 없는 싸움",
+            "Un conflit inévitable",
+            "Unabwendbarer Konflikt",
+            "Un conflicto inevitable"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [478, 601],
+        "icon": "map_icon_3550106_1.png",
+        "missions": {
+            "8230700": "An Unavoidable Conflict",
+            "8230701": "Confrontation",
+            "8230702": "War Machine PNK-2",
+            "8230703": "Unexpected",
+            "8230704": "Error Occured",
+            "8230705": "Those Who Battle",
+            "8230706": "A Troop of Runaway Machines",
+            "8230707": "Purple Light"
+        }
+    },
+    "82308": {
+        "names": [
+            "The Greatest Joy",
+            "最棒的喜悅",
+            "최고의 기쁨",
+            "La plus grande joie",
+            "Größte Freude",
+            "La mayor alegría"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [160, 368],
+        "icon": "map_icon_3220301.png",
+        "missions": {
+            "8230800": "The Greatest Joy",
+            "8230801": "Contest",
+            "8230802": "Suzume’s Teaching",
+            "8230803": "The First Owner",
+            "8230804": "The Man Worthy of Purple Lightning",
+            "8230805": "700 Years of Memories",
+            "8230806": "The Greatest Joy"
+        }
+    },
+    "82309": {
+        "names": [
+            "Bonus Stage",
+            "特別關卡",
+            "엑스트라 스테이지",
+            "Niveau bonus",
+            "Bonusabschnitt",
+            "Misión especial"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [480, 300],
+        "icon": "map_icon_79609.png",
+        "missions": {
+            "8230900": "Bonus Stage",
+            "8230901": "Bonus Stage 1",
+            "8230902": "Bonus Stage 2",
+            "8230903": "Bonus Stage 3"
+        }
+    },
+    "82310": {
+        "names": [
+            "Cave of Crystals (Black)",
+            "晶石的洞窟【黑】",
+            "수정의 동굴 [흑]",
+            "Caverne de cristaux noirs",
+            "Höhle der Kristalle (Schwarz)",
+            "Cueva de los crists negros"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [160, 2460],
+        "icon": "map_icon_78009.png",
+        "missions": {
+            "8231000": "Cave of Crystals (Black)",
+            "8231001": "Cave of Crystals (Black) 1",
+            "8231002": "Cave of Crystals (Black) 2",
+            "8231003": "Cave of Crystals (Black) 3"
+        }
+    },
+    "82311": {
+        "names": [
+            "Cave of Crystals (White)",
+            "晶石的洞窟【白】",
+            "수정의 동굴 [백]",
+            "Caverne de cristaux blancs",
+            "Höhle der Kristalle (Weiß)",
+            "Cueva de los crists blancos"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [320, 2640],
+        "icon": "map_icon_78010.png",
+        "missions": {
+            "8231100": "Cave of Crystals (White)",
+            "8231101": "Cave of Crystals (White) 1",
+            "8231102": "Cave of Crystals (White) 2",
+            "8231103": "Cave of Crystals (White) 3"
+        }
+    },
+    "82312": {
+        "names": [
+            "Cave of Crystals (Green)",
+            "晶石的洞窟【綠】",
+            "수정의 동굴 [녹]",
+            "Caverne de cristaux verts",
+            "Höhle der Kristalle (Grün)",
+            "Cueva de los crists verdes"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [480, 2460],
+        "icon": "map_icon_78011.png",
+        "missions": {
+            "8231200": "Cave of Crystals (Green)",
+            "8231201": "Cave of Crystals (Green) 1",
+            "8231202": "Cave of Crystals (Green) 2",
+            "8231203": "Cave of Crystals (Green) 3"
+        }
+    },
+    "82313": {
+        "names": [
+            "Cave of Crystals (Power)",
+            "晶石的洞窟【攻擊】",
+            "수정의 동굴 [공격]",
+            "Caverne de cristaux puissants",
+            "Höhle der Kristalle (Kraft)",
+            "Cueva de los crists potentes"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [160, 2840],
+        "icon": "map_icon_78012.png",
+        "missions": {
+            "8231300": "Cave of Crystals (Power)",
+            "8231301": "Cave of Crystals (Power) 1",
+            "8231302": "Cave of Crystals (Power) 2",
+            "8231303": "Cave of Crystals (Power) 3"
+        }
+    },
+    "82314": {
+        "names": [
+            "Cave of Crystals (Guard)",
+            "晶石的洞窟【防禦】",
+            "수정의 동굴 [수비]",
+            "Caverne de cristaux gardiens",
+            "Höhle der Kristalle (Wächter)",
+            "Cueva de los crists guardianes"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [320, 3020],
+        "icon": "map_icon_78013.png",
+        "missions": {
+            "8231400": "Cave of Crystals (Guard)",
+            "8231401": "Cave of Crystals (Guard) 1",
+            "8231402": "Cave of Crystals (Guard) 2",
+            "8231403": "Cave of Crystals (Guard) 3"
+        }
+    },
+    "82315": {
+        "names": [
+            "Cave of Crystals (Tech)",
+            "晶石的洞窟【技巧】",
+            "수정의 동굴 [기술]",
+            "Caverne de cristaux techniques",
+            "Höhle der Kristalle (Tech)",
+            "Cueva de los crists técnicos"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [480, 2840],
+        "icon": "map_icon_78014.png",
+        "missions": {
+            "8231500": "Cave of Crystals (Tech)",
+            "8231501": "Cave of Crystals (Tech) 1",
+            "8231502": "Cave of Crystals (Tech) 2",
+            "8231503": "Cave of Crystals (Tech) 3"
+        }
+    },
+    "82316": {
+        "names": [
+            "Cave of Crystals (Healing)",
+            "晶石的洞窟【治癒】",
+            "수정의 동굴 [치유]",
+            "Caverne de cristaux curatifs",
+            "Höhle der Kristalle (Heilung)",
+            "Cueva de los crists curativos"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [160, 3200],
+        "icon": "map_icon_78015.png",
+        "missions": {
+            "8231600": "Cave of Crystals (Healing)",
+            "8231601": "Cave of Crystals (Healing) 1",
+            "8231602": "Cave of Crystals (Healing) 2",
+            "8231603": "Cave of Crystals (Healing) 3"
+        }
+    },
+    "82317": {
+        "names": [
+            "Cave of Crystals (Support)",
+            "晶石的洞窟【支援】",
+            "수정의 동굴 [지원]",
+            "Caverne de cristaux de soutien",
+            "Höhle der Kristalle (Unterstützung)",
+            "Cueva de los crists apoyadores"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "823",
+        "position": [480, 3200],
+        "icon": "map_icon_78016.png",
+        "missions": {
+            "8231700": "Cave of Crystals (Support)",
+            "8231701": "Cave of Crystals (Support) 1",
+            "8231702": "Cave of Crystals (Support) 2",
+            "8231703": "Cave of Crystals (Support) 3"
+        }
+    },
+    "82401": {
+        "names": [
+            "First and Last",
+            "始於其人，終於其人",
+            "모든 것의 시작이자 끝이 되는 자",
+            "Premier et dernier",
+            "Erster und Letzter",
+            "El primero y el último"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "824",
+        "position": [0, 0],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "8240101": "First and Last - INT",
+            "8240102": "First and Last - ADV",
+            "8240103": "First and Last - PRO",
+            "8240104": "First and Last - ELT"
+        }
+    },
+    "82501": {
+        "names": [
+            "The Crimson Gear",
+            "真紅神兵",
+            "진홍의 제노기어스",
+            "Le gear pourpre",
+            "Die purpurne Rüstung",
+            "El equipamiento carmesí"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "825",
+        "position": [320, 389],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "8250101": "The Crimson Gear"
+        }
+    },
+    "82601": {
+        "names": [
+            "Nelveska Temple",
+            "尼爾貝斯卡神殿",
+            "네르베스카 신전",
+            "Temple de Nelveska",
+            "Nelveska Tempel",
+            "Templo de Nelveska"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "826",
+        "position": [0, 0],
+        "icon": "spd_20180531_bn_list_FFT.png",
+        "missions": {
+            "8260101": "Nelveska Temple - BGN",
+            "8260102": "Nelveska Temple - INT",
+            "8260103": "Nelveska Temple - ADV",
+            "8260104": "Nelveska Temple - PRO",
+            "8260105": "Nelveska Temple - ELT",
+            "8260106": "Nelveska Temple - LGD",
+            "8260107": "Once-a-Day Special Quest! 6/1",
+            "8260108": "Once-a-Day Special Quest! 6/2",
+            "8260109": "Once-a-Day Special Quest! 6/3",
+            "8260110": "Once-a-Day Special Quest! 6/4",
+            "8260111": "Once-a-Day Special Quest! 6/5",
+            "8260112": "Once-a-Day Special Quest! 6/6",
+            "8260113": "Once-a-Day Special Quest! 6/7",
+            "8260114": "Once-a-Day Special Quest! 6/8",
+            "8260115": "Once-a-Day Special Quest! 6/9",
+            "8260116": "Once-a-Day Special Quest! 6/10",
+            "8260117": "Once-a-Day Special Quest! 6/11",
+            "8260118": "Once-a-Day Special Quest! 6/12",
+            "8260119": "Once-a-Day Special Quest! 6/13",
+            "8260120": "Once-a-Day Special Quest! 6/14"
+        }
+    },
+    "82701": {
+        "names": [
+            "March on Tiamat",
+            "提亞馬特討伐",
+            "티아마트 토벌",
+            "Chasse de Tiamat",
+            "Jagd auf Tiamat",
+            "Cacería de Tiamant"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "827",
+        "position": [0, 0],
+        "icon": "spd_20180531_bn_list_FFT_02.png",
+        "missions": {
+            "8270101": "March on Tiamat"
+        }
+    },
+    "82801": {
+        "names": [
+            "Start of a Legend",
+            "傳說開幕",
+            "전설의 개막",
+            "Le début d'une légende",
+            "Eine neue Legende beginnt",
+            "Nacimiento de una leyenda"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "828",
+        "position": [320, 2048],
+        "icon": "map_icon_1210103.png",
+        "missions": {
+            "8280100": "Start of a Legend",
+            "8280101": "A Fated Meeting",
+            "8280102": "Different Standards",
+            "8280103": "Atmosphere",
+            "8280104": "Imagination",
+            "8280105": "The Dwarven Way",
+            "8280106": "The Eye Draws Near",
+            "8280107": "General"
+        }
+    },
+    "82802": {
+        "names": [
+            "A Strange Girl",
+            "神秘少女",
+            "신비한 소녀",
+            "Une étrange jeune fille",
+            "Ein seltsames Mädchen",
+            "Una chica extraña"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "828",
+        "position": [141, 1805],
+        "icon": "map_icon_1210104.png",
+        "missions": {
+            "8280200": "A Strange Girl",
+            "8280201": "A New Plan",
+            "8280202": "Tools of Cartography",
+            "8280203": "The Dwarves",
+            "8280204": "A New Land",
+            "8280205": "Left and Right",
+            "8280206": "Demonic Flower",
+            "8280207": "A Peculiar Girl"
+        }
+    },
+    "82803": {
+        "names": [
+            "Bonds with Dwarves",
+            "與矮人的羈絆",
+            "드워프와의 인연",
+            "Liens avec les nains",
+            "Verbindung mit den Zwergen",
+            "Vínculos con los enanos"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "828",
+        "position": [482, 1562],
+        "icon": "map_icon_1310101.png",
+        "missions": {
+            "8280300": "Bond with Dwarves",
+            "8280301": "Beginning of the Dream",
+            "8280302": "Gathering Allies",
+            "8280303": "On the Move",
+            "8280304": "The Dream Expands",
+            "8280305": "Nagflar's Passion",
+            "8280306": "A Summons",
+            "8280307": "Deep Black Steel",
+            "8280308": "Gather Everyone"
+        }
+    },
+    "82804": {
+        "names": [
+            "Craftsman Confrontation",
+            "工匠的對立",
+            "장인의 대립",
+            "Confrontation des artisans",
+            "Handwerker Konfrontation",
+            "Confrontación del artesano"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "828",
+        "position": [165, 1343],
+        "icon": "map_icon_1210103.png",
+        "missions": {
+            "8280400": "Craftsman Confrontation",
+            "8280401": "Uncompromising Feelings",
+            "8280402": "Nagflar's True Colors",
+            "8280403": "Cid's True Colors",
+            "8280404": "Fistful of Conversation",
+            "8280405": "A Deepening Friendship"
+        }
+    },
+    "82805": {
+        "names": [
+            "New Friends",
+            "新的同伴",
+            "새로운 동료",
+            "Nouveaux amis",
+            "Neue Freunde",
+            "Nuevos amigos"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "828",
+        "position": [473, 1101],
+        "icon": "map_icon_1210105.png",
+        "missions": {
+            "8280500": "New Friends",
+            "8280501": "An Odd Young Girl",
+            "8280502": "Impatient Thoughts",
+            "8280503": "A Familiar Clue",
+            "8280504": "Overflowing Emotions",
+            "8280505": "Mustering Up the Courage",
+            "8280506": "Mage of Darkness",
+            "8280507": "Scorn"
+        }
+    },
+    "82806": {
+        "names": [
+            "Gathering of Talent",
+            "集結的才能",
+            "모여든 재능",
+            "Le talent accumulé",
+            "Versammlung der Talente",
+            "Reunión de talento"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "828",
+        "position": [176, 858],
+        "icon": "map_icon_1210102.png",
+        "missions": {
+            "8280600": "Gathering of Talent",
+            "8280601": "An Unforgettable Dream",
+            "8280602": "Special Training",
+            "8280603": "The Basics",
+            "8280604": "Going Nowhere",
+            "8280605": "A Little Progress",
+            "8280606": "On-the-Job Training",
+            "8280607": "Burning Heart"
+        }
+    },
+    "82807": {
+        "names": [
+            "Dark Clouds",
+            "烏雲",
+            "암운",
+            "Nuages sombres",
+            "Dunkle Wolken",
+            "Nubes oscuras"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "828",
+        "position": [478, 601],
+        "icon": "map_icon_1210103.png",
+        "missions": {
+            "8280700": "Dark Clouds",
+            "8280701": "Assault",
+            "8280702": "A Misunderstanding",
+            "8280703": "Boiling Blood",
+            "8280704": "Stranded",
+            "8280705": "Perseverence",
+            "8280706": "Doubting Hearts",
+            "8280707": "Persuasion"
+        }
+    },
+    "82808": {
+        "names": [
+            "To the Sky",
+            "飛向天空",
+            "하늘로",
+            "Vers les Cieux",
+            "Zum Himmel",
+            "Al cielo"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "828",
+        "position": [160, 368],
+        "icon": "map_icon_1120108.png",
+        "missions": {
+            "8280800": "To the Sky",
+            "8280801": "Airship of Dreams",
+            "8280802": "Protect the Airship!",
+            "8280803": "One Last Lali-ho!",
+            "8280804": "Our Dreams",
+            "8280805": "Airship Eater",
+            "8280806": "An Ancient Monster",
+            "8280807": "Inherited Dreams"
+        }
+    },
+    "82809": {
+        "names": [
+            "Bonus Stage",
+            "特別關卡",
+            "엑스트라 스테이지",
+            "Niveau bonus",
+            "Bonusabschnitt",
+            "Misión especial"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "828",
+        "position": [480, 300],
+        "icon": "map_icon_79609.png",
+        "missions": {
+            "8280900": "Bonus Stage",
+            "8280901": "Bonus Stage 1",
+            "8280902": "Bonus Stage 2",
+            "8280903": "Bonus Stage 3"
+        }
+    },
+    "82810": {
+        "names": [
+            "Cave of Crystals (Black)",
+            "晶石的洞窟【黑】",
+            "수정의 동굴 [흑]",
+            "Caverne de cristaux noirs",
+            "Höhle der Kristalle (Schwarz)",
+            "Cueva de los crists negros"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "828",
+        "position": [160, 2460],
+        "icon": "map_icon_78009.png",
+        "missions": {
+            "8281000": "Cave of Crystals (Black)",
+            "8281001": "Cave of Crystals (Black) 1",
+            "8281002": "Cave of Crystals (Black) 2",
+            "8281003": "Cave of Crystals (Black) 3"
+        }
+    },
+    "82811": {
+        "names": [
+            "Cave of Crystals (White)",
+            "晶石的洞窟【白】",
+            "수정의 동굴 [백]",
+            "Caverne de cristaux blancs",
+            "Höhle der Kristalle (Weiß)",
+            "Cueva de los crists blancos"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "828",
+        "position": [320, 2640],
+        "icon": "map_icon_78010.png",
+        "missions": {
+            "8281100": "Cave of Crystals (White)",
+            "8281101": "Cave of Crystals (White) 1",
+            "8281102": "Cave of Crystals (White) 2",
+            "8281103": "Cave of Crystals (White) 3"
+        }
+    },
+    "82812": {
+        "names": [
+            "Cave of Crystals (Green)",
+            "晶石的洞窟【綠】",
+            "수정의 동굴 [녹]",
+            "Caverne de cristaux verts",
+            "Höhle der Kristalle (Grün)",
+            "Cueva de los crists verdes"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "828",
+        "position": [480, 2460],
+        "icon": "map_icon_78011.png",
+        "missions": {
+            "8281200": "Cave of Crystals (Green)",
+            "8281201": "Cave of Crystals (Green) 1",
+            "8281202": "Cave of Crystals (Green) 2",
+            "8281203": "Cave of Crystals (Green) 3"
+        }
+    },
+    "82813": {
+        "names": [
+            "Cave of Crystals (Power)",
+            "晶石的洞窟【攻擊】",
+            "수정의 동굴 [공격]",
+            "Caverne de cristaux puissants",
+            "Höhle der Kristalle (Kraft)",
+            "Cueva de los crists potentes"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "828",
+        "position": [160, 2840],
+        "icon": "map_icon_78012.png",
+        "missions": {
+            "8281300": "Cave of Crystals (Power)",
+            "8281301": "Cave of Crystals (Power) 1",
+            "8281302": "Cave of Crystals (Power) 2",
+            "8281303": "Cave of Crystals (Power) 3"
+        }
+    },
+    "82814": {
+        "names": [
+            "Cave of Crystals (Guard)",
+            "晶石的洞窟【防禦】",
+            "수정의 동굴 [수비]",
+            "Caverne de cristaux gardiens",
+            "Höhle der Kristalle (Wächter)",
+            "Cueva de los crists guardianes"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "828",
+        "position": [320, 3020],
+        "icon": "map_icon_78013.png",
+        "missions": {
+            "8281400": "Cave of Crystals (Guard)",
+            "8281401": "Cave of Crystals (Guard) 1",
+            "8281402": "Cave of Crystals (Guard) 2",
+            "8281403": "Cave of Crystals (Guard) 3"
+        }
+    },
+    "82815": {
+        "names": [
+            "Cave of Crystals (Tech)",
+            "晶石的洞窟【技巧】",
+            "수정의 동굴 [기술]",
+            "Caverne de cristaux techniques",
+            "Höhle der Kristalle (Tech)",
+            "Cueva de los crists técnicos"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "828",
+        "position": [480, 2840],
+        "icon": "map_icon_78014.png",
+        "missions": {
+            "8281500": "Cave of Crystals (Tech)",
+            "8281501": "Cave of Crystals (Tech) 1",
+            "8281502": "Cave of Crystals (Tech) 2",
+            "8281503": "Cave of Crystals (Tech) 3"
+        }
+    },
+    "82816": {
+        "names": [
+            "Cave of Crystals (Healing)",
+            "晶石的洞窟【治癒】",
+            "수정의 동굴 [치유]",
+            "Caverne de cristaux curatifs",
+            "Höhle der Kristalle (Heilung)",
+            "Cueva de los crists curativos"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "828",
+        "position": [160, 3200],
+        "icon": "map_icon_78015.png",
+        "missions": {
+            "8281600": "Cave of Crystals (Healing)",
+            "8281601": "Cave of Crystals (Healing) 1",
+            "8281602": "Cave of Crystals (Healing) 2",
+            "8281603": "Cave of Crystals (Healing) 3"
+        }
+    },
+    "82817": {
+        "names": [
+            "Cave of Crystals (Support)",
+            "晶石的洞窟【支援】",
+            "수정의 동굴 [지원]",
+            "Caverne de cristaux de soutien",
+            "Höhle der Kristalle (Unterstützung)",
+            "Cueva de los crists apoyadores"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "828",
+        "position": [480, 3200],
+        "icon": "map_icon_78016.png",
+        "missions": {
+            "8281700": "Cave of Crystals (Support)",
+            "8281701": "Cave of Crystals (Support) 1",
+            "8281702": "Cave of Crystals (Support) 2",
+            "8281703": "Cave of Crystals (Support) 3"
+        }
+    },
+    "82901": {
+        "names": [
+            "The Orders and the Magitek Ruins",
+            "號令者與魔導遺跡",
+            "오더즈와 마도 유적",
+            "L'Ordre et les ruines Magitech",
+            "Ordensmitglieder und Magitekruinen",
+            "Las Órdenes y las ruinas Magitec"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "829",
+        "position": [0, 0],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "8290101": "The Orders and the Magitek Ruins - INT",
+            "8290102": "The Orders and the Magitek Ruins - ADV",
+            "8290103": "The Orders and the Magitek Ruins - PRO",
+            "8290104": "The Orders and the Magitek Ruins - ELT"
+        }
+    },
+    "83001": {
+        "names": [
+            "Magitek Ruins - Central Area",
+            "魔導遺跡·中樞",
+            "마도 유적·중앙 구역",
+            "Ruines Magitech - Zone centrale",
+            "Magitekruinen - Zentralbereich",
+            "Ruinas Magitec - Zona central"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "830",
+        "position": [320, 389],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "8300101": "Magitek Ruins - Central Area"
+        }
+    },
+    "83101": {
+        "names": [
+            "Tower of Zot",
+            "佐特塔",
+            "조트의 탑",
+            "Tour de Zott",
+            "Der Turm von Zot",
+            "Torre de Zot"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "831",
+        "position": [0, 0],
+        "icon": "spd_20180629_bn_list_FF4.png",
+        "missions": {
+            "8310101": "Tower of Zot - BGN",
+            "8310102": "Tower of Zot - INT",
+            "8310103": "Tower of Zot - ADV",
+            "8310104": "Tower of Zot - PRO",
+            "8310105": "Tower of Zot - ELT",
+            "8310106": "Tower of Zot - LGD",
+            "8310107": "Once-a-Day Special Quest! 7/1",
+            "8310108": "Once-a-Day Special Quest! 7/2",
+            "8310109": "Once-a-Day Special Quest! 7/3",
+            "8310110": "Once-a-Day Special Quest! 7/4",
+            "8310111": "Once-a-Day Special Quest! 7/5",
+            "8310112": "Once-a-Day Special Quest! 7/6",
+            "8310113": "Once-a-Day Special Quest! 7/7",
+            "8310114": "Once-a-Day Special Quest! 7/8",
+            "8310115": "Once-a-Day Special Quest! 7/9",
+            "8310116": "Once-a-Day Special Quest! 7/10",
+            "8310117": "Once-a-Day Special Quest! 7/11",
+            "8310118": "Once-a-Day Special Quest! 7/12",
+            "8310119": "Once-a-Day Special Quest! 7/13",
+            "8310120": "Once-a-Day Special Quest! 7/14"
+        }
+    },
+    "83201": {
+        "names": [
+            "Dwarven Castle",
+            "矮人城",
+            "드워프의 성",
+            "Palais des nains",
+            "Zwergenburg",
+            "Castillo enano"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "832",
+        "position": [0, 0],
+        "icon": "spd_20180629_bn_list_FF4_02.png",
+        "missions": {
+            "8320101": "Dwarven Castle"
+        }
+    },
+    "83301": {
+        "missions": {
+            "8330100": "The Preliminaries",
+            "8330101": "Akstar Strikes",
+            "8330102": "The Reason for Preliminaries",
+            "8330103": "The Apprentice's Concerns",
+            "8330104": "At the Doorstep of Visectrum",
+            "8330105": "A Hasty Arrival",
+            "8330106": "A Spirited Underling",
+            "8330107": "The Winner"
+        }
+    },
+    "83302": {
+        "missions": {
+            "8330200": "The Sharpshooter From Afar",
+            "8330201": "Mistaken Identity",
+            "8330202": "Sharp Gunner",
+            "8330203": "Siege on the Participants",
+            "8330204": "Tomoe's Rampage",
+            "8330205": "Crumbling Siege",
+            "8330206": "A Desperate Blade",
+            "8330207": "Birth of a Gunner"
+        }
+    },
+    "83303": {
+        "missions": {
+            "8330300": "A Misunderstanding",
+            "8330301": "Troubles",
+            "8330302": "Deepening Misunderstandings",
+            "8330303": "Firm Footing",
+            "8330304": "Marvel and Grace",
+            "8330305": "Tomoe in Hot Pursuit",
+            "8330306": "The Opposing Duo",
+            "8330307": "Without Breaking a Sweat",
+            "8330308": "Playtime is Over"
+        }
+    },
+    "83304": {
+        "missions": {
+            "8330400": "The Stolen Incense",
+            "8330401": "The Stolen Incense",
+            "8330402": "The Chase Begins",
+            "8330403": "Sagiri and Incense",
+            "8330404": "Tomoe's Decision",
+            "8330405": "On the Back of the Thief",
+            "8330406": "Underhanded Thief",
+            "8330407": "An Important Clue"
+        }
+    },
+    "83305": {
+        "missions": {
+            "8330500": "The Assassin Appears",
+            "8330501": "Majora's Follower",
+            "8330502": "A Rough Underling",
+            "8330503": "The Assassin Appears",
+            "8330504": "The Underlings are Coming",
+            "8330505": "Tomoe's Struggle",
+            "8330506": "Gravey",
+            "8330507": "A Sacrifice for the Goal"
+        }
+    },
+    "83306": {
+        "missions": {
+            "8330600": "Majora Family Retribution",
+            "8330601": "The Family's Revenge",
+            "8330602": "Underling with No Way Out",
+            "8330603": "Roadblock",
+            "8330604": "Heartless Blade",
+            "8330605": "Cowering Scoundrels",
+            "8330606": "Cold-Blooded Mage",
+            "8330607": "Tomoe's Whereabouts"
+        }
+    },
+    "83307": {
+        "missions": {
+            "8330700": "All-Out Conflict",
+            "8330701": "The Future at Stake",
+            "8330702": "Power of the Future",
+            "8330703": "Flaming Rifle",
+            "8330704": "Protecting the Boss",
+            "8330705": "Live or Die",
+            "8330706": "Rematch with Gravey",
+            "8330707": "Tenacious Victory"
+        }
+    },
+    "83308": {
+        "missions": {
+            "8330800": "Varied Resolutions",
+            "8330801": "Disadvantage",
+            "8330802": "Gravey Returns",
+            "8330803": "Majora's Escape",
+            "8330804": "A Desperate Pursuit",
+            "8330805": "Duel of the Fates",
+            "8330806": "Coldhearted Boss",
+            "8330807": "Varied Resolutions"
+        }
+    },
+    "83309": {
+        "missions": {
+            "8330900": "Bonus Stage",
+            "8330901": "Bonus Stage 1",
+            "8330902": "Bonus Stage 2",
+            "8330903": "Bonus Stage 3"
+        }
+    },
+    "83310": {
+        "missions": {
+            "8331000": "Cave of Crystals (Black)",
+            "8331001": "Cave of Crystals (Black) 1",
+            "8331002": "Cave of Crystals (Black) 2",
+            "8331003": "Cave of Crystals (Black) 3"
+        }
+    },
+    "83311": {
+        "missions": {
+            "8331100": "Cave of Crystals (White)",
+            "8331101": "Cave of Crystals (White) 1",
+            "8331102": "Cave of Crystals (White) 2",
+            "8331103": "Cave of Crystals (White) 3"
+        }
+    },
+    "83312": {
+        "missions": {
+            "8331200": "Cave of Crystals (Green)",
+            "8331201": "Cave of Crystals (Green) 1",
+            "8331202": "Cave of Crystals (Green) 2",
+            "8331203": "Cave of Crystals (Green) 3"
+        }
+    },
+    "83313": {
+        "missions": {
+            "8331300": "Cave of Crystals (Power)",
+            "8331301": "Cave of Crystals (Power) 1",
+            "8331302": "Cave of Crystals (Power) 2",
+            "8331303": "Cave of Crystals (Power) 3"
+        }
+    },
+    "83314": {
+        "missions": {
+            "8331400": "Cave of Crystals (Guard)",
+            "8331401": "Cave of Crystals (Guard) 1",
+            "8331402": "Cave of Crystals (Guard) 2",
+            "8331403": "Cave of Crystals (Guard) 3"
+        }
+    },
+    "83315": {
+        "missions": {
+            "8331500": "Cave of Crystals (Tech)",
+            "8331501": "Cave of Crystals (Tech) 1",
+            "8331502": "Cave of Crystals (Tech) 2",
+            "8331503": "Cave of Crystals (Tech) 3"
+        }
+    },
+    "83316": {
+        "missions": {
+            "8331600": "Cave of Crystals (Healing)",
+            "8331601": "Cave of Crystals (Healing) 1",
+            "8331602": "Cave of Crystals (Healing) 2",
+            "8331603": "Cave of Crystals (Healing) 3"
+        }
+    },
+    "83317": {
+        "missions": {
+            "8331700": "Cave of Crystals (Support)",
+            "8331701": "Cave of Crystals (Support) 1",
+            "8331702": "Cave of Crystals (Support) 2",
+            "8331703": "Cave of Crystals (Support) 3"
+        }
+    },
+    "83401": {
+        "missions": {
+            "8340101": "Brigands' Den - INT",
+            "8340102": "Brigands' Den - ADV",
+            "8340103": "Brigands' Den - PRO",
+            "8340104": "Brigands' Den - ELT"
+        }
+    },
+    "83501": {
+        "missions": {
+            "8350101": "Cave of Rhiyo"
+        }
+    },
+    "84301": {
+        "names": [
+            "Destroy the Machine Lifeform",
+            "超大型機械生命體破壞指令",
+            "초대형 기계생명체 파괴 지령",
+            "Destruction de la forme de vie mécanique",
+            "Zerstöre das Maschinenwesen",
+            "Acaba con la forma de vida mecánica"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "843",
+        "position": [0, 0],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "8430101": "Abandoned Factory - INT",
+            "8430102": "Abandoned Factory - ADV",
+            "8430103": "Abandoned Factory - PRO",
+            "8430104": "Abandoned Factory - ELT"
+        }
+    },
+    "84401": {
+        "names": [
+            "The Formidable Engels",
+            "強敵：恩格斯",
+            "강적: 엥겔스",
+            "L'incroyable Engels",
+            "Der Mächtige Engels",
+            "El temible Engels"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "844",
+        "position": [320, 389],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "8440101": "The Formidable Engels"
+        }
+    },
+    "86201": {
+        "names": [
+            "Heartless: Guard Armor",
+            "無心者：防護鐵甲",
+            "하트리스: 가드 아머",
+            "Sans-cœur : Armure gardienne",
+            "Herzlose: Panzerrüstor",
+            "Sincorazón: Armadura"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "862",
+        "position": [0, 0],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "8620101": "Heartless: Guard Armor - INT",
+            "8620102": "Heartless: Guard Armor - ADV",
+            "8620103": "Heartless: Guard Armor - PRO",
+            "8620104": "Heartless: Guard Armor - ELT"
+        }
+    },
+    "86301": {
+        "names": [
+            "Heartless: Darkside",
+            "無心者：黑暗面",
+            "하트리스: 다크 사이드",
+            "Sans-cœur : Darkside",
+            "Herzlose: Schattenborn",
+            "Sincorazón: Lado oscuro"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "863",
+        "position": [320, 389],
+        "icon": "spd_bn_dummy.png",
+        "missions": {
+            "8630101": "Heartless: Darkside"
         }
     },
     "89728": {
@@ -11009,6 +13672,34 @@
             "8993301": "Scorn of the 2-Headed Dragon"
         }
     },
+    "89735": {
+        "names": [
+            "Scorn of the Marching Beasts",
+            "狂魔行進 真降臨",
+            "광마의 행진 진강림",
+            "Mépris du défilé des Bêtes",
+            "Spott der marschierenden Bestien",
+            "El desprecio de las bestias"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "899",
+        "position": [0, 0],
+        "icon": "spd_20180330_bn_list_SBF_08.png",
+        "missions": {
+            "8993401": "Scorn of the Beasts"
+        }
+    },
+    "89736": {
+        "missions": {
+            "8993501": "Scorn of Gilgamesh"
+        }
+    },
+    "89737": {
+        "missions": {
+            "8993601": null
+        }
+    },
     "89801": {
         "names": [
             "Chamber of Arms",
@@ -11038,12 +13729,34 @@
             "8980112": "Chamber of Arms - The Peaceful Mage of Purity",
             "8980113": "Chamber of Arms - The Assassin of Judgment",
             "8980114": "Chamber of Arms - The Demonic Assassin of Judgment",
-            "8980115": null,
-            "8980116": null,
-            "8980117": null,
-            "8980118": null,
-            "8980119": null,
-            "8980120": null
+            "8980115": "Chamber of Arms - The Insects of Deceit",
+            "8980116": "Chamber of Arms - The Insects of Guile and Deceit",
+            "8980117": "Chamber of Arms - The Dragon of Affection",
+            "8980118": "Chamber of Arms - The Dragon of Concealed Affection",
+            "8980119": "Chamber of Arms - The Patriotic Hero",
+            "8980120": "Chamber of Arms - The Ambulant Patriotic Hero",
+            "8980121": "Chamber of Arms - Champion of Equality",
+            "8980122": "Chamber of Arms - Champion of Freedom and Equality",
+            "8980123": "Chamber of Arms - Guardian of Despair",
+            "8980124": "Chamber of Arms - Shadowing Guardian of Despair"
+        }
+    },
+    "89802": {
+        "names": [
+            "Chamber of Arms (Gatekeeper)",
+            "十二武具之間【門衛】",
+            "십이무구의 틈새 [문지기]",
+            null,
+            "Waffenkammer (Torwächter)",
+            "Cámara de las Reliquias (vigilante)"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "898",
+        "position": [0, 0],
+        "icon": "spd_bn_list_00008.png",
+        "missions": {
+            "8980200": "The Warden"
         }
     },
     "89901": {
@@ -11080,7 +13793,7 @@
         "region_id": "21",
         "subregion_id": "899",
         "position": [0, 0],
-        "icon": null,
+        "icon": "spd_bn_list_00011.png",
         "missions": {
             "8992101": "Wolf Pack - BGN",
             "8992102": "Wolf Pack - INT",
@@ -11240,7 +13953,7 @@
             "狂魔行進",
             "광마의 행진",
             "Le Défilé des Bêtes",
-            "Marsch der Monster",
+            "Marsch der Bestien",
             "Desfile de titanes"
         ],
         "world_id": 2,
@@ -11468,6 +14181,33 @@
             "8995501": "Venomous Vines of Death - ADV",
             "8995502": "Venomous Vines of Death - PRO",
             "8995503": "Venomous Vines of Death - ELT"
+        }
+    },
+    "89947": {
+        "names": [
+            "The Mad Doll",
+            "嗤笑的舞蹈人偶",
+            "웃으며 춤추는 인형",
+            "La poupée folle",
+            "Die Verrückte Puppe",
+            "La muñeca enloquecida"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "899",
+        "position": [0, 0],
+        "icon": "spd_20180228_bn_list_BF_17.png",
+        "missions": {
+            "8995601": "The Mad Doll - ADV",
+            "8995602": "The Mad Doll - PRO",
+            "8995603": "The Mad Doll - ELT"
+        }
+    },
+    "89948": {
+        "missions": {
+            "8995701": "Beasts of the Dark II - ADV",
+            "8995702": "Beasts of the Dark II - PRO",
+            "8995703": "Beasts of the Dark II - ELT"
         }
     },
     "90000": {
@@ -11848,7 +14588,7 @@
     },
     "90018": {
         "names": [
-            "The Tower of Zot",
+            "Tower of Zot",
             "佐特塔",
             "조트의 탑",
             "Tour de Zott",
@@ -11861,11 +14601,11 @@
         "position": [0, 0],
         "icon": "global_spd_bn_list_00016.png",
         "missions": {
-            "9001801": "The Tower of Zot - BGN",
-            "9001802": "The Tower of Zot - INT",
-            "9001803": "The Tower of Zot - ADV",
-            "9001804": "The Tower of Zot - PRO",
-            "9001805": "The Tower of Zot - ELT"
+            "9001801": "Tower of Zot - BGN",
+            "9001802": "Tower of Zot - INT",
+            "9001803": "Tower of Zot - ADV",
+            "9001804": "Tower of Zot - PRO",
+            "9001805": "Tower of Zot - ELT"
         }
     },
     "90019": {
@@ -12009,7 +14749,7 @@
         "region_id": "21",
         "subregion_id": "926",
         "position": [0, 0],
-        "icon": null,
+        "icon": "global_spd_bn_list_00027.png",
         "missions": {
             "9002601": "Conqueror of Izander - INT",
             "9002602": "Conqueror of Izander - ADV",
@@ -12030,7 +14770,7 @@
         "region_id": "21",
         "subregion_id": "927",
         "position": [0, 0],
-        "icon": null,
+        "icon": "global_spd_bn_list_00027.png",
         "missions": {
             "9002701": "Festival of Love - BGN",
             "9002702": "Festival of Love - ADV",
@@ -12407,6 +15147,267 @@
             "9400104": "FFBE Raid - Darkness Awakens - ELT"
         }
     },
+    "94101": {
+        "names": [
+            "Hasiko's Revenge",
+            "羽矢子的復仇",
+            "하시코의 복수",
+            "La revanche de Hasiko",
+            "Hasikos Rache",
+            "La venganza de Hasiko"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "941",
+        "position": [0, 0],
+        "icon": "global_spd_bn_list_00040.png",
+        "missions": {
+            "9410101": "Hasiko's Revenge - ELT"
+        }
+    },
+    "94201": {
+        "names": [
+            "An Eerie Invitation",
+            "毛骨悚然的邀請函",
+            "섬뜩한 초대",
+            "Une étrange invitation",
+            "Eine unheimliche Einladung",
+            "Invitación aterradora"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "942",
+        "position": [0, 0],
+        "icon": "global_spd_bn_list_00041.png",
+        "missions": {
+            "9420101": "An Eerie Invitation - BGN",
+            "9420102": "An Eerie Invitation - INT",
+            "9420103": "An Eerie Invitation - ADV",
+            "9420104": "An Eerie Invitation - PRO",
+            "9420105": "An Eerie Invitation - ELT",
+            "9420106": "An Eerie Invitation - LGD"
+        }
+    },
+    "94301": {
+        "names": [
+            "Challenge the Great Count",
+            "挑戰偉大的領主",
+            "위대한 백작에게 도전하라",
+            "Défiez le Grand Comte",
+            "Fordere den mächtigen Graf heraus",
+            "Desafía al gran conde"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "943",
+        "position": [0, 0],
+        "icon": "global_spd_bn_list_00042.png",
+        "missions": {
+            "9430101": "Challenge the Great Count - ELT"
+        }
+    },
+    "94401": {
+        "names": [
+            "Vault of Hidden Treasures",
+            "秘密的寶物庫",
+            "비밀의 보물창고",
+            "Coffre aux trésors cachés",
+            "Gewölbe der verborgenen Schätze",
+            "Cámara de los Tesoros Escondidos"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "944",
+        "position": [0, 0],
+        "icon": "spd_20161022_bn_list_treasurehouse.png",
+        "missions": {
+            "9440101": "Vault of Hidden Treasures",
+            "9440102": "Vault of Hidden Treasures",
+            "9440103": "Vault of Hidden Treasures",
+            "9440104": "Vault of Hidden Treasures",
+            "9440105": "Vault of Hidden Treasures",
+            "9440106": "Vault of Hidden Treasures",
+            "9440107": "Vault of Hidden Treasures"
+        }
+    },
+    "94501": {
+        "names": [
+            "35 Million Downloads Raffle",
+            "3500萬下載 抽獎",
+            "3천5백만 다운로드 추첨",
+            "Loterie des 35 millions de téléchargements",
+            "Tombola für 35 Millionen Downloads<br>",
+            "Sorteo por las 35 millones de descargas"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "945",
+        "position": [0, 0],
+        "icon": "spd_30Mill_Lottery.png",
+        "missions": {
+            "9450101": "35 Million Downloads Raffle"
+        }
+    },
+    "94601": {
+        "names": [
+            "Revelations of Darkness",
+            "黑暗啟示錄",
+            "어둠의 계시록",
+            "Révélations ténébreuses",
+            "Enthüllungen der Finsternis",
+            "Revelaciones oscuras"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "946",
+        "position": [0, 0],
+        "icon": "global_spd_bn_list_00043.png",
+        "missions": {
+            "9460101": "Revelations of Darkness - BGN",
+            "9460102": "Revelations of Darkness - INT",
+            "9460103": "Revelations of Darkness - ADV",
+            "9460104": "Revelations of Darkness - PRO",
+            "9460105": "Revelations of Darkness - ELT",
+            "9460106": "Revelations of Darkness (Black Ash) - LGD",
+            "9460107": "Revelations of Darkness (Black Grimoire) - LGD",
+            "9460108": "Revelations of Darkness (Pure Blood) - LGD"
+        }
+    },
+    "94701": {
+        "names": [
+            "Trial of Vengeance",
+            "復仇之審判",
+            "복수의 시련",
+            "Défi de la vengeance",
+            "Prüfung der Rache",
+            "Desafío de la venganza"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "947",
+        "position": [0, 0],
+        "icon": null,
+        "missions": {
+            "9470101": "Trial of Vengeance"
+        }
+    },
+    "94801": {
+        "names": [
+            "Fan Festa 2018 Raid",
+            "2018粉絲慶典 共鬥",
+            "팬 페스타 2018 레이드",
+            "Raid de la Fan Festa 2018",
+            "Fan Festa 2018 Raubzug",
+            "Evento de banda de Fan Festa 2018"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "948",
+        "position": [0, 0],
+        "icon": "global_spd_bn_list_00046.png",
+        "missions": {
+            "9480101": "Fan Festa 2018 Raid - INT",
+            "9480102": "Fan Festa 2018 Raid - ADV",
+            "9480103": "Fan Festa 2018 Raid - PRO",
+            "9480104": "Fan Festa 2018 Raid - ELT"
+        }
+    },
+    "94901": {
+        "names": [
+            "Red Hot Music",
+            "火熱音樂",
+            "Red Hot Music",
+            "Red Hot Music",
+            "Red Hot Music",
+            "Red Hot Music"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "949",
+        "position": [0, 0],
+        "icon": "global_spd_bn_list_00045.png",
+        "missions": {
+            "9490101": "Red Hot Music - BGN",
+            "9490102": "Red Hot Music - INT",
+            "9490103": "Red Hot Music - ADV",
+            "9490104": "Red Hot Music - PRO",
+            "9490105": "Red Hot Music - ELT"
+        }
+    },
+    "95001": {
+        "names": [
+            "Vault of Hidden Treasures",
+            "秘密的寶物庫",
+            "비밀의 보물창고",
+            "Coffre aux trésors cachés",
+            "Gewölbe der verborgenen Schätze",
+            "Cámara de los Tesoros Escondidos"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "950",
+        "position": [0, 0],
+        "icon": "spd_20161022_bn_list_treasurehouse.png",
+        "missions": {
+            "9500101": "Vault of Hidden Treasures",
+            "9500102": "Vault of Hidden Treasures",
+            "9500103": "Vault of Hidden Treasures",
+            "9500104": "Vault of Hidden Treasures",
+            "9500105": "Vault of Hidden Treasures",
+            "9500106": "Vault of Hidden Treasures",
+            "9500107": "Vault of Hidden Treasures",
+            "9500108": "Vault of Hidden Treasures",
+            "9500109": "Vault of Hidden Treasures",
+            "9500110": "Vault of Hidden Treasures",
+            "9500111": "Vault of Hidden Treasures",
+            "9500112": "Vault of Hidden Treasures",
+            "9500113": "Vault of Hidden Treasures",
+            "9500114": "Vault of Hidden Treasures",
+            "9500115": "Vault of Hidden Treasures"
+        }
+    },
+    "95101": {
+        "names": [
+            "Winter Mayhem",
+            "冬日大騷亂",
+            "겨울 대소동",
+            "Un hiver sens dessus dessous",
+            "Winterchaos",
+            "Caos invernal"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "951",
+        "position": [0, 0],
+        "icon": "global_spd_bn_list_00047.png",
+        "missions": {
+            "9510101": "Winter Mayhem - BGN",
+            "9510102": "Winter Mayhem - INT",
+            "9510103": "Winter Mayhem - ADV",
+            "9510104": "Winter Mayhem - PRO",
+            "9510105": "Winter Mayhem - ELT",
+            "9510106": "Winter Mayhem - LGD"
+        }
+    },
+    "95201": {
+        "names": [
+            "Season of Mayhem",
+            "騷亂季節",
+            "대소동의 계절",
+            "Une saison sens dessus dessous",
+            "Chaossaison",
+            "Temporada caótica"
+        ],
+        "world_id": 2,
+        "region_id": "21",
+        "subregion_id": "952",
+        "position": [0, 0],
+        "icon": "global_spd_bn_list_00048.png",
+        "missions": {
+            "9520101": "Season of Mayhem - Trial (Easy)",
+            "9520102": "Season of Mayhem - Trial (Hard)"
+        }
+    },
     "111101": {
         "names": [
             "Aldore Tower",
@@ -12623,7 +15624,7 @@
     },
     "112109": {
         "names": [
-            "Outside Labor Grounds",
+            "Outside Labor Camp",
             "強制勞動場外圍",
             "강제 노역장 외부",
             "Camp de travail - Extérieur",
@@ -12636,15 +15637,15 @@
         "position": [867, 1755],
         "icon": "map_icon_3220104.png",
         "missions": {
-            "11210901": "Outside Labor Grounds - Giant Mine",
-            "11210902": "Outside Labor Grounds - Bored Hole",
-            "11210903": "Outside Labor Grounds - Entrance to Hell",
-            "11210904": "Outside Labor Grounds - Merciless Guards"
+            "11210901": "Outside Labor Camp - Giant Mine",
+            "11210902": "Outside Labor Camp - Bored Hole",
+            "11210903": "Outside Labor Camp - Entrance to Hell",
+            "11210904": "Outside Labor Camp - Merciless Guards"
         }
     },
     "112110": {
         "names": [
-            "Inside Labor Grounds",
+            "Inside Labor Camp",
             "強制勞動場內部",
             "강제 노역장 내부",
             "Camp de travail - Intérieur",
@@ -12657,12 +15658,12 @@
         "position": [985, 1603],
         "icon": "map_icon_3220105.png",
         "missions": {
-            "11211001": "Inside Labor Grounds - Pit of Despair",
-            "11211002": "Inside Labor Grounds - Lost Resources",
-            "11211003": "Inside Labor Grounds - No Escape",
-            "11211004": "Inside Labor Grounds - The Oppressed",
-            "11211005": "Inside Labor Grounds - Galas of the Omicron Star",
-            "11211006": "Inside Labor Grounds - Exploration"
+            "11211001": "Inside Labor Camp - Pit of Despair",
+            "11211002": "Inside Labor Camp - Lost Resources",
+            "11211003": "Inside Labor Camp - No Escape",
+            "11211004": "Inside Labor Camp - The Oppressed",
+            "11211005": "Inside Labor Camp - Galas of the Omicron Star",
+            "11211006": "Inside Labor Camp - Exploration"
         }
     },
     "112111": {
@@ -13175,7 +16176,8 @@
         "icon": "map_icon_3310301.png",
         "missions": {
             "11315101": "Ruins of the Water God",
-            "11315102": "Trial of the Water God"
+            "11315102": "Trial of the Water God",
+            "11315103": "New Trial of the Water God"
         }
     },
     "114101": {
@@ -13656,7 +16658,8 @@
             "11425103": "Cave of Rebirth - Lava River",
             "11425104": "Cave of Rebirth - Cavern of Power",
             "11425105": "Cave of Rebirth - Den of the Invincible Bird",
-            "11425106": "Cave of Rebirth - Trial of Rebirth"
+            "11425106": "Cave of Rebirth - Trial of Rebirth",
+            "11425107": "New Trial of Rebirth"
         }
     },
     "114301": {
@@ -14187,6 +17190,92 @@
             "11512208": "Londell Road - Exploration"
         }
     },
+    "115123": {
+        "names": [
+            "Bug Eater's Den",
+            "蟲蛀洞穴",
+            "벌레잡이의 동굴",
+            "Antre de l'insectivore",
+            "Insektenfressers Höhle",
+            "Cabaña del comebichos"
+        ],
+        "world_id": 3,
+        "region_id": "35",
+        "subregion_id": "1151",
+        "position": [1287, 1010],
+        "icon": "map_icon_3540101_3.png",
+        "missions": {
+            "11512301": "Bug Eater's Den - The Vexing Path",
+            "11512302": "Bug Eater's Den - The Winding Slope",
+            "11512303": "Bug Eater's Den - Torrential Magic",
+            "11512304": "Bug Eater's Den - Magic Barrier"
+        }
+    },
+    "115124": {
+        "names": [
+            "Sandstorm Maze",
+            "沙塵迷宮",
+            "모래먼지 미궁",
+            "Dédale de sable",
+            "Sandsturmlabyrinth",
+            "Laberinto de la tormenta de arena"
+        ],
+        "world_id": 3,
+        "region_id": "35",
+        "subregion_id": "1151",
+        "position": [1043, 1319],
+        "icon": "map_icon_3540104_3.png",
+        "missions": {
+            "11512401": "Sandstorm Maze - Arid Region",
+            "11512402": "Sandstorm Maze - Lurking Evil",
+            "11512403": "Sandstorm Maze - Magical Trails",
+            "11512404": "Sandstorm Maze - Pit of the Ant",
+            "11512405": "Sandstorm Maze - Exploration"
+        }
+    },
+    "115125": {
+        "names": [
+            "Brown Sands",
+            "褐色沙道",
+            "갈색 모래길",
+            "Désert brunâtre",
+            "Braune Sande",
+            "Arenas marrones"
+        ],
+        "world_id": 3,
+        "region_id": "35",
+        "subregion_id": "1151",
+        "position": [1293, 1466],
+        "icon": "map_icon_3540105_3.png",
+        "missions": {
+            "11512501": "Brown Sands - Harsh Rays",
+            "11512502": "Brown Sands - Blazing Sands",
+            "11512503": "Brown Sands - Hazy View",
+            "11512504": "Brown Sands - Aldore Patrol"
+        }
+    },
+    "115126": {
+        "names": [
+            "Land of Fading Memories",
+            "憂思之地",
+            "퇴색한 마음의 땅",
+            "Terre des souvenirs évanouis",
+            "Land der verblassten den Erinnerungen",
+            "Tierra de los recuerdos borrados"
+        ],
+        "world_id": 3,
+        "region_id": "35",
+        "subregion_id": "1151",
+        "position": [1721, 1484],
+        "icon": "map_icon_3540107_3.png",
+        "missions": {
+            "11512601": "Land of Fading Memories - Sobbing Voice",
+            "11512602": "Land of Fading Memories - Soul Awakened",
+            "11512603": "Land of Fading Memories - Infinite Souls",
+            "11512604": "Land of Fading Memories - Charming Mist",
+            "11512605": "Land of Fading Memories - Evil Spirit"
+        }
+    },
     "115151": {
         "names": [
             "Sacred Valley",
@@ -14208,6 +17297,413 @@
             "11515104": "Sacred Valley - Presence of an Esper",
             "11515105": "Sacred Valley - Judgment",
             "11515106": "Trial at the Sacred Castle"
+        }
+    },
+    "115152": {
+        "names": [
+            "Pit of Chains",
+            "鎖鏈之穴",
+            "사슬의 구멍",
+            "Gouffre enchaîné",
+            "Grube der Ketten",
+            "Abismo de las Cadenas"
+        ],
+        "world_id": 3,
+        "region_id": "35",
+        "subregion_id": "1151",
+        "position": [3525, 2342],
+        "icon": "map_icon_3540301_2.png",
+        "missions": {
+            "11515201": "Pit of Chains - Cursed Marshland",
+            "11515202": "Pit of Chains - Withered Grassland",
+            "11515203": "Pit of Chains - Floating Hex",
+            "11515204": "Pit of Chains - Ominous Presence",
+            "11515205": "Pit of Chains - Chains of Hate",
+            "11515206": "Trial of the Vengeful"
+        }
+    },
+    "115201": {
+        "names": [
+            "Colosseum Train",
+            "競技場直通線",
+            "투기장 직통선",
+            "Train du Colisée",
+            "Kolosseumsschnellzug",
+            "Tren del coliseo"
+        ],
+        "world_id": 3,
+        "region_id": "35",
+        "subregion_id": "1152",
+        "position": [1320, 625],
+        "icon": "map_icon_3540102_2.png",
+        "missions": {
+            "11520101": "Colosseum Train - Raid",
+            "11520102": "Colosseum Train - Hands of the Master",
+            "11520103": "Colosseum Train - The Assassin",
+            "11520104": "Colosseum Train - The Plot to Kill",
+            "11520105": "Colosseum Train - Assault",
+            "11520106": "Colosseum Train - Sneak Attack",
+            "11520107": "Colosseum Train - Sudden Change",
+            "11520108": "Colosseum Train - Trap",
+            "11520109": "Colosseum Train - Assassins"
+        }
+    },
+    "115202": {
+        "names": [
+            "Colosseum First Floor",
+            "競技場第一層",
+            "투기장 제1층",
+            "Colisée : RdC",
+            "Kolosseum 1. Stock",
+            "1.ª planta del coliseo"
+        ],
+        "world_id": 3,
+        "region_id": "35",
+        "subregion_id": "1152",
+        "position": [907, 2030],
+        "icon": "map_icon_3540103_2.png",
+        "missions": {
+            "11520201": "Colosseum First Floor - Battle Begins",
+            "11520202": "Colosseum First Floor - Beastly Uprising",
+            "11520203": "Colosseum First Floor - Lookout",
+            "11520204": "Colosseum First Floor - Raging Beast"
+        }
+    },
+    "115203": {
+        "names": [
+            "Colosseum Second Floor",
+            "競技場第二層",
+            "투기장 제2층",
+            "Colisée : 1er étage",
+            "Kolosseum 2. Stock",
+            "2.ª planta del coliseo"
+        ],
+        "world_id": 3,
+        "region_id": "35",
+        "subregion_id": "1152",
+        "position": [907, 1590],
+        "icon": "map_icon_3540106_2.png",
+        "missions": {
+            "11520301": "Colosseum Second Floor - Beastly Voice",
+            "11520302": "Colosseum Second Floor - Weight of War",
+            "11520303": "Colosseum Second Floor - Fighting Continues",
+            "11520304": "Colosseum Second Floor - The Challenger"
+        }
+    },
+    "115204": {
+        "names": [
+            "Colosseum VIP Seating",
+            "競技場貴賓席",
+            "투기장 귀빈석",
+            "Colisée : Section privée",
+            "Kolosseum VIP-Ränge",
+            "Asientos VIP del coliseo"
+        ],
+        "world_id": 3,
+        "region_id": "35",
+        "subregion_id": "1152",
+        "position": [907, 350],
+        "icon": "map_icon_3550101_3.png",
+        "missions": {
+            "11520401": "Colosseum VIP Section - Elite Soldiers",
+            "11520402": "Colosseum VIP Section - Guards",
+            "11520403": "Colosseum VIP Section - Royal Guards",
+            "11520404": "Colosseum VIP Section - Aldore Emperor"
+        }
+    },
+    "115205": {
+        "names": [
+            "Colosseum Third Floor",
+            "競技場第三層",
+            "투기장 제3층",
+            "Colisée : 2e étage",
+            "Kolosseum 3. Stock",
+            "3.ª planta del coliseo"
+        ],
+        "world_id": 3,
+        "region_id": "35",
+        "subregion_id": "1152",
+        "position": [907, 1140],
+        "icon": "map_icon_3550102_2.png",
+        "missions": {
+            "11520501": "Colosseum Third Floor - Thunderclap",
+            "11520502": "Colosseum Third Floor - Fierce Attack",
+            "11520503": "Colosseum Third Floor - United Struggle",
+            "11520504": "Colosseum Third Floor - Deception"
+        }
+    },
+    "115206": {
+        "names": [
+            "Visectrum Undeveloped Region",
+            "維瑟庫特拉姆未開發地區",
+            "뷔섹트럼 미개발 지역",
+            "Région non développée de Visectrum",
+            "Visektrum Unentwickelte Gegend",
+            "Región poco desarrollada de Visectrum"
+        ],
+        "world_id": 3,
+        "region_id": "35",
+        "subregion_id": "1152",
+        "position": [410, 470],
+        "icon": "map_icon_3550103_3.png",
+        "missions": {
+            "11520601": "Visectrum Undeveloped Region - Retreat",
+            "11520602": "Visectrum Undeveloped Region - Regret",
+            "11520603": "Visectrum Undeveloped Region - Spark",
+            "11520604": "Visectrum Undeveloped Region - Advance"
+        }
+    },
+    "115207": {
+        "names": [
+            "Visectrum Underground Waterway",
+            "維瑟庫特拉姆地下水道",
+            "뷔섹트럼 지하 수로",
+            "Canal souterrain de Visectrum",
+            "Visektrum Unterirdische Wasserstraße",
+            "Canal subterráneo de Visectrum"
+        ],
+        "world_id": 3,
+        "region_id": "35",
+        "subregion_id": "1152",
+        "position": [200, 540],
+        "icon": "map_icon_3550104_3.png",
+        "missions": {
+            "11520701": "Visectrum Underground Waterway - Drainage",
+            "11520702": "Visectrum Underground Waterway - Cesspool",
+            "11520703": "Visectrum Underground Waterway - Stagnant Air",
+            "11520704": "Visectrum Underground Waterway - Danger",
+            "11520705": "Visectrum Underground Waterway - Exploration"
+        }
+    },
+    "115208": {
+        "names": [
+            "Underground Train Control System",
+            "直通線地下管制系統",
+            "직통선 지하 관제 시스템",
+            "Système de contrôle du train souterrain",
+            "Unterirdisches Zugkontrollsystem",
+            "Sistema de control del tren subterráneo"
+        ],
+        "world_id": 3,
+        "region_id": "35",
+        "subregion_id": "1152",
+        "position": [1205, 490],
+        "icon": "map_icon_3550105_2.png",
+        "missions": {
+            "11520801": "Underground Train Control System - Cruel Heart",
+            "11520802": "Underground Train Control System - Human Heart",
+            "11520803": "Underground Train Control System - Mechanical Heart",
+            "11520804": "Underground Train Control System - Restored Heart",
+            "11520805": "Underground Train Control System - Happy Heart"
+        }
+    },
+    "115209": {
+        "names": [
+            "Main Colosseum",
+            "主競技場",
+            "메인 투기장",
+            "Colisée principal",
+            "Hauptkolosseum",
+            "Coliseo principal"
+        ],
+        "world_id": 3,
+        "region_id": "35",
+        "subregion_id": "1152",
+        "position": [907, 530],
+        "icon": "map_icon_3550106_2.png",
+        "missions": {
+            "11520901": "Main Colosseum - Final Round",
+            "11520902": "Main Colosseum - Inherited Power",
+            "11520903": "Main Colosseum - Levnato of the Alpha Star",
+            "11520904": "Main Colosseum - Royal Rematch",
+            "11520905": "Main Colosseum - Zeno of the Beta Star"
+        }
+    },
+    "116101": {
+        "names": [
+            "Magistellus Skies",
+            "馬基斯特爾斯上空",
+            "마기스텔스 상공",
+            "Cieux de Magistellus",
+            "Himmel von Magistellus",
+            "Cielos de Magistellus"
+        ],
+        "world_id": 3,
+        "region_id": "36",
+        "subregion_id": "1161",
+        "position": [1100, 1160],
+        "icon": "map_icon_3610101_2.png",
+        "missions": {
+            "11610101": "Magistellus Skies - Air Assault",
+            "11610102": "Magistellus Skies - Among the Clouds",
+            "11610103": "Magistellus Skies - Blotting the Sky",
+            "11610104": "Magistellus Skies - Guardian of the Skies"
+        }
+    },
+    "116102": {
+        "names": [
+            "Enhanced Soldier Research Facility",
+            "強化士兵研究設施",
+            "강화병사 연구 시설",
+            "Centre de recherche des soldats améliorés",
+            "Verstärkte Soldaten-Forschungseinrichtung",
+            "Centro de investigación de soldados mejorados"
+        ],
+        "world_id": 3,
+        "region_id": "36",
+        "subregion_id": "1161",
+        "position": [1050, 940],
+        "icon": "map_icon_3610102_2.png",
+        "missions": {
+            "11610201": "Enhanced Soldier Research Facility - Born to Fight",
+            "11610202": "Enhanced Soldier Research Facility - Demons on the Battlefield",
+            "11610203": "Enhanced Soldier Research Facility - Violent Visitors",
+            "11610204": "Enhanced Soldier Research Facility - Onslaught"
+        }
+    },
+    "116103": {
+        "names": [
+            "Chemical Weapon Research Facility",
+            "化學兵器研究設施",
+            "화학병기 연구 시설",
+            "Centre de recherche des armes chimiques",
+            "Chemiewaffen-Forschungseinrichtung",
+            "Centro de investigación de armas químicas"
+        ],
+        "world_id": 3,
+        "region_id": "36",
+        "subregion_id": "1161",
+        "position": [945, 475],
+        "icon": "map_icon_3610103_2.png",
+        "missions": {
+            "11610301": "Chemical Weapon Research Facility - Dual Destinies",
+            "11610302": "Chemical Weapon Research Facility - Drug-Enhanced Monsters",
+            "11610303": "Chemical Weapon Research Facility - A Reliable Father",
+            "11610304": "Chemical Weapon Research Facility - Diabolical Living Weapons"
+        }
+    },
+    "116104": {
+        "names": [
+            "Magitek Weapon Development Facility",
+            "魔導兵器開發設施",
+            "마도병기 개발 시설",
+            "Centre de développement des armes Magitech",
+            "Magitekwaffen-Entwicklungseinrichtung",
+            "Centro de desarrollo de armas Magitec"
+        ],
+        "world_id": 3,
+        "region_id": "36",
+        "subregion_id": "1161",
+        "position": [420, 565],
+        "icon": "map_icon_3610104_3.png",
+        "missions": {
+            "11610401": "Magitek Weapon Development Facility - A Beautiful Flash",
+            "11610402": "Magitek Weapon Development Facility - A Distant Dream",
+            "11610403": "Magitek Weapon Development Facility - Eliminate the Intruder",
+            "11610404": "Magitek Weapon Development Facility - The Prized Magitek Weapon",
+            "11610405": "Magitek Weapon Development Facility - Exploration"
+        }
+    },
+    "116105": {
+        "names": [
+            "Beast Development Facility",
+            "魔獸兵器研究設施",
+            "마수병기 연구 시설",
+            "Centre de recherche des armes Bestiatech",
+            "Bestien-Forschungseinrichtung",
+            "Centro de desarrollo de bestias"
+        ],
+        "world_id": 3,
+        "region_id": "36",
+        "subregion_id": "1161",
+        "position": [535, 1060],
+        "icon": "map_icon_3610105_2.png",
+        "missions": {
+            "11610501": "Beast Development Facility - The Blood of Each",
+            "11610502": "Beast Development Facility - Trained Monsters",
+            "11610503": "Beast Development Facility - Chains and Wills",
+            "11610504": "Beast Development Facility - Savage Monster",
+            "11610505": "Beast Development Facility - Physalis of the Pi Star"
+        }
+    },
+    "116106": {
+        "names": [
+            "Magistellus Military Facility",
+            "馬基斯特爾斯巨大軍事設施",
+            "마기스텔스 거대 군사 시설",
+            "Centre militaire de Magistellus",
+            "Magistellus Militäreinrichtung",
+            "Centro militar de Magistellus"
+        ],
+        "world_id": 3,
+        "region_id": "36",
+        "subregion_id": "1161",
+        "position": [745, 775],
+        "icon": "map_icon_3610106_2.png",
+        "missions": {
+            "11610601": "Magistellus Military Facility - Clashing Blood",
+            "11610602": "Magistellus Military Facility - Heavy Artillery",
+            "11610603": "Magistellus Military Facility - Facing Reality",
+            "11610604": "Magistellus Military Facility - Countless Shots",
+            "11610605": "Magistellus Military Facility - Dreaming of Dreams"
+        }
+    },
+    "116201": {
+        "missions": {
+            "11620101": "Lightshade Valley - Chasing Rain",
+            "11620102": "Lightshade Valley - A Clouded Road",
+            "11620103": "Lightshade Valley - Wavering Heart",
+            "11620104": "Lightshade Valley - Light and Darkness"
+        }
+    },
+    "116202": {
+        "missions": {
+            "11620201": "Hidden Wasteland - Escape",
+            "11620202": "Hidden Wasteland - Reinforcements",
+            "11620203": "Hidden Wasteland - Unrelenting Pursuer",
+            "11620204": "Hidden Wasteland - A Faint Light"
+        }
+    },
+    "116203": {
+        "missions": {
+            "11620301": "Town of Lament Sacher - Unchanging Bonds",
+            "11620302": "Town of Lament Sacher - Hearts United",
+            "11620303": "Town of Lament Sacher - Invincible Trio",
+            "11620304": "Town of Lament Sacher - Powers United"
+        }
+    },
+    "116204": {
+        "missions": {
+            "11620401": "Magitek Weapon Production Factory - Raid",
+            "11620402": "Magitek Weapon Production Factory - Line of Defense",
+            "11620403": "Magitek Weapon Production Factory - Hyoh of the Gamma Star",
+            "11620404": "Magitek Weapon Production Factory - A New Magitek Weapon"
+        }
+    },
+    "116205": {
+        "missions": {
+            "11620501": "Labor Camp - Prodigious Warrior",
+            "11620502": "Labor Camp - Enduring Trials",
+            "11620503": "Labor Camp - Values",
+            "11620504": "Labor Camp - Shamlin of the Eta Star"
+        }
+    },
+    "116206": {
+        "missions": {
+            "11620601": "New Energy Transfer Station - Recapture",
+            "11620602": "New Energy Transfer Station - Warning",
+            "11620603": "New Energy Transfer Station - Insecurity",
+            "11620604": "New Energy Transfer Station - Enduring Battle",
+            "11620605": "New Energy Transfer Station - Fierce Battle"
+        }
+    },
+    "116207": {
+        "missions": {
+            "11620701": "Forbidden Land - Rescuing the King",
+            "11620702": "Forbidden Land - Dry Winds",
+            "11620703": "Forbidden Land - An Encroaching Presence",
+            "11620704": "Forbidden Land - A Shadowy Obstruction",
+            "11620705": "Forbidden Land - Nagi of the Iota Star"
         }
     },
     "6100000": {

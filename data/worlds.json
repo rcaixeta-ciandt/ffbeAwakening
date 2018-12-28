@@ -487,7 +487,7 @@
                             "마석의 틈",
                             "Chambre des cristaux",
                             "Kammer der Kristalle",
-                            "Cámara de Cristales"
+                            "Cámara de los Cristales"
                         ],
                         "dungeons": {
                             "21111": "Chamber of Crystals"
@@ -710,7 +710,12 @@
                             "60016": "Paladia Chapter 2 Part 2",
                             "60017": "Paladia Chapter 3 Part 1",
                             "60018": "Paladia Chapter 3 Part 2",
-                            "60019": "Paladia Chapter 3 Part 3"
+                            "60019": "Paladia Chapter 3 Part 3",
+                            "60020": null,
+                            "60021": null,
+                            "60022": null,
+                            "60023": null,
+                            "60024": null
                         }
                     },
                     "701": {
@@ -784,7 +789,7 @@
                             "魔導院聖櫃朱雀",
                             "마도원 페리시티리움 주작",
                             "Akademeia",
-                            "Akademeia",
+                            "Akademie",
                             "La Academia"
                         ],
                         "dungeons": {
@@ -1514,7 +1519,7 @@
                             "초대형 기계생명체 파괴 지령",
                             "Destruction de la forme de vie mécanique",
                             "Zerstöre das Maschinenwesen",
-                            "La destrucción del ser mecánico"
+                            "Acaba con la forma de vida mecánica"
                         ],
                         "dungeons": {
                             "75701": "Destroy the Machine Lifeform"
@@ -2100,15 +2105,7 @@
                             "79606": "Hyoh's Plan",
                             "79607": "Truth Brought to Light",
                             "79608": "For You",
-                            "79609": "Bonus Stage",
-                            "79610": "Cave of Crystals (Black)",
-                            "79611": "Cave of Crystals (White)",
-                            "79612": "Cave of Crystals (Green)",
-                            "79613": "Cave of Crystals (Power)",
-                            "79614": "Cave of Crystals (Guard)",
-                            "79615": "Cave of Crystals (Tech)",
-                            "79616": "Cave of Crystals (Healing)",
-                            "79617": "Cave of Crystals (Support)"
+                            "79609": "Bonus Stage"
                         }
                     },
                     "797": {
@@ -2155,7 +2152,7 @@
                             "Fodina Caestino - Exploration",
                             "凱斯特諾礦山·探索",
                             "케스티노 광산·탐색",
-                            "Fodina Caestino - Exploration",
+                            "Mine de Caestino - Exploration",
                             "Fodina Caestino – Erkundung",
                             "Fodina Caestino - Exploración"
                         ],
@@ -2168,7 +2165,7 @@
                             "Piercing Light",
                             "穿透之光",
                             "삐걱이는 빛",
-                            "Une lumière vacillante",
+                            "Lumière pénétrante",
                             "Durchbohrendes Licht",
                             "Luz penetrante"
                         ],
@@ -2195,10 +2192,10 @@
                     "802": {
                         "names": [
                             "Lost City of Dipan",
-                            "滅亡都市迪龎",
-                            "잃어버린 도시 디판",
-                            "Dipan, la ville perdue",
-                            "Verlorene Stadt Dipan",
+                            "滅亡都市迪龐",
+                            "망실의 도시 디판",
+                            "Cité perdue de Dipan",
+                            "Die Verlorene Stadt Dipan",
                             "Ciudad perdida de Dipan"
                         ],
                         "dungeons": {
@@ -2209,10 +2206,10 @@
                         "names": [
                             "Tower of Lezard Valeth",
                             "雷薩德·瓦雷斯之塔",
-                            "레자드 발레스의 탑",
-                            "La tour de Lezard Valeth",
-                            "Turm von Lezard Valeth",
-                            "La torre de Lezard Valeth"
+                            "레저드 발레스의 탑",
+                            "Tour de Lezard Valeth",
+                            "Der Turm von Lezard Valeth",
+                            "Torre de Lezard Valeth"
                         ],
                         "dungeons": {
                             "80301": "Tower of Lezard Valeth"
@@ -2223,7 +2220,7 @@
                             "Gaea's Cliff",
                             "蓋亞絕壁",
                             "가이아의 절벽",
-                            "Falaise de Gaëa",
+                            "Falaise de Gaïa",
                             "Gaia-Klippe",
                             "Acantilados de Gaia"
                         ],
@@ -2236,12 +2233,395 @@
                             "Gaea's Cliff - Exploration",
                             "蓋亞絕壁·探索",
                             "가이아의 절벽·탐색",
-                            "Falaise de Gaëa - Exploration",
+                            "Falaise de Gaïa - Exploration",
                             "Gaia-Klippe – Erkundung",
                             "Acantilados de Gaia - Exploración"
                         ],
                         "dungeons": {
                             "80501": "Gaea's Cliff - Exploration"
+                        }
+                    },
+                    "806": {
+                        "names": [
+                            "Lion of the Mysterious Woods",
+                            "奇異森林的獅子",
+                            "신비한 숲의 사자",
+                            "Le Lion et la Forêt mystérieuse",
+                            "Löwe der mysteriösen Wälder",
+                            "León del Bosque Misterioso"
+                        ],
+                        "dungeons": {
+                            "80601": "The Lion's Tale",
+                            "80602": "The Kind Frog",
+                            "80603": "The Fairy Queen",
+                            "80604": "Polar Opposites",
+                            "80605": "Chef in the Wilds",
+                            "80606": "Leopold's Rescue",
+                            "80607": "The Bottomless Heart",
+                            "80608": "Tale of the Fairy",
+                            "80609": "Bonus Stage",
+                            "80610": "Cave of Crystals (Black)",
+                            "80611": "Cave of Crystals (White)",
+                            "80612": "Cave of Crystals (Green)",
+                            "80613": "Cave of Crystals (Power)",
+                            "80614": "Cave of Crystals (Guard)",
+                            "80615": "Cave of Crystals (Tech)",
+                            "80616": "Cave of Crystals (Healing)",
+                            "80617": "Cave of Crystals (Support)"
+                        }
+                    },
+                    "807": {
+                        "names": [
+                            "The Divine Beast",
+                            "受到祭祀的神獸",
+                            "성스러운 신수",
+                            "La Bête divine",
+                            "Das göttliche Biest",
+                            "La bestia divina"
+                        ],
+                        "dungeons": {
+                            "80701": "The Divine Beast"
+                        }
+                    },
+                    "808": {
+                        "names": [
+                            "The Dreaded Wandering Lands",
+                            "破壞與恐怖的浮游大陸",
+                            "파괴와 공포의 부유대륙",
+                            "Les Terres errantes de la peur",
+                            "Die gefürchteten Wanderlande",
+                            "Las temidas Tierras Errantes"
+                        ],
+                        "dungeons": {
+                            "80801": "The Dreaded Wandering Lands"
+                        }
+                    },
+                    "809": {
+                        "names": [
+                            "30 Million Downloads Raffle",
+                            "合計3000萬寶石禮物活動",
+                            "총 3000만 라피스 선물 이벤트",
+                            "Loterie des 30 millions de téléchargements",
+                            "30 Millionen Downloads Tombola",
+                            "Sorteo por las 30 millones de descargas"
+                        ],
+                        "dungeons": {
+                            "80901": "30 Million Lapis Giveaway"
+                        }
+                    },
+                    "810": {
+                        "names": [
+                            "The Clash on Big Bridge",
+                            "大橋突入作戰",
+                            "빅 브릿지 돌입 작전",
+                            "L'Assaut du Grand Pont",
+                            "Duell auf der Großen Brücke",
+                            "Invasión de Gran Puente"
+                        ],
+                        "dungeons": {
+                            "81001": "Dominion Defensive Line"
+                        }
+                    },
+                    "811": {
+                        "names": [
+                            "Big Bridge - Exploration",
+                            "大橋·探索",
+                            "빅 브릿지·탐색",
+                            "Grand Pont - Exploration",
+                            "Große Brücke – Erkundung",
+                            "Gran Puente - Exploración"
+                        ],
+                        "dungeons": {
+                            "81101": "The Big Bridge - Exploration"
+                        }
+                    },
+                    "812": {
+                        "names": [
+                            "Sieghard, the Magnificent",
+                            "華麗的吉克哈特",
+                            "화려한 지크하르트",
+                            "Sieghard le Magnifique",
+                            "Sieghard der Wunderbare",
+                            "Sieghard el Magnífico"
+                        ],
+                        "dungeons": {
+                            "81201": "A Day in a Man's Life",
+                            "81202": "The Robbery",
+                            "81203": "The Troubled Masses",
+                            "81204": "First Defeat",
+                            "81205": "The Woman's Identity",
+                            "81206": "Birth of a Rival",
+                            "81207": "The Family's Trial",
+                            "81208": "Magnificent Fate",
+                            "81209": "Bonus Stage",
+                            "81210": "Cave of Crystals (Black)",
+                            "81211": "Cave of Crystals (White)",
+                            "81212": "Cave of Crystals (Green)",
+                            "81213": "Cave of Crystals (Power)",
+                            "81214": "Cave of Crystals (Guard)",
+                            "81215": "Cave of Crystals (Tech)",
+                            "81216": "Cave of Crystals (Healing)",
+                            "81217": "Cave of Crystals (Support)"
+                        }
+                    },
+                    "813": {
+                        "names": [
+                            "Tomb of the Silversmith",
+                            "白銀工匠遺跡",
+                            "은세공사의 무덤",
+                            "Le Tombeau de l'Orfèvre",
+                            "Grab des Silberschmieds",
+                            "Tumba del platero"
+                        ],
+                        "dungeons": {
+                            "81301": "Tomb of the Silversmith"
+                        }
+                    },
+                    "814": {
+                        "names": [
+                            "God of Chaos",
+                            "混沌之神",
+                            "혼돈의 신",
+                            "Le Dieu du Chaos",
+                            "Gott des Chaos",
+                            "Dios del caos"
+                        ],
+                        "dungeons": {
+                            "81401": "God of Chaos"
+                        }
+                    },
+                    "815": {
+                        "names": [
+                            "Cave of Shadows",
+                            "暗黑洞窟",
+                            "암흑의 동굴",
+                            "La Grotte des Ombres",
+                            "Höhle der Dunkelheit",
+                            "Cueva de la Oscuridad"
+                        ],
+                        "dungeons": {
+                            "81501": "Cave of Darkness"
+                        }
+                    },
+                    "816": {
+                        "names": [null, null, null, null, null, null],
+                        "dungeons": {
+                            "81601": "Doga's Grotto - Exploration"
+                        }
+                    },
+                    "817": {
+                        "names": [null, null, null, null, null, null],
+                        "dungeons": {
+                            "81701": "Priestess of the Land",
+                            "81702": "Encounter with the Goddess",
+                            "81703": "Cataclysm",
+                            "81704": "To the Rampaging Serpent",
+                            "81705": "Priestess of the Water",
+                            "81706": "Peace at Last",
+                            "81707": "The Goddess From Afar",
+                            "81708": "Protector of the Aquapolis",
+                            "81709": "Bonus Stage",
+                            "81710": "Cave of Crystals (Black)",
+                            "81711": "Cave of Crystals (White)",
+                            "81712": "Cave of Crystals (Green)",
+                            "81713": "Cave of Crystals (Power)",
+                            "81714": "Cave of Crystals (Guard)",
+                            "81715": "Cave of Crystals (Tech)",
+                            "81716": "Cave of Crystals (Healing)",
+                            "81717": "Cave of Crystals (Support)"
+                        }
+                    },
+                    "818": {
+                        "names": [
+                            "The Moogle and the Lost Map",
+                            "莫古利王丟失的地圖",
+                            "모그리 왕의 잃어버린 지도",
+                            "Le Roi Mog et la Carte perdue",
+                            "Der Mogry und die verlorene Karte",
+                            "El moguri y el mapa perdido"
+                        ],
+                        "dungeons": {
+                            "81801": "The Moogle and the Lost Map"
+                        }
+                    },
+                    "819": {
+                        "names": [null, null, null, null, null, null],
+                        "dungeons": {
+                            "81901": "Elements' Formation"
+                        }
+                    },
+                    "820": {
+                        "names": [null, null, null, null, null, null],
+                        "dungeons": {
+                            "82001": "Desert Despair"
+                        }
+                    },
+                    "821": {
+                        "names": [null, null, null, null, null, null],
+                        "dungeons": {
+                            "82101": "Zanarkand Ruins"
+                        }
+                    },
+                    "822": {
+                        "names": [null, null, null, null, null, null],
+                        "dungeons": {
+                            "82201": "Yevon Dome - Exploration"
+                        }
+                    },
+                    "823": {
+                        "names": [null, null, null, null, null, null],
+                        "dungeons": {
+                            "82301": "Ignacio the Blacksmith",
+                            "82302": "City of Soldiers",
+                            "82303": "Burning Passion",
+                            "82304": "The Swordmaster",
+                            "82305": "Forging the Greatest Sword",
+                            "82306": "Get Ready for Battle!",
+                            "82307": "An Unavoidable Conflict",
+                            "82308": "The Greatest Joy",
+                            "82309": "Bonus Stage",
+                            "82310": "Cave of Crystals (Black)",
+                            "82311": "Cave of Crystals (White)",
+                            "82312": "Cave of Crystals (Green)",
+                            "82313": "Cave of Crystals (Power)",
+                            "82314": "Cave of Crystals (Guard)",
+                            "82315": "Cave of Crystals (Tech)",
+                            "82316": "Cave of Crystals (Healing)",
+                            "82317": "Cave of Crystals (Support)"
+                        }
+                    },
+                    "824": {
+                        "names": [null, null, null, null, null, null],
+                        "dungeons": {
+                            "82401": "First and Last"
+                        }
+                    },
+                    "825": {
+                        "names": [null, null, null, null, null, null],
+                        "dungeons": {
+                            "82501": "The Crimson Gear"
+                        }
+                    },
+                    "826": {
+                        "names": [null, null, null, null, null, null],
+                        "dungeons": {
+                            "82601": "Nelveska Temple"
+                        }
+                    },
+                    "827": {
+                        "names": [null, null, null, null, null, null],
+                        "dungeons": {
+                            "82701": "March on Tiamat"
+                        }
+                    },
+                    "828": {
+                        "names": [null, null, null, null, null, null],
+                        "dungeons": {
+                            "82801": "Start of a Legend",
+                            "82802": "A Strange Girl",
+                            "82803": "Bonds with Dwarves",
+                            "82804": "Craftsman Confrontation",
+                            "82805": "New Friends",
+                            "82806": "Gathering of Talent",
+                            "82807": "Dark Clouds",
+                            "82808": "To the Sky",
+                            "82809": "Bonus Stage",
+                            "82810": "Cave of Crystals (Black)",
+                            "82811": "Cave of Crystals (White)",
+                            "82812": "Cave of Crystals (Green)",
+                            "82813": "Cave of Crystals (Power)",
+                            "82814": "Cave of Crystals (Guard)",
+                            "82815": "Cave of Crystals (Tech)",
+                            "82816": "Cave of Crystals (Healing)",
+                            "82817": "Cave of Crystals (Support)"
+                        }
+                    },
+                    "829": {
+                        "names": [null, null, null, null, null, null],
+                        "dungeons": {
+                            "82901": "The Orders and the Magitek Ruins"
+                        }
+                    },
+                    "830": {
+                        "names": [null, null, null, null, null, null],
+                        "dungeons": {
+                            "83001": "Magitek Ruins - Central Area"
+                        }
+                    },
+                    "831": {
+                        "names": [null, null, null, null, null, null],
+                        "dungeons": {
+                            "83101": "Tower of Zot"
+                        }
+                    },
+                    "832": {
+                        "names": [null, null, null, null, null, null],
+                        "dungeons": {
+                            "83201": "Dwarven Castle"
+                        }
+                    },
+                    "833": {
+                        "names": [null, null, null, null, null, null],
+                        "dungeons": []
+                    },
+                    "834": {
+                        "names": [null, null, null, null, null, null],
+                        "dungeons": []
+                    },
+                    "835": {
+                        "names": [null, null, null, null, null, null],
+                        "dungeons": []
+                    },
+                    "843": {
+                        "names": [
+                            "Destroy the Machine Lifeform",
+                            "超大型機械生命體破壞指令",
+                            "초대형 기계생명체 파괴 지령",
+                            "Destruction de la forme de vie mécanique",
+                            "Zerstöre das Maschinenwesen",
+                            "Acaba con la forma de vida mecánica"
+                        ],
+                        "dungeons": {
+                            "84301": "Destroy the Machine Lifeform"
+                        }
+                    },
+                    "844": {
+                        "names": [
+                            "The Formidable Engels",
+                            "強敵：恩格斯",
+                            "강적: 엥겔스",
+                            "L'incroyable Engels",
+                            "Der Mächtige Engels",
+                            "El temible Engels"
+                        ],
+                        "dungeons": {
+                            "84401": "The Formidable Engels"
+                        }
+                    },
+                    "862": {
+                        "names": [
+                            "Heartless: Guard Armor",
+                            "無心者：防護鐵甲",
+                            "하트리스: 가드 아머",
+                            "Sans-cœur : Armure gardienne",
+                            "Herzlose: Panzerrüstor",
+                            "Sincorazón: Armadura"
+                        ],
+                        "dungeons": {
+                            "86201": "Heartless: Guard Armor"
+                        }
+                    },
+                    "863": {
+                        "names": [
+                            "Heartless: Darkside",
+                            "無心者：黑暗面",
+                            "하트리스: 다크 사이드",
+                            "Sans-cœur : Darkside",
+                            "Herzlose: Schattenborn",
+                            "Sincorazón: Lado oscuro"
+                        ],
+                        "dungeons": {
+                            "86301": "Heartless: Darkside"
                         }
                     },
                     "898": {
@@ -2254,7 +2634,8 @@
                             "Cámara de las Reliquias"
                         ],
                         "dungeons": {
-                            "89801": "Chamber of Arms"
+                            "89801": "Chamber of Arms",
+                            "89802": "Chamber of Arms (Gatekeeper)"
                         }
                     },
                     "899": {
@@ -2274,6 +2655,7 @@
                             "89732": "Scorn of the Surging Menace",
                             "89733": "Scorn of Antenolla",
                             "89734": "Scorn of the 2-Headed Dragon",
+                            "89735": "Scorn of the Marching Beasts",
                             "89901": "Chamber of the Reborn",
                             "89921": "Chamber of Trials",
                             "89931": "Attack of the Intangir",
@@ -2292,6 +2674,7 @@
                             "89944": "Great Explosion Festival",
                             "89945": "Ancient Hellbringer",
                             "89946": "Venomous Vines of Death",
+                            "89947": "The Mad Doll",
                             "90013": "The Lure of Echidna",
                             "90016": "The Rumble of Malboro",
                             "90035": "The Torturous Trio"
@@ -2507,7 +2890,7 @@
                     },
                     "916": {
                         "names": [
-                            "The Tower of Zot",
+                            "Tower of Zot",
                             "佐特塔",
                             "조트의 탑",
                             "Tour de Zott",
@@ -2515,7 +2898,7 @@
                             "Torre de Zot"
                         ],
                         "dungeons": {
-                            "90018": "The Tower of Zot"
+                            "90018": "Tower of Zot"
                         }
                     },
                     "917": {
@@ -2752,6 +3135,10 @@
                             "90034": "Strike of the URGA Mstitel"
                         }
                     },
+                    "935": {
+                        "names": [null, null, null, null, null, null],
+                        "dungeons": []
+                    },
                     "936": {
                         "names": [
                             "Deus Ex: Mankind Divided",
@@ -2816,6 +3203,166 @@
                         "dungeons": {
                             "94001": "FFBE Raid - Darkness Awakens"
                         }
+                    },
+                    "941": {
+                        "names": [
+                            "Hasiko's Revenge",
+                            "羽矢子的復仇",
+                            "하시코의 복수",
+                            "La revanche de Hasiko",
+                            "Hasikos Rache",
+                            "La venganza de Hasiko"
+                        ],
+                        "dungeons": {
+                            "94101": "Hasiko's Revenge"
+                        }
+                    },
+                    "942": {
+                        "names": [
+                            "An Eerie Invitation",
+                            "毛骨悚然的邀請函",
+                            "섬뜩한 초대",
+                            "Une étrange invitation",
+                            "Eine unheimliche Einladung",
+                            "Invitación aterradora"
+                        ],
+                        "dungeons": {
+                            "94201": "An Eerie Invitation"
+                        }
+                    },
+                    "943": {
+                        "names": [
+                            "Challenge the Great Count",
+                            "挑戰偉大的領主",
+                            "위대한 백작에게 도전하라",
+                            "Défiez le Grand Comte",
+                            "Fordere den mächtigen Graf heraus",
+                            "Desafía al gran conde"
+                        ],
+                        "dungeons": {
+                            "94301": "Challenge the Great Count"
+                        }
+                    },
+                    "944": {
+                        "names": [
+                            "Vault of Hidden Treasures",
+                            "秘密的寶物庫",
+                            "비밀의 보물창고",
+                            "Coffre aux trésors cachés",
+                            "Gewölbe der verborgenen Schätze",
+                            "Cámara de los Tesoros Escondidos"
+                        ],
+                        "dungeons": {
+                            "94401": "Vault of Hidden Treasures"
+                        }
+                    },
+                    "945": {
+                        "names": [
+                            "35 Million Downloads Raffle",
+                            "3500萬下載 抽獎",
+                            "3천5백만 다운로드 추첨",
+                            "Loterie des 35 millions de téléchargements",
+                            "Tombola für 35 Millionen Downloads",
+                            "Sorteo por las 35 millones de descargas"
+                        ],
+                        "dungeons": {
+                            "94501": "35 Million Downloads Raffle"
+                        }
+                    },
+                    "946": {
+                        "names": [
+                            "Revelations of Darkness",
+                            "黑暗啟示錄",
+                            "어둠의 계시록",
+                            "Révélations ténébreuses",
+                            "Enthüllungen der Finsternis",
+                            "Revelaciones oscuras"
+                        ],
+                        "dungeons": {
+                            "94601": "Revelations of Darkness"
+                        }
+                    },
+                    "947": {
+                        "names": [
+                            "Trial of Vengeance",
+                            "復仇之審判",
+                            "복수의 시련",
+                            "Défi de la vengeance",
+                            "Prüfung der Rache",
+                            "Desafío de la venganza"
+                        ],
+                        "dungeons": {
+                            "94701": "Trial of Vengeance"
+                        }
+                    },
+                    "948": {
+                        "names": [
+                            "Fan Festa 2018 Raid",
+                            "2018粉絲慶典 共鬥",
+                            "팬 페스타 2018 레이드",
+                            "Raid de la Fan Festa 2018",
+                            "Fan Festa 2018 Raubzug",
+                            "Evento de banda de Fan Festa 2018"
+                        ],
+                        "dungeons": {
+                            "94801": "Fan Festa 2018 Raid"
+                        }
+                    },
+                    "949": {
+                        "names": [
+                            "Red Hot Music",
+                            "火熱音樂",
+                            "Red Hot Music",
+                            "Red Hot Music",
+                            "Red Hot Music",
+                            "Red Hot Music"
+                        ],
+                        "dungeons": {
+                            "94901": "Red Hot Music"
+                        }
+                    },
+                    "950": {
+                        "names": [
+                            "Vault of Hidden Treasures",
+                            "秘密的寶物庫",
+                            "비밀의 보물창고",
+                            "Coffre aux trésors cachés",
+                            "Gewölbe der verborgenen Schätze",
+                            "Cámara de los Tesoros Escondidos"
+                        ],
+                        "dungeons": {
+                            "95001": "Vault of Hidden Treasures"
+                        }
+                    },
+                    "951": {
+                        "names": [
+                            "Winter Mayhem",
+                            "冬日大騷亂",
+                            "겨울 대소동",
+                            "Un hiver sens dessus dessous",
+                            "Winterchaos",
+                            "Caos invernal"
+                        ],
+                        "dungeons": {
+                            "95101": "Winter Mayhem"
+                        }
+                    },
+                    "952": {
+                        "names": [
+                            "Season of Mayhem",
+                            "騷亂季節",
+                            "대소동의 계절",
+                            "Une saison sens dessus dessous",
+                            "Chaossaison",
+                            "Temporada caótica"
+                        ],
+                        "dungeons": {
+                            "95201": "Season of Mayhem"
+                        }
+                    },
+                    "953": {
+                        "names": [null, null, null, null, null, null],
+                        "dungeons": []
                     },
                     "9001": {
                         "names": [null, null, null, null, null, null],
@@ -2895,8 +3442,8 @@
                             "112106": "Line Under Construction",
                             "112107": "Industrial Complex",
                             "112108": "Abandoned Railway",
-                            "112109": "Outside Labor Grounds",
-                            "112110": "Inside Labor Grounds",
+                            "112109": "Outside Labor Camp",
+                            "112110": "Inside Labor Camp",
                             "112111": "Nameless Wastelands",
                             "112112": "Zaharu Gallows",
                             "112113": "Medos Long-term Prison",
@@ -3064,10 +3611,88 @@
                             "115120": "Vibrant Forest",
                             "115121": "Shrine of Prayers",
                             "115122": "Londell Road",
-                            "115151": "Sacred Valley"
+                            "115123": "Bug Eater's Den",
+                            "115124": "Sandstorm Maze",
+                            "115125": "Brown Sands",
+                            "115126": "Land of Fading Memories",
+                            "115151": "Sacred Valley",
+                            "115152": "Pit of Chains"
+                        }
+                    },
+                    "1152": {
+                        "names": [
+                            "Town of Desolation Visectrum",
+                            "修羅之都維瑟庫特拉姆",
+                            "수라의 도시 뷔섹트럼",
+                            "Visectrum, ville de la désolation",
+                            "Visektrum, Stadt der Trostlosigkeit",
+                            "Visectrum, ciudad de la desolación"
+                        ],
+                        "dungeons": {
+                            "115201": "Colosseum Train",
+                            "115202": "Colosseum First Floor",
+                            "115203": "Colosseum Second Floor",
+                            "115204": "Colosseum VIP Seating",
+                            "115205": "Colosseum Third Floor",
+                            "115206": "Visectrum Undeveloped Region",
+                            "115207": "Visectrum Underground Waterway",
+                            "115208": "Underground Train Control System",
+                            "115209": "Main Colosseum"
                         }
                     }
                 }
+            },
+            "36": {
+                "names": [
+                    "Magistellus",
+                    "馬基斯特爾斯",
+                    "마기스텔스",
+                    "Magistellus",
+                    "Magistellus",
+                    "Magistellus"
+                ],
+                "subregions": {
+                    "1161": {
+                        "names": [
+                            "Magistellus",
+                            "馬基斯特爾斯",
+                            "마기스텔스",
+                            "Magistellus",
+                            "Magistellus",
+                            "Magistellus"
+                        ],
+                        "dungeons": {
+                            "116101": "Magistellus Skies",
+                            "116102": "Enhanced Soldier Research Facility",
+                            "116103": "Chemical Weapon Research Facility",
+                            "116104": "Magitek Weapon Development Facility",
+                            "116105": "Beast Development Facility",
+                            "116106": "Magistellus Military Facility"
+                        }
+                    },
+                    "1162": {
+                        "names": [
+                            "Operations Map",
+                            "作戰地圖",
+                            "작전 지도",
+                            "Carte des opérations",
+                            "Strategische Karte",
+                            "Mapa de operaciones"
+                        ],
+                        "dungeons": []
+                    }
+                }
+            },
+            "37": {
+                "names": [
+                    "Rubiena",
+                    "魯比艾納",
+                    "루비에나",
+                    "Rubiena",
+                    "Rubiena",
+                    "Rubiena"
+                ],
+                "subregions": []
             }
         }
     }
